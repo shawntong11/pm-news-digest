@@ -1,67 +1,66 @@
-# 美国要闻 11-11 08:00 ET
+# 美国要闻 11-11 12:00 ET
 
 ### 本期要点
-- Nvidia CEO Jensen Huang承认与一名被指控的中国间谍有染，引发两党调查呼声，相关AI芯片法案也获得新动力 [[39]](https://thehill.com/policy/technology/6211351-chip-export-restrictions-momentum-nvidia-huang/)[[42]](https://thehill.com/policy/international/6212128-nvidia-ceo-jensen-huang-china-ai-chips/)[[52]](https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/)
-- 密西西比参议院选举中，民主党候选人 Scott Colom 领先共和党参议员 Cindy Hyde-Smith（密西西比）超过3,000票，结果仍未确定 [[10]](https://thehill.com/homenews/campaign/6212685-mississippi-senate-race-scott-colom-cindy-hyde-smith-update/)
-- 通胀数据高于预期后，抵押贷款利率大幅跳升，Goldman Sachs增加对美联储进一步紧缩的预测，美元升至四周高点 [[13]](https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html)[[47]](https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories)[[15]](https://www.wsj.com/finance/currencies/asian-currencies-soften-after-u-s-cpi-data-boosts-dollar-26f03632?mod=rss_markets_main)
-- AI情绪回暖帮助市场从美联储加息担忧中回升，纳指期货领涨股指期货 [[2]](https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62?mod=rss_markets_main)[[11]](https://news.google.com/rss/articles/CBMihwFBVV95cUxNdnhyVlZiYkxnRTlZMm9YMWh5TGhpSkpKaDQ5WW0xYkVBZ0dxTTlPYk0xUG1jSzF4RkJYTXctRFNpeHVRb2NUNFo2UkduaHo5R0NkcWRGR1hoZmU3ZzZvQlBmZ2FRcE84XzhhbE5PYzB1Y213bC0wdExHaWRhZnlLVDliWkhqMlk?oc=5)
+- CoreWeave发布超预期财报并上调预期，科技股和芯片股反弹，纳指大涨，CEO表示取消原计划的股票出售计划 [[26]](https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html)[[33]](https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html)[[41]](https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories)[[49]](https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62?mod=rss_markets_main)
+- 美国10月CPI涨幅超预期，美联储官员Goolsbee称其“borderline disturbing”，央行正在权衡进一步加息 [[6]](https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html)
+- CFTC正在调查Kalshi是否不当自我认证事件合约，此前CFTC曾下令其下架一个体育相关“mention markets”合约 [[56]](https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html)
+- 国防部长 Pete Hegseth 相关弹劾压力：众议院共和党搁置弹劾动议，民主党众议员 Madeleine Dean 称其“days are numbered”，民主党参议员当选者 Abdul El-Sayed 要求其辞职 [[1]](https://thehill.com/homenews/administration/6213579-el-sayed-calls-hegseth-resignation/)[[24]](https://thehill.com/homenews/house/6213391-house-democrat-madeleine-dean-pete-hegseth-warning-impeachment/)
+- Nvidia CEO Jensen Huang的间谍相关争议持续发酵，前FBI特工称其“should have known better”，英伟达股价在调查加剧中反弹约3.4% [[9]](https://thehill.com/policy/technology/6213351-jensen-huang-nvidia-national-security-probe/)[[12]](https://thehill.com/business/6213397-nvidia-stock-rebounds-ceo-probe/)
 
 ### 美国政治
-- 据The Hill报道，11名民主党人缺席了弹劾国防部长Hegseth的表决，众议院共和党人搁置了该动议 [[14]](https://thehill.com/newsletters/morning-report/6212705-house-hegseth-impeachment-vote-blocked-gop-leadership-elections-economy/)
-- 众议院共和党人推举共和党众议员 Jim Jordan（俄亥俄）领导缩减后的党团，希望重振斗志 [[41]](https://thehill.com/the-120/6212145-jim-jordan-house-gop-future-midterms/)
-- 联邦法官驳回了一项要求驳回特朗普对BBC诽谤诉讼的动议 [[35]](https://news.google.com/rss/articles/CBMikwFBVV95cUxNcHBFby15SDhVVkNTWEplRzFfdVdTZUxpWjI4WHQzMnk5TE15V0pXbWE3QkM4MjJFMGt0dmN0b2lCdXR5c3Jja2VQRUVVbWZQRWpPaUNzRlpHQzVsaDdnczMza3k3bW1ZX1QzeTl1VUw2VjlHeWgxUVROaTZtTk5zSG9qcVprYTBYc0p1dy1fM09VQ0U?oc=5)
-- 民主党人计划在1月新国会多数席位就位后，调查与 Jeffrey Epstein 有关联的大型银行 [[40]](https://thehill.com/business/6211277-democrats-probe-epstein-bank-ties/)
-- 多名国会议员援引第27修正案，就一起称其薪酬被少付的诉讼本周出庭 [[6]](https://thehill.com/newsletters/the-gavel/6212108-congressional-backpay-27th-amendment-lawsuit/)
+- 财政部长 Scott Bessent 因伊朗威胁从首都住所搬至军事基地，其领导的行动使他成为伊朗威胁的主要目标之一 [[3]](https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html)[[4]](https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/)[[7]](https://news.google.com/rss/articles/CBMinwFBVV95cUxNMm9tazhKTnpORkdUS2hjRHVxNGJ1SVZQTGlLU1JPZVh2RFY5M2JSMEFpN2NKZ3BHbEc2UmZxbFE1TDg2MTEyd3pqeFVuRHI3dWR4T05UNzdPcWxfRnRoQkNJd05OYUMyTUMzNWlkd3FsX05WeFFHRUtYUWdCX21HN0JHc1g3RXVkUTJqYjdxSlYwZUhYNTBHR3Iwc0ozQVU?oc=5)
+- 共和党在中期选举中大败并失去国会两院控制权，众议院自由核心派（Freedom Caucus）将召开新闻发布会讨论前进路径 [[14]](https://thehill.com/video-clips/6213328-watch-house-freedom-caucus-gop-midterm-losses/)
+- 前白宫幕僚长 Mick Mulvaney 表示“针对白宫的敌意是真实的”，认为特朗普对国会共和党的掌控正在减弱 [[16]](https://thehill.com/homenews/administration/6213390-mick-mulvaney-donald-trump-white-house-2026-midterms/)
+- 白宫警告将对调查特朗普的众议院民主党人展开刑事调查 [[31]](https://news.google.com/rss/articles/CBMizAFBVV95cUxPSF9zTHV5T0wxWWNRd3ZCcjR5TFJrVHAyUExCa0JUVy1sdkdoUjJ5LUlfQWhBZmN5ZXFXaDAxS3RpdGFjQnBuZ2FTcjYtd0tfOE8xb3NnQ3RVSXJmd3hnUmN6VEdWSjJ4ckcxaVZOSGw1ZHE1aXhFVXlhLUdWSkJlcVZHd1E5UjZIN0ZKVFM1bTFMNDJWZ2VTY3F6RkxxUzFmdkUyblRTbTFRX0d2Z3dTVHRDSWN5VG9BWjNfWlF4NEgzN09FSzlXRTlZSTU?oc=5)
+- 共和党众议员 Lauren Boebert 连任败选已被CNN预测，民主党前国务卿 Hillary Clinton 对此作出回应 [[5]](https://thehill.com/homenews/campaign/6213543-hillary-clinton-bye-felicia-boebert/)
 
 ### 科技与 AI
-- Nvidia估值跌至15年低点，按一项指标已低于标普500，同时CoreWeave谈及债务问题 [[23]](https://www.marketwatch.com/story/nvidias-valuation-tumbles-to-a-15-year-low-a-bargain-or-a-falling-knife-2ebf6085?mod=mw_rss_topstories)
-- 据报道OpenAI亏损持续扩大 [[33]](https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=rss_markets_main)
-- 微软修补1,259个漏洞，其中包括已被利用、可能暴露NTLMv2哈希的Outlook漏洞 [[51]](https://news.google.com/rss/articles/CBMigwFBVV95cUxPT21KN0hjQ2puYWxyS0kxN2VySmxtZExoSHVnUjBfNzJRWGlGVjRHel84ekxRTHAxVjE1Z1VRd1lXaVJuZjVWM2ZBbkVVdE9JdGtKTElYc0dMQU8yVGhGTmlCR0NMdW0xcW1HVy1RRWI3N2djZFUxWl9MLTI3cjlJOU9kaw?oc=5)
-- Google Chrome存在正被野外利用的零日漏洞，可远程执行恶意代码 [[50]](https://news.google.com/rss/articles/CBMibEFVX3lxTE8wQjZiLTgzcks3NzBQa0pTRWtKSFNpYWN0Qld0dndhbkhGR1pKdElZWG9MdFhueVgtWnRtVTFKdjlDTHl2bWhXMklaUWxRWnRqUW12WWRSemNiNnZsWl9YcjYzaTRHZXFWS0RuSNIBckFVX3lxTE5qZVNkS3U4TW5ndnZmbk5IRVdJTnZXSzZrR1dzckV3VTdUWmtPNkhUUW1LbE9VUTg3by03M2wtdU9pY0hiVHNuUi10bkZIc1lhRGlHLXlfX1VSMWNQSDRFQ2NORncyUjlUcFFZeU9wcWNiZw?oc=5)
-- 微软研究人员显示，编辑不到10个神经元即可对AI智能体植入后门 [[53]](https://news.google.com/rss/articles/CBMigAFBVV95cUxPRFVQMXMyV196MU9CR1hjVzBhbmFqMjJ1ZWdvb3A2VXo3Z01iemJnMk1PVjJRY2ExNlZaWWtJYnNUYW5wOGlVOVpFQlZuaVVRbzFmM2hQdUdDc2VBS2RjQ3VsdW5jTVJ6SFVoWmFxOTR6SW5MYzVnb2RFamcyNWNiaw?oc=5)
+- OpenAI季度收入据报道首次突破100亿美元，较第二季度的67亿美元增长近50% [[20]](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/)
+- Google DeepMind 发布新AI模型 AlphaGenome 2，用于研究DNA变化如何影响不同细胞 [[54]](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model)
+- Databricks 推出新AI代理，其修订后的Genie可向CEO Ali Ghodsi反馈运营中出现的问题 [[52]](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/)
 
 ### 宏观与公司
-- 10月零售销售增速为近一年来最慢，消费者显示出压力，但仍在继续消费 [[19]](https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html)
-- 日产汽车再次下调年度销量预期，CEO谈及应对中国企业竞争 [[4]](https://www.cnbc.com/2026/11/11/nissan-sales-forecast-earnings-china.html)
-- 欧洲天然气TTF价格重新升至每兆瓦时85欧元以上，储气库提取加速 [[45]](https://www.wsj.com/finance/commodities-futures/european-ttf-gas-rises-as-storage-withdrawals-accelerate-569c8aab?mod=rss_markets_main)
-- 据CATO研究所统计，特朗普政府截至11月在41家公司持有股权，报道称民主党可能对这些股权安排形成阻碍 [[37]](https://www.cnbc.com/2026/11/11/trump-company-equity-takes.html)
+- Anthropic IPO路演启动，据报道市场需求非常强劲，尽管市场对AI交易仍有担忧 [[27]](https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b?mod=mw_rss_topstories)
+- 波兰Orlen取消与卡塔尔能源公司的长期LNG供应合同，这是伊朗战争爆发后首个已知被取消的此类协议 [[44]](https://www.wsj.com/finance/commodities-futures/polands-orlen-cancels-qatar-lng-supply-deal-after-months-of-force-majeure-88f37e7b?mod=rss_markets_main)
+- Goldman Sachs 认为美光等内存股值得关注，美光股价在近期下跌后反弹 [[55]](https://news.google.com/rss/articles/CBMifkFVX3lxTFB2bWhjUktMQU1qZzVGbWF5ZE9XNmdGVmtUVU5EMUozbl9pNlJRZnJjOWl6N2ZLLUEwQVMyWEZpa19RT1NLMXZzbVZxTTlGd2lKMDNLa3FKSUUwQi1EQllKbndwY20zMUF3Q0tkeHFXSnUwQllJdGhiRjJKY3I2dw?oc=5)
 
 ### 宏观数据
 | 品种 | 最新 | 1小时 | 较前收 | 原因 |
 |---|---:|---:|---:|---|
-| 标普500期货 | 7,616.75 | +0.11% | +0.96% | AI情绪回暖推动期指上涨 |
-| 纳指100期货 | 28,384.00 | +0.10% | +1.97% | AI情绪回暖，纳指期货领涨 |
-| 道指期货 | 52,457.00 | +0.10% | +0.27% | 无明确消息 |
-| WTI原油 | 87.37 | +0.21% | +1.55% | 无明确消息 |
-| 黄金 | 4,046.80 | -0.13% | +0.41% | 无明确消息 |
-| 比特币 | 73,664.43 | -0.21% | -0.08% | 无明确消息 |
+| 标普500期货 | 7,641.75 | +0.13% | +1.29% | CoreWeave财报带动AI股反弹 |
+| 纳指100期货 | 28,593.00 | +0.15% | +2.72% | CoreWeave财报后科技股大涨 |
+| 道指期货 | 52,380.00 | +0.22% | +0.12% | 道指落后于CoreWeave带动的AI反弹 |
+| WTI原油 | 87.84 | -0.36% | +2.09% | 无明确消息 |
+| 黄金 | 4,006.50 | -0.15% | -0.59% | 无明确消息 |
+| 比特币 | 74,155.17 | -0.08% | +0.59% | 无明确消息 |
 
 ### 标普500龙头 · 涨幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 博通 AVGO | 331.98 | +3.91% | Goldman称芯片股超卖，推荐买入 |
-| 联合健康 UNH | 405.12 | +1.89% | 今年第三次上调全年指引 |
-| 亚马逊 AMZN | 270.87 | +1.48% | 无明确消息 |
-| 礼来 LLY | 1,432.29 | +1.44% | 投资者削减AI敞口，医疗股跑赢科技 |
-| 伯克希尔 BRK-B | 583.34 | +1.41% | 无明确消息 |
+| 美光 MU | 823.75 | +13.60% | Anthropic私募配售与内存股反弹 |
+| 甲骨文 ORCL | 128.38 | +8.82% | Bernstein称甲骨文抛售过度，CoreWeave财报带动 |
+| AMD | 555.60 | +7.84% | Goldman称芯片股超卖并列出可买股票 |
+| 博通 AVGO | 354.67 | +6.83% | Goldman称芯片超卖，Anthropic持股消息 |
+| 英伟达 NVDA | 176.69 | +4.62% | Huang事件调查加剧，股价反弹 |
 
 ### 标普500龙头 · 跌幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 英伟达 NVDA | 168.89 | -5.47% | 分析师下调评级，涉黄仁勋相关风险 |
-| ServiceNow NOW | 99.61 | -3.07% | 无明确消息 |
-| 卡特彼勒 CAT | 584.57 | -2.39% | 无明确消息 |
-| 直觉外科 ISRG | 450.04 | -2.28% | 无明确消息 |
-| 微软 MSFT | 533.16 | -2.20% | Anthropic新Claude产品冲击软件同行 |
+| 微软 MSFT | 520.96 | -2.29% | Anthropic新Claude工具及持股引发担忧 |
+| 麦当劳 MCD | 276.11 | -2.15% | 无明确消息 |
+| 联合健康 UNH | 398.00 | -1.76% | 无明确消息 |
+| 百事 PEP | 141.21 | -1.67% | 无明确消息 |
+| 默沙东 MRK | 145.91 | -1.45% | 无明确消息 |
 
 ### 对预测市场的含义
-- 美联储加息预期升温：通胀数据偏热、Goldman增加紧缩预测，利率相关市场向加息方向倾斜 [[13]](https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html)[[47]](https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories)[[15]](https://www.wsj.com/finance/currencies/asian-currencies-soften-after-u-s-cpi-data-boosts-dollar-26f03632?mod=rss_markets_main)
-- 密西西比参议院：Colom领先扩大，若该优势持续，民主党取得该席位的可能性上升 [[10]](https://thehill.com/homenews/campaign/6212685-mississippi-senate-race-scott-colom-cindy-hyde-smith-update/)
-- 英伟达相关调查与法案获得新动力，限制AI芯片政策的立法推进概率或上升 [[39]](https://thehill.com/policy/technology/6211351-chip-export-restrictions-momentum-nvidia-huang/)
+- Kalshi面临CFTC调查，若调查结论对其事件合约认证不利，可能增加该平台合约的监管风险 [[56]](https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html)
+- 美联储官员称央行正在权衡进一步加息，利率路径相关合约可关注本周CPI后的加息讨论 [[6]](https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html)
+- 密西西比参议院选举投票截止后，民主党候选人 Scott Colom 领先共和党参议员 Cindy Hyde-Smith 超过3,000票，相关结果合约可关注计票确认 [[35]](https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html)
 
 ### 接下来关注
-- 11月12日 Cisco（CSCO）财报，盘后公布，EPS预期 $1.15
-- 11月12日 Applied Materials（AMAT）财报，盘后公布，EPS预期 $4.06
-- 11月12日 Brookfield（BN）财报，盘前公布，EPS预期 $0.72
+- 2026-11-12 盘后：Cisco Systems（CSCO）财报，EPS预期 $1.15
+- 2026-11-12 盘后：Applied Materials（AMAT）财报，EPS预期 $4.06
+- 2026-11-12 盘前：Brookfield Corporation（BN）财报，EPS预期 $0.72
+- 2026-11-12 08:30：初请失业金，预期 194K，前值 189K
 
-_生成：2026-11-11 11:12 ET · 模型 claude-haiku-5-5 · 用时 10640s · 行情来自 Yahoo Finance_
+_生成：2026-11-11 12:02 ET · 模型 claude-haiku-5-5 · 用时 46s · 行情来自 Yahoo Finance_
