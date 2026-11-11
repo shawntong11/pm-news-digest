@@ -492,6 +492,12 @@ def send_telegram(md, page_url=None):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (tok and chat):
         return
+    # 粘贴时终端可能夹带看不见的控制字符，只取 “数字:字母数字” 这一段
+    m = re.search(r"\d{6,}:[A-Za-z0-9_-]{30,}", tok)
+    if not m:
+        print("[warn] Telegram: TELEGRAM_BOT_TOKEN 格式不对，跳过推送", file=sys.stderr)
+        return
+    tok = m[0]
     text = to_telegram_html(md)
     if page_url:
         text += f'\n\n<a href="{page_url}">在 GitHub 查看全文</a>'
