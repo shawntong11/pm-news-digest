@@ -458,16 +458,60 @@ def notify(title, body):
                    check=False, capture_output=True)
 
 
-def send_telegram(text):
+def to_telegram_html(md):
+    """把 Markdown 摘要转成 Telegram 能显示的 HTML（Telegram 不支持标题和表格）。"""
+    esc = lambda t: html.escape(t, quote=False)
+    link = lambda t: re.sub(r"\[\[(\d+)\]\]\(([^)]*)\)",
+                            lambda m: f'<a href="{html.escape(m[2])}">[{m[1]}]</a>', t)
+    out, header = [], True
+    for line in md.splitlines():
+        line = line.rstrip()
+        if line.startswith("|"):
+            cells = [c.strip() for c in line.strip("|").split("|")]
+            if set(cells[0]) <= set("-: "):
+                continue
+            if header:  # 表头那一行不发
+                header = False
+                continue
+            reason = cells[-1]
+            row = "  ".join(cells[:-1])
+            out.append("• " + esc(row) + ("" if reason in ("", "无明确消息") else f"：{esc(reason)}"))
+            continue
+        header = True
+        m = re.match(r"#+\s*(.*)", line)
+        if m:
+            out.append(f"\n<b>{esc(m[1])}</b>")
+        elif line.startswith("_") and line.endswith("_"):
+            out.append(f"<i>{esc(line.strip('_'))}</i>")
+        else:
+            out.append(link(esc(re.sub(r"^- ", "• ", line))))
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
+
+
+def send_telegram(md, page_url=None):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (tok and chat):
         return
-    try:
-        requests.post(f"https://api.telegram.org/bot{tok}/sendMessage", timeout=20, json={
-            "chat_id": chat, "text": text[:4000], "parse_mode": "Markdown",
-            "disable_web_page_preview": True})
-    except requests.RequestException as e:
-        print(f"[warn] Telegram: {e}", file=sys.stderr)
+    text = to_telegram_html(md)
+    if page_url:
+        text += f'\n\n<a href="{page_url}">在 GitHub 查看全文</a>'
+    # Telegram 每条消息最多 4096 字，按段落拆成几条
+    chunks, cur = [], ""
+    for block in text.split("\n\n"):
+        if cur and len(cur) + len(block) + 2 > 3800:
+            chunks.append(cur)
+            cur = ""
+        cur = f"{cur}\n\n{block}" if cur else block
+    chunks.append(cur)
+    for chunk in chunks:
+        try:
+            r = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage", timeout=20, json={
+                "chat_id": chat, "text": chunk[:4096], "parse_mode": "HTML",
+                "disable_web_page_preview": True})
+            if not r.ok:
+                print(f"[warn] Telegram: {r.status_code} {r.text[:200]}", file=sys.stderr)
+        except requests.RequestException as e:
+            print(f"[warn] Telegram: {e}", file=sys.stderr)
 
 
 def load_env():
@@ -568,7 +612,9 @@ def main():
     print(f"已写入 {DATA / 'latest.md'}（{time.time() - t0:.0f}s）")
     if not args.no_notify:
         notify(title, (out.get("points") or ["已更新"])[0])
-        send_telegram(re.sub(r"\[\[(\d+)\]\]\([^)]*\)", r"[\1]", md)[:4000])
+        repo = os.environ.get("GITHUB_REPOSITORY")  # 在 GitHub Actions 里运行时才有
+        rel = f"data/digests/{now_et:%Y-%m-%d}/{now_et:%H}00.md"
+        send_telegram(md, f"https://github.com/{repo}/blob/main/{rel}" if repo else None)
 
 
 if __name__ == "__main__":
