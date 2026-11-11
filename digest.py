@@ -531,6 +531,10 @@ def main():
     ap.add_argument("--check", action="store_true", help="只判断这次要不要生成，输出 run=true/false")
     args = ap.parse_args()
     load_env()
+    # 网页上粘贴密钥时容易带上空格、换行或引号，统一去掉
+    for k in ("ANTHROPIC_API_KEY", "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"):
+        if k in os.environ:
+            os.environ[k] = os.environ[k].strip().strip('"\'').strip()
     global PROVIDER, MODEL, OLLAMA_URL, THINK
     PROVIDER = os.environ.get("DIGEST_PROVIDER", "claude")
     MODEL = os.environ.get("DIGEST_MODEL") or ("qwen3:32b" if PROVIDER == "ollama" else "claude-haiku-5-5")
