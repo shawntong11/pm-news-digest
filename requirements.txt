@@ -1,0 +1,5 @@
+anthropic>=2.8
+feedparser
+yfinance
+requests
+holidays
