@@ -1,66 +1,62 @@
-# 美国要闻 11-11 12:00 ET
+# 美国要闻 11-11 13:00 ET
 
 ### 本期要点
-- CoreWeave发布超预期财报并上调预期，科技股和芯片股反弹，纳指大涨，CEO表示取消原计划的股票出售计划 [[26]](https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html)[[33]](https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html)[[41]](https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories)[[49]](https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62?mod=rss_markets_main)
-- 美国10月CPI涨幅超预期，美联储官员Goolsbee称其“borderline disturbing”，央行正在权衡进一步加息 [[6]](https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html)
-- CFTC正在调查Kalshi是否不当自我认证事件合约，此前CFTC曾下令其下架一个体育相关“mention markets”合约 [[56]](https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html)
-- 国防部长 Pete Hegseth 相关弹劾压力：众议院共和党搁置弹劾动议，民主党众议员 Madeleine Dean 称其“days are numbered”，民主党参议员当选者 Abdul El-Sayed 要求其辞职 [[1]](https://thehill.com/homenews/administration/6213579-el-sayed-calls-hegseth-resignation/)[[24]](https://thehill.com/homenews/house/6213391-house-democrat-madeleine-dean-pete-hegseth-warning-impeachment/)
-- Nvidia CEO Jensen Huang的间谍相关争议持续发酵，前FBI特工称其“should have known better”，英伟达股价在调查加剧中反弹约3.4% [[9]](https://thehill.com/policy/technology/6213351-jensen-huang-nvidia-national-security-probe/)[[12]](https://thehill.com/business/6213397-nvidia-stock-rebounds-ceo-probe/)
+- 特朗普称对伊朗暂无急于行动的必要，政府内部就持续施压能否带来持久的非核化解决方案展开争论 [[1]](https://thehill.com/opinion/international/6212486-trump-iran-policy-pressure/)
+- 特朗普在退伍军人节讲话中点名国防部长 Pete Hegseth，获得现场掌声，并称“He loves you” [[12]](https://thehill.com/homenews/administration/6213708-trump-praises-hegseth-veterans-day/)
+- NYT报道特朗普政府官员就英伟达事件核心公司发生内部争执 [[27]](https://news.google.com/rss/articles/CBMilAFBVV95cUxOX0pEQXlBUVAtM094RWhmb0tUZDlKNW5FSGZ6RUpIQTBVaENVN2VtSEM2QWNRQ2tIYmpTbzB5eHFncmprYnBnb3JhbFlvc2JUeUZxWE1xbWNNTExHZklSVUpMQzJzQTVtc1BoMkJNQU9Ga1N5WnlHU2lQVzBwdzAwZndrTFBsR1lQb1B1Skd2QkdtVW9Y?oc=5)，Baird分析师不再推荐买入英伟达股票，认为其问题增多 [[18]](https://www.marketwatch.com/story/has-nvidia-flown-too-close-to-the-sun-one-analyst-warns-of-major-scrutiny-ahead-a323c4dd?mod=mw_rss_topstories)
+- 参议员 Angela Alsobrooks 与 Ron Wyden 质询卫生与公众服务部，询问其为降低与临床试验和药物审批挂钩的预测市场风险采取了哪些措施 [[5]](https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html)
 
 ### 美国政治
-- 财政部长 Scott Bessent 因伊朗威胁从首都住所搬至军事基地，其领导的行动使他成为伊朗威胁的主要目标之一 [[3]](https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html)[[4]](https://thehill.com/homenews/administration/6213592-bessent-moves-military-base/)[[7]](https://news.google.com/rss/articles/CBMinwFBVV95cUxNMm9tazhKTnpORkdUS2hjRHVxNGJ1SVZQTGlLU1JPZVh2RFY5M2JSMEFpN2NKZ3BHbEc2UmZxbFE1TDg2MTEyd3pqeFVuRHI3dWR4T05UNzdPcWxfRnRoQkNJd05OYUMyTUMzNWlkd3FsX05WeFFHRUtYUWdCX21HN0JHc1g3RXVkUTJqYjdxSlYwZUhYNTBHR3Iwc0ozQVU?oc=5)
-- 共和党在中期选举中大败并失去国会两院控制权，众议院自由核心派（Freedom Caucus）将召开新闻发布会讨论前进路径 [[14]](https://thehill.com/video-clips/6213328-watch-house-freedom-caucus-gop-midterm-losses/)
-- 前白宫幕僚长 Mick Mulvaney 表示“针对白宫的敌意是真实的”，认为特朗普对国会共和党的掌控正在减弱 [[16]](https://thehill.com/homenews/administration/6213390-mick-mulvaney-donald-trump-white-house-2026-midterms/)
-- 白宫警告将对调查特朗普的众议院民主党人展开刑事调查 [[31]](https://news.google.com/rss/articles/CBMizAFBVV95cUxPSF9zTHV5T0wxWWNRd3ZCcjR5TFJrVHAyUExCa0JUVy1sdkdoUjJ5LUlfQWhBZmN5ZXFXaDAxS3RpdGFjQnBuZ2FTcjYtd0tfOE8xb3NnQ3RVSXJmd3hnUmN6VEdWSjJ4ckcxaVZOSGw1ZHE1aXhFVXlhLUdWSkJlcVZHd1E5UjZIN0ZKVFM1bTFMNDJWZ2VTY3F6RkxxUzFmdkUyblRTbTFRX0d2Z3dTVHRDSWN5VG9BWjNfWlF4NEgzN09FSzlXRTlZSTU?oc=5)
-- 共和党众议员 Lauren Boebert 连任败选已被CNN预测，民主党前国务卿 Hillary Clinton 对此作出回应 [[5]](https://thehill.com/homenews/campaign/6213543-hillary-clinton-bye-felicia-boebert/)
+- 前总统拜登在采访中表示，他在任内并未隐瞒其四期侵袭性前列腺癌诊断 [[4]](https://thehill.com/homenews/administration/6213629-biden-prostate-cancer-diagnosis-denies-hiding/)
+- 九名Kennedy家族成员加入反对特朗普D.C.拱门的法律诉讼，称其会破坏视野并遮蔽先人在阿灵顿国家公墓的墓地 [[22]](https://www.npr.org/2026/11/11/nx-s1-6037372/kennedys-trump-arch-lawsuit-jfk-grave-arlington-cemetery)
+- 越来越多共和党国会议员在中期选举惨败后将2028年人选目光投向 Marco Rubio，而不只是副总统 JD Vance [[9]](https://www.politico.com/news/2026/11/11/hill-republicans-rubio-vance-2028-01160686)
+- 白宫警告国会，称激进的调查可能构成犯罪 [[25]](https://news.google.com/rss/articles/CBMinAFBVV95cUxQbml3cEZPRHUzOVV3dmRtZUhLMjQ3SmpBT2ZQM0t3S1phTldROVAwTDd3TGxXb040WGpYSUxRZGxPTkUxWFNqY1dNeGVzM0JLcHRMXzZvRGhETm1nUE40YzF2Y2tuNFlWUEoxWVpaOFRiZ1JOSmtZcW93MDNOR1liMWNkTUIwVkQ4dkJjSjBTQzRJT1hDUGdJNi05NGU?oc=5)
 
 ### 科技与 AI
-- OpenAI季度收入据报道首次突破100亿美元，较第二季度的67亿美元增长近50% [[20]](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/)
-- Google DeepMind 发布新AI模型 AlphaGenome 2，用于研究DNA变化如何影响不同细胞 [[54]](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model)
-- Databricks 推出新AI代理，其修订后的Genie可向CEO Ali Ghodsi反馈运营中出现的问题 [[52]](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/)
+- CoreWeave 找到了应对资本约束的变通办法，但其雄心勃勃的计划仍需要资本市场配合 [[6]](https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main)
+- Neocloud公司 CoreWeave、Nebius 和 IREN 本月受到审视，投资者评估AI交易的可持续性 [[8]](https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html)
 
 ### 宏观与公司
-- Anthropic IPO路演启动，据报道市场需求非常强劲，尽管市场对AI交易仍有担忧 [[27]](https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b?mod=mw_rss_topstories)
-- 波兰Orlen取消与卡塔尔能源公司的长期LNG供应合同，这是伊朗战争爆发后首个已知被取消的此类协议 [[44]](https://www.wsj.com/finance/commodities-futures/polands-orlen-cancels-qatar-lng-supply-deal-after-months-of-force-majeure-88f37e7b?mod=rss_markets_main)
-- Goldman Sachs 认为美光等内存股值得关注，美光股价在近期下跌后反弹 [[55]](https://news.google.com/rss/articles/CBMifkFVX3lxTFB2bWhjUktMQU1qZzVGbWF5ZE9XNmdGVmtUVU5EMUozbl9pNlJRZnJjOWl6N2ZLLUEwQVMyWEZpa19RT1NLMXZzbVZxTTlGd2lKMDNLa3FKSUUwQi1EQllKbndwY20zMUF3Q0tkeHFXSnUwQllJdGhiRjJKY3I2dw?oc=5)
+- NYSE关联公司与OKX合资公司OKXICE将于11月23日起，向符合条件的美国客户提供70多种资产的24/7代币化股票交易 [[21]](https://www.wsj.com/finance/investing/nyse-affiliate-to-launch-24-7-tokenized-stock-trading-this-month-b3f0843a?mod=rss_markets_main)
+- 纽约联储 Williams 的退休规则引发离职日期争论 [[28]](https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ2NKVHZEelhYREk2aTlSSjgzbTdwdXdrWDd3NThIUUZ3bGhncVFOODdnLUE2SVY4Tkp4Wm5HSmdZdTZ2cHlhakFPZWxjYWp2MTQxMDIwLUdhWTRudUpjU05sRkFlalRWMlYtT3NfRGRxUmJka3llZmNMeE1mTW1rSWJlcklKNmgwdXVIcWhxeWhNb2Y1RHJLTWpIOUlzYlltRi0wR3hDQVVNOXo5MjhHcGdn?oc=5)
 
 ### 宏观数据
 | 品种 | 最新 | 1小时 | 较前收 | 原因 |
 |---|---:|---:|---:|---|
-| 标普500期货 | 7,641.75 | +0.13% | +1.29% | CoreWeave财报带动AI股反弹 |
-| 纳指100期货 | 28,593.00 | +0.15% | +2.72% | CoreWeave财报后科技股大涨 |
-| 道指期货 | 52,380.00 | +0.22% | +0.12% | 道指落后于CoreWeave带动的AI反弹 |
-| WTI原油 | 87.84 | -0.36% | +2.09% | 无明确消息 |
-| 黄金 | 4,006.50 | -0.15% | -0.59% | 无明确消息 |
-| 比特币 | 74,155.17 | -0.08% | +0.59% | 无明确消息 |
+| 标普500期货 | 7,658.25 | +0.01% | +1.51% | CoreWeave财报点燃AI交易 |
+| 纳指100期货 | 28,629.00 | -0.01% | +2.85% | CoreWeave财报后科技股反弹 |
+| 道指期货 | 52,501.00 | +0.02% | +0.36% | 落后于CoreWeave带动的AI反弹 |
+| WTI原油 | 87.13 | +0.02% | +1.27% | 无明确消息 |
+| 黄金 | 4,000.70 | +0.01% | -0.73% | 无明确消息 |
+| 比特币 | 74,334.91 | -0.14% | +0.83% | 无明确消息 |
 
 ### 标普500龙头 · 涨幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 美光 MU | 823.75 | +13.60% | Anthropic私募配售与内存股反弹 |
-| 甲骨文 ORCL | 128.38 | +8.82% | Bernstein称甲骨文抛售过度，CoreWeave财报带动 |
-| AMD | 555.60 | +7.84% | Goldman称芯片股超卖并列出可买股票 |
-| 博通 AVGO | 354.67 | +6.83% | Goldman称芯片超卖，Anthropic持股消息 |
-| 英伟达 NVDA | 176.69 | +4.62% | Huang事件调查加剧，股价反弹 |
+| 美光 MU | 823.26 | +13.54% | AI交易反弹，周期见顶担忧仍存 |
+| 甲骨文 ORCL | 129.82 | +10.04% | CFO承诺2029财年自由现金流超300亿美元 |
+| AMD | 561.81 | +9.04% | CoreWeave超预期及高盛称芯片股超卖 |
+| 博通 AVGO | 353.48 | +6.48% | CoreWeave财报提振AI基础设施股 |
+| 英伟达 NVDA | 176.79 | +4.68% | 股价回升，芯片股受CoreWeave财报提振 |
 
 ### 标普500龙头 · 跌幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 微软 MSFT | 520.96 | -2.29% | Anthropic新Claude工具及持股引发担忧 |
-| 麦当劳 MCD | 276.11 | -2.15% | 无明确消息 |
-| 联合健康 UNH | 398.00 | -1.76% | 无明确消息 |
-| 百事 PEP | 141.21 | -1.67% | 无明确消息 |
-| 默沙东 MRK | 145.91 | -1.45% | 无明确消息 |
+| 微软 MSFT | 521.64 | -2.16% | 市场视数据中心支出为烧钱，股价持续下滑 |
+| 麦当劳 MCD | 276.45 | -2.03% | 无明确消息 |
+| 亚马逊 AMZN | 266.21 | -1.72% | 无明确消息 |
+| 联合健康 UNH | 399.17 | -1.47% | 无明确消息 |
+| 默沙东 MRK | 146.21 | -1.24% | 无明确消息 |
 
 ### 对预测市场的含义
-- Kalshi面临CFTC调查，若调查结论对其事件合约认证不利，可能增加该平台合约的监管风险 [[56]](https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html)
-- 美联储官员称央行正在权衡进一步加息，利率路径相关合约可关注本周CPI后的加息讨论 [[6]](https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html)
-- 密西西比参议院选举投票截止后，民主党候选人 Scott Colom 领先共和党参议员 Cindy Hyde-Smith 超过3,000票，相关结果合约可关注计票确认 [[35]](https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html)
+- 与临床试验和药物审批挂钩的预测市场受到议员质询，相关合约监管压力上升，方向偏向更严格审查 [[5]](https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html)
+- 特朗普公开力挺 Hegseth，其去职相关预测市场短期或承压于“去职”一侧 [[12]](https://thehill.com/homenews/administration/6213708-trump-praises-hegseth-veterans-day/)
+- 伊朗相关市场暂无明显影响 [[1]](https://thehill.com/opinion/international/6212486-trump-iran-policy-pressure/)
 
 ### 接下来关注
-- 2026-11-12 盘后：Cisco Systems（CSCO）财报，EPS预期 $1.15
-- 2026-11-12 盘后：Applied Materials（AMAT）财报，EPS预期 $4.06
-- 2026-11-12 盘前：Brookfield Corporation（BN）财报，EPS预期 $0.72
-- 2026-11-12 08:30：初请失业金，预期 194K，前值 189K
+- 11-12 盘后：思科 Cisco（CSCO）财报，EPS预期 $1.15
+- 11-12 盘后：应用材料 Applied Materials（AMAT）财报，EPS预期 $4.06
+- 11-12 盘前：Brookfield（BN）财报，EPS预期 $0.72
+- 11-12 08:30：初请失业金，预期 194K，前值 189K
 
-_生成：2026-11-11 12:02 ET · 模型 claude-haiku-5-5 · 用时 46s · 行情来自 Yahoo Finance_
+_生成：2026-11-11 13:11 ET · 模型 claude-haiku-5-5 · 用时 59s · 行情来自 Yahoo Finance_
