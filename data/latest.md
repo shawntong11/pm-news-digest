@@ -1,64 +1,62 @@
-# 美国要闻 11-11 18:00 ET
+# 美国要闻 11-12 10:00 ET
 
 ### 本期要点
-- 据 WSJ 报道，英伟达董事会可能于当天开会决定 CEO 黄仁勋去留，英伟达股价随之下跌 [[1]](https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html)[[4]](https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories)[[21]](https://www.theverge.com/tech/1031652/jensen-huang-rumor)
-- 据 NYT 报道，黄仁勋被曝与一名向其汇报的英伟达高管有染，此前他已承认与一名被美国情报机构认为是中国间谍的女子有过恋情 [[2]](https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/)[[27]](https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4YjZYeWtGZHc3Vk81V3czUXBBVjktcXlSLWs3MFdyWkRtcmRpV1BmY1hKckhyU3RYWEdsTWlGcnhFVFVNakRLLWZvREpURHJnRVVSdmZEcHJWU2p5YWJZX1pEWGRWRDB1aw?oc=5)
-- 民主党 Scott Colom 击败共和党参议员 Cindy Hyde-Smith，赢得密西西比州参议院选举，Politico 称这是一次重大的意外胜利 [[8]](https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom)[[11]](https://www.politico.com/news/2026/11/11/scott-colom-wins-mississippi-senate-01161555)
-- CoreWeave 第三季度业绩超预期，股价大涨，带动 AI 交易反弹，纳指盘中涨幅扩大 [[31]](https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-coreweave-update-eases-some-ai-worries-f8bfbaa7?mod=rss_markets_main)[[48]](https://news.google.com/rss/articles/CBMid0FVX3lxTE5tNUpWaERRaEpZWXFmM0tBRnFQQlBPVzlJUm9ldF9teW53ZjY0WHZ5X1FBdXZRWk1UR0dWRlZXX19VTDAyT2N5QVA4RzlST1FFcFpBUEVMek5OTVN1Vzk3eUNra1puWVlyVk9SMVVXX01YWm1BbUVZ?oc=5)[[36]](https://www.wsj.com/finance/stocks/investors-run-back-to-ai-stocks-less-than-a-week-after-a-historic-selloff-854483e8?mod=rss_markets_main)
+- 英伟达董事会宣布黄仁勋辞职，CFO Colette Kress出任临时CEO，英伟达股价大跌近10% [[42]](https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/)[[55]](https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns)[[23]](https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html)
+- 10年期美债收益率重新升至5%上方，CNBC称油价上涨且市场预期美联储将有更多加息 [[32]](https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html)
+- 特朗普称美国不需要与伊朗达成协议，引发美伊战争何时结束的担忧，油价涨跌反复 [[6]](https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html)[[27]](https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5?mod=rss_markets_main)
 
 ### 美国政治
-- 众议院民主党人因 11 名议员缺席投票，未能推动弹劾国防部长 Pete Hegseth 的动议，民主党内部互相指责 [[10]](https://thehill.com/homenews/house/6214625-house-democrats-fail-hegseth-measure/)[[16]](https://thehill.com/homenews/analysis/6214600-democrats-fail-hegseth-impeachment/)
-- 特朗普表态支持黄仁勋，称其在与涉嫌间谍的女子有染的丑闻中仍获支持 [[19]](https://thehill.com/homenews/administration/6214652-trump-defends-nvidia-ceo-scandal/)
-- 特朗普政府计划出售部分公有土地，以缩减联邦地产规模 [[40]](https://news.google.com/rss/articles/CBMilwFBVV95cUxQSUN4NGFwX1R2R1UtWEkwSlZFMGM2d1p5OHZRenhEdTF2Nm0tdWthZHlDZDM3QkJOVWFqQTVWeUlTajZNTFVIQXZYTzVrMTdIcGNEWW5iX0hWa3EwdFJpZVo3N1hjOEFnZWItYXc3akFwUkRIUXYzbUJiUFYtM0k4WlRSdnNWTXBTZHNMNXA4cTZUNjFZaXVn?oc=5)[[25]](https://thehill.com/policy/energy-environment/6214564-trump-admin-plans-land-sales/)
-- 民主党参议员 Elizabeth Warren（马萨诸塞）将接任参议院银行委员会主席 [[28]](https://thehill.com/newsletters/business-economy/6214570-warren-puts-corporate-america-on-notice/)
+- 众议员 Stansbury（新墨西哥）为错过一次可能让众议院更接近弹劾国防部长 Hegseth 的表决道歉 [[18]](https://thehill.com/homenews/house/6215755-stansbury-missed-hegseth-vote/)
+- 美联储主席 Kevin Warsh 披露其妻子与一家宠物护理投资公司相关的交易 [[21]](https://thehill.com/business/6215618-fed-chair-warsh-pet-care-trades/)
+- 特朗普指示副总统 Vance 专注于民主党主导城市和州的“严重腐败与犯罪”问题 [[17]](https://thehill.com/homenews/administration/6215680-donald-trump-jd-vance-corruption-fraud-democratic-cities-states-iran-war/)
+- 共和党参议员 Hyde-Smith（密西西比）承认落败 [[44]](https://thehill.com/homenews/administration/6214786-live-updates-trump-midterms-alaska-congress/)
+- 即将出任众议院监督委员会主席的民主党众议员 Garcia（加州）警告新任白宫幕僚长 Stephen Miller 应保存文件 [[37]](https://thehill.com/homenews/house/6215376-garcia-warns-miller-preserve-documents/)
 
 ### 科技与 AI
-- Fractile 获得 7.2 亿美元融资，成为 AI 芯片领域资金最充足的参与者之一 [[57]](https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/)
-- Meta 基础设施负责人 Santosh Janardhan 将卸任 [[53]](https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/)
-- United 表示不允许个人 AI 助手代为订票，理由是隐私与监管担忧 [[39]](https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents)
-- CoreWeave 第三季度财报显示，其越来越多地要求客户预付款并借入特定合同资金 [[56]](https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/)
+- 参议员 Cotton 敦促商务部长 Lutnick 将中国存储芯片厂商 CXMT 列入实体清单 [[31]](https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html)
+- Fireworks AI 遭网络攻击，黑客得以访问 Notion 客户的聊天记录，这是其两个月内第二次数据泄露 [[9]](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/)
+- Norwest 推出40亿美元新基金，是该公司规模最大的基金，继续加码 AI 投资 [[2]](https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/)
 
 ### 宏观与公司
-- 油价下跌已不足以压低全球最重要债券市场的借贷成本，通胀担忧超出能源冲击范围 [[43]](https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories)
-- 加拿大大使警告，特朗普关税正在推高成本并威胁美国投资 [[23]](https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html)
-- 美国当局逮捕一家加拿大医疗公司高管，指控其策划非法进口处方药 [[15]](https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html)
+- Nebius 股价下跌16%，公司预计2026年资本开支增加并给出疲弱展望 [[16]](https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html)
+- 10月成屋销售降至16年低点，买家在7%左右抵押贷款利率下纷纷离场 [[11]](https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories)
 
 ### 宏观数据
 | 品种 | 最新 | 1小时 | 较前收 | 原因 |
 |---|---:|---:|---:|---|
-| 标普500期货 | 7,605.00 | -0.49% | +0.81% | CoreWeave财报缓解AI担忧 |
-| 纳指100期货 | 28,170.75 | -0.96% | +1.21% | CoreWeave大涨重燃AI交易 |
-| 道指期货 | 52,593.00 | -0.08% | +0.53% | 无明确消息 |
-| WTI原油 | 86.19 | -0.27% | +0.17% | 等待中东谈判进展，油价企稳 |
-| 黄金 | 3,987.30 | -0.18% | -1.06% | 无明确消息 |
-| 比特币 | 73,617.22 | -0.32% | -0.14% | 无明确消息 |
+| 标普500期货 | 7,604.75 | -0.21% | -0.47% | 无明确消息 |
+| 纳指100期货 | 28,214.00 | -0.51% | -0.91% | 英伟达CEO辞职，纳指下跌 |
+| 道指期货 | 52,534.00 | +0.06% | -0.08% | 无明确消息 |
+| WTI原油 | 86.99 | +0.36% | +0.53% | 特朗普称不需要伊朗协议 |
+| 黄金 | 3,864.40 | -0.26% | -3.40% | 无明确消息 |
+| 比特币 | 71,320.21 | -0.32% | -3.58% | 无明确消息 |
 
 ### 标普500龙头 · 涨幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 美光 MU | 811.30 | +11.89% | AI交易反弹，文章称存储市场条件有利 |
-| 甲骨文 ORCL | 128.38 | +8.82% | CoreWeave营收增长168%，推动AI相关股票走高 |
-| AMD | 552.90 | +7.32% | Anthropic称Mythos让Claude在AMD芯片上运行 |
-| 博通 AVGO | 345.22 | +3.99% | 无明确消息 |
-| ServiceNow NOW | 102.76 | +3.16% | 无明确消息 |
+| 博通 AVGO | 363.45 | +5.28% | 博通与AMD随英伟达困境而上涨 |
+| AMD | 561.23 | +1.51% | 博通与AMD随英伟达困境而上涨 |
+| 菲利普莫里斯 PM | 199.09 | +1.40% | 无明确消息 |
+| 麦当劳 MCD | 278.31 | +1.28% | 美国复苏与增长举措提振乐观情绪 |
+| 亚马逊 AMZN | 269.33 | +1.19% | 无明确消息 |
 
 ### 标普500龙头 · 跌幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 麦当劳 MCD | 274.80 | -2.61% | 无明确消息 |
-| 微软 MSFT | 521.12 | -2.26% | 无明确消息 |
-| Meta META | 628.77 | -1.97% | 无明确消息 |
-| 亚马逊 AMZN | 266.17 | -1.74% | 无明确消息 |
-| 雅培 ABT | 109.29 | -1.06% | 无明确消息 |
+| 英伟达 NVDA | 163.31 | -6.00% | CEO黄仁勋辞职后股价下跌 |
+| 美光 MU | 774.32 | -4.56% | 无明确消息 |
+| 赛默飞 TMO | 698.89 | -2.62% | 无明确消息 |
+| 甲骨文 ORCL | 125.27 | -2.42% | 无明确消息 |
+| 奈飞 NFLX | 63.09 | -2.25% | 三季报下调2026年广告收入预期 |
 
 ### 对预测市场的含义
-- 密西西比州参议院选举结果已由 AP 宣布，民主党 Colom 胜出 [[8]](https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom)
-- 若英伟达董事会决定解除黄仁勋，与其 CEO 去留相关的合约将走向离任方向；WSJ 报道董事会可能于当天开会 [[1]](https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html)[[4]](https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories)
+- 美联储加息预期升温，若10年期国债收益率持续高于5%，相关加息概率市场可能上行 [[32]](https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html)
+- 伊朗协议前景不明，特朗普称不需要协议，与美伊达成协议相关的市场概率可能下行 [[6]](https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html)[[27]](https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5?mod=rss_markets_main)
+- 与英伟达CEO继任相关的市场：Kress 为临时CEO，直至新领导人任命为止 [[23]](https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html)
 
 ### 接下来关注
-- 11-12 盘后：CSCO 财报，EPS 预期 $1.15
-- 11-12 盘后：AMAT 财报，EPS 预期 $4.06
-- 11-12 盘前：BN 财报，EPS 预期 $0.72
-- 11-12 08:30：初请失业金，预期 194K，前值 189K
+- 11-12 盘后：思科（CSCO）财报，EPS 预期 1.15 美元
+- 11-12 盘后：应用材料（AMAT）财报，EPS 预期 4.06 美元
+- 11-13 08:30：PPI 生产者物价，核心 PPI 月率预期 0.3%，前值 0.7%
 
-_生成：2026-11-11 18:28 ET · 模型 claude-haiku-5-5 · 用时 52s · 行情来自 Yahoo Finance_
+_生成：2026-11-12 10:21 ET · 模型 claude-haiku-5-5 · 用时 50s · 行情来自 Yahoo Finance_
