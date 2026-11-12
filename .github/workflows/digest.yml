@@ -2,9 +2,10 @@ name: news-digest
 
 on:
   schedule:
-    # GitHub 用 UTC。覆盖美东 8:00 到次日 1:00（夏令时和冬令时都覆盖），
-    # 具体哪一版该生成由 digest.py 按美东时间判断，错过的版本会在下一次补上。
-    - cron: "5 0-6,12-23 * * *"
+    # GitHub 用 UTC。覆盖美东 8:00 到次日 1:00（夏令时和冬令时都覆盖）。
+    # GitHub 的定时触发经常被丢掉，所以每 15 分钟触发一次（避开整点高峰）；
+    # 每一版只生成一次，由 digest.py 按美东时间判断，错过的版本下一次补上。
+    - cron: "7,22,37,52 0-6,12-23 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -48,7 +49,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CALENDAR_DB: events/calendar.db
-        run: python digest.py ${{ inputs.force && '--force' || '' }}
+        run: python digest.py --force
 
       - name: 保存结果到仓库
         if: steps.check.outputs.run == 'true'
