@@ -1,66 +1,64 @@
-# 美国要闻 11-12 16:00 ET
+# 美国要闻 11-12 21:00 ET
 
 ### 本期要点
-- 黄仁勋辞任英伟达CEO后，路透社报道其涉及第三段婚外情，对方为英伟达员工；共和党参议员 Jim Banks 要求商务部长 Howard Lutnick 就其与此事的关系作证，白宫据报正在讨论 Lutnick 的去留 [[42]](https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/)[[28]](https://thehill.com/homenews/senate/6217212-jim-banks-howard-lutnick-testimony-nvidia-jensen-huang/)[[30]](https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2JBc1RoY3pGRnZ0R1BzOW43SHY5eGxjZHpwMlZVZWNSRDMxaG51ZkVSdkVuN1I4bkdCTEZTV3ZETGRpVTBxaGhHSlprM25XNFd0b3N6eHJhc3RneHJrWGl2alVlTVh6R0xtbFJVLTRjaEE0djZxTE54Nkp4UHBYWVJKdGlhM2hmNFM2dWRNeWF0d2tRcnVYT0dtOXZDdGx4QXlsUHAzOHNKQUpaTFE?oc=5)
-- 特朗普称不需要与伊朗达成协议，并关闭 Vance 与伊朗的谈判 [[25]](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5)
-- 微软 Outlook 出现全球性访问中断，Teams 与邮件也有问题，AWS 和谷歌用户也报告故障 [[4]](https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html)[[34]](https://www.theverge.com/tech/1032226/microsoft-outlook-is-down)[[39]](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSVVNT1h2RHZUUGM0TlBQZ3BkdUhhb2pxNmdPQkRpTFVOeVd1ODY0bmw3S1BMYl82czV3MFVtNW1tOGFxQ19kQ3VxcU1BM2ljd1k1MmVJRjFxZnNueGRjVXlEVk5tT2ZaZlRZR2NzeEJSZWRSWG9JNkVWSWVacEZtd1g3NTV4Sk9Qandlaw?oc=5)
-- 思科财报超预期，称本财年 AI 基础设施收入将翻倍 [[16]](https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html)
+- Tim Scott 传唤黄仁勋与 Howard Lutnick 就英伟达事件作证[[29]](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaVVlT3dQNFpTWkczTy1LZlpDYjM4QUF5ZGxYcktzTTJPcEdiVFgwdEptekJFYW11YUJjd2UwWHhOX09paTVsbnk3NFNNZEdQYjhlNDZ3eWJZSVRncnp4R1NQTVBzRmdkWW1MdGRlbHNYeUpHaXpyaWFqNnNnSE1BTXc4MnAzOWR6WHdaXzFFQ2Z1dWFQOHFKM25XQVByWVV1cUFkTFpBV1FsdTdIMXFLZUFIdF9YaTRFam1fWHhLZ0lFbEhfaFFjcjk3V252UnpOTm1EeG12aw?oc=5)；民主党人启动调查，审视英伟达对华 H200 芯片销售及特朗普的相关决定[[51]](https://thehill.com/policy/technology/6217470-democrats-investigate-trump-nvidia-chips-china/)[[54]](https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/)
+- 参议院部分民主党人考虑利用即将到来的政府拨款期限，迫使特朗普政府结束伊朗战争[[45]](https://thehill.com/homenews/senate/6217635-senate-democrats-threaten-shutdown-iran/)
+- Kalshi 终止 Donald Trump Jr. 的顾问职务，称其公司 1789 Capital 今年增持 Polymarket 后双方同意结束合作[[48]](https://thehill.com/policy/technology/6217564-trump-jr-kalshi-advisory-end/)
+- 美联储将不在 2027 年 10 月的会议上作出利率决定[[5]](https://news.google.com/rss/articles/CBMitgFBVV95cUxPWkZiVk1uU2k5a1RQRGUxdFBJMEcxSVhtWEJfR0s3Q3E3T185OXRrZHRZMDVsQlhTdVpIbVlfQnNPem4zbGlTMDR6elFDRlM3RzhETUhCVzlTTDJvWmtfQzctcUFhRXZsVmxpVjBQUXpXTkRUTThQNVJwQV9YX19qaTZGVGswRGF1N2d0dktsZW5DVHlFWVNENmtQaERZYm5ZTmREdm8tMzVjX3ZCQUdqbTFCbWktdw?oc=5)
 
 ### 美国政治
-- 特朗普敦促参议院领导层通过3500亿美元（$350B）的 reconciliation 法案，称共和党保持国会多数的时间所剩不多 [[43]](https://thehill.com/homenews/senate/6217053-donald-trump-senate-leadership-350b-reconciliation-bill/)
-- Jim Jordan 担任领袖后，众议院共和党表示准备好战斗 [[17]](https://news.google.com/rss/articles/CBMif0FVX3lxTE1LckZ5QVJyaHpjU0Y4TTBPTFZBdk5FZ2JhXzBrOUs5RVMwbVNUaldrUDdmb0xYYi1rcE9vWjg5ZVlBNjdzMWRlN3RHR3Q4V2dyR2hxZHN1NV9lc1pGcHgtaTNpd3hQWGMzWGtSblNEQV9veTlubjJXOTJCb25XZlE?oc=5)
-- 民主党参议员 Jeff Merkley 表示将争取环境与公共工程委员会主席职位 [[11]](https://thehill.com/homenews/senate/6217381-senate-democrats-control-majority/)
-- 法国总统 Macron 称“已无美国对乌克兰的支持”，美国特使 Steve Witkoff 与 Jared Kushner 本周将与 Zelensky 会面 [[10]](https://thehill.com/policy/international/6217318-macron-europe-ukraine-support/)[[45]](https://thehill.com/policy/international/6217022-witkoff-kushner-zelensky-meeting-starshield-update/)
-- 特朗普表示希望在离任前“get Cuba done”，称政府正密切关注 [[6]](https://thehill.com/homenews/administration/6217391-trump-wants-cuba-change/)
+- Van Hollen 表示将挑战 Schumer 争取参议院多数党领袖职位[[3]](https://news.google.com/rss/articles/CBMinAFBVV95cUxOeE1ydjlwSE1Mc2hyektqU214alFSdTQ0cEhhV1ZMaFhHNFFaUkJzZ0FCSDlxZXBNcUZOSU5OaXJBVFJDSzBTc1B4c2xtaWd6WWo4ODd3Y1BENUNPRUdkdVVZY1Y3eGRoRnR3U1dwQXpFQWVOT084YmJ6ME9SUllKLVFnTUlWZk0taTk1QUdQclNFZWVuTlVVck15MUM?oc=5)
+- 现任共和党众议员 Lauren Boebert（科罗拉多第4选区）选情接近，她把可能的败选归咎于政策、腐败和「市场」[[7]](https://thehill.com/homenews/house/6217833-boebert-blames-policy-market-losses/)
+- 特朗普评价民主党人 Scott Colom 赢得密西西比州参议院选举，称「我给他很多肯定」[[16]](https://thehill.com/homenews/campaign/6217818-trump-praises-colom-mississippi-victory/)
+- 州参议员 Cindy Holscher 赢得堪萨斯州长选举，民主党守住该州长职位[[33]](https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson)
+- 共和党众议员 Chip Roy（德州）在共和党失去两院控制权后批评党内只关注「政治权力」而非民众[[53]](https://thehill.com/homenews/house/6217576-gop-lawmaker-says-party-is-focusing-on-political-power-rather-than-people/)
 
 ### 科技与 AI
-- Cerebras 季度营收超预期并宣布与微软达成合作，股价大涨18% [[12]](https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html)
-- 谷歌发布 Gemini 4 Hydrogen，称速度与智能有“显著提升”，并已用于 AI Mode 搜索升级 [[60]](https://news.google.com/rss/articles/CBMia0FVX3lxTE9MclExaEZCMEdCN3M3RVhaVVJYS0lPNEM5MXBKSHVpRGVOaENQNEVfdEJPLXVRZWQ3WWtDay1hdlcyM2dPQU1aeFBVaHdsMWlLbm1LTFN5RllYRDBwaE1WLW01ZTJiajViN2FZ?oc=5)[[55]](https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/)
-- Nebius 计划以客户预付款和贷款为其400亿美元AI基础设施扩张融资，但微软数据中心延期引发对其融资模式的质疑 [[14]](https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/)
-- United Airlines 禁止客户使用 AI 代理订票，理由是网络安全风险 [[64]](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/)
+- 微软 Outlook 仍处于中断状态，网页与应用端都无法访问邮件[[37]](https://www.theverge.com/tech/1032226/microsoft-outlook-is-down)
+- 谷歌称其新模型 Gemini 4 Hydrogen 更擅长回答包含多个部分、难懂拼写错误或高度具体请求的复杂问题[[57]](https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen)
+- SpaceX 宣布将投资超过 740 亿美元，在德州和亚利桑那州建设两座数据中心[[36]](https://thehill.com/policy/technology/6217630-spacex-plans-data-centers-texas-arizona/)
+- Nvidia 支持的 neocloud 公司 Nscale 更新美国 IPO 文件，显示亏损扩大[[41]](https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html)
 
 ### 宏观与公司
-- Cravath 律所一名员工被控利用客户保密交易信息内幕交易，检方称其获利7万美元，相关客户事项包括派拉蒙收购华纳兄弟 [[7]](https://www.wsj.com/finance/regulation/cravath-employee-is-charged-with-insider-trading-using-confidential-deal-information-a5cdd0a9?mod=rss_markets_main)
-- 美国成屋销售陷入自大衰退以来最严重的低迷 [[31]](https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmttNnNqVm1jQmstQ2pvWl9aOUYzaklQNmpYaEFuMVdyLUdyWEZqOWU4R0luSldvNlhURDcyeng0VG5NQTVSejFOTFhmOEJlSUt1aGRadmg2c1FSTGdCb2tpbzVuRnJYbXRvYkFsQ0xrUlB3Ui1IMFZyZklhcGpoWW9Rc09Menk0LXBGVlV0MkpsMW53R01kckdKVnRtMWRZc0kzaEFvdk51MnNDbGF3?oc=5)
-- 标普500指数在英伟达大跌的一周中仍保持稳定，投资者开始关注其他个股 [[24]](https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories)
-- 美元走强，Convera 称美联储加息预期上升，货币可能维持高位 [[18]](https://www.wsj.com/finance/currencies/yen-hitting-160-to-dollar-again-wont-be-surprising-f82f47e6?mod=rss_markets_main)
+- 日本财务大臣 Satsuki Katayama 称近期日元走势「单边且快速」，并警告不要出现快速波动[[8]](https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67?mod=rss_markets_main)
+- Jim Cramer 在 Anthropic 具有历史意义的 IPO 前提出三个悬而未决的问题[[31]](https://news.google.com/rss/articles/CBMiigFBVV95cUxOQnlTTmVFZXFUUnAyZTUwM056dW9MeUdWRVdzQ2lQa2dsRnJEN19FRVp6eENzbV9JU1NBMHEyX3FwX3ZYbTljT3JBSXhRU1FNSWJhSUVMbUItTEpXeWhSZnNPQjdQYmoyaERsTFZycnJpaWkxUzliSEFRZFRTQnRBZFNiempKYXdsUXfSAY8BQVVfeXFMTTAxRG1oeTU5a2VlaWdvQXJST2wxZU9WM0hFemc5TzBqMEtXOS1DbFZUU3JEb25WcGVEakRCbjJkQWJUZTlmZ0xjVEZ6RkV0TF9BYXlZaUZUYTl3Q3ZjNlFnNlluNjF0eUxuckhlNG1BYnJKWUplOFZNQmg4TFMwTTVPX3lqSE5CRkNvWGx2NG8?oc=5)
+- 日经指数上涨 1.1%，由芯片股带动，但市场仍对美国与日本货币政策的走向存在不确定性[[23]](https://www.wsj.com/finance/stocks/nikkei-rises-1-1-led-by-chip-stocks-eb2ed881?mod=rss_markets_main)
+- 加拿大威胁起诉 Stellantis，原因是其出售汽车工厂，而特朗普的贸易战正使生产向南转移[[38]](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM3ppYVMtX0Y3YUxuMGZuSUk5UlBrWWNvNkFZVzVvejFndGVIREtVREJ6cEtiTDRsMTU4Mkk0ZWZSOEdIczdyRmxnbFg2VVZtcDh0Y2tBdWpkb0VLQXpSNGQyVVVVMHhlbmVsSHByYkpHUGF6OHhoRXRsb0wzeGFQWFNIZ2xVeDlETjlFRlJVQzFrd2dfLTJZOHZBU1VpN2JaaWMyOTlyeDM5WVU?oc=5)
 
 ### 宏观数据
 | 品种 | 最新 | 1小时 | 较前收 | 原因 |
 |---|---:|---:|---:|---|
-| 标普500期货 | 7,621.75 | +0.07% | -0.25% | 黄仁勋离职冲击科技股 |
-| 纳指100期货 | 28,418.75 | +0.11% | -0.19% | 黄仁勋离职冲击科技股 |
-| 道指期货 | 52,407.00 | +0.03% | -0.33% | 英伟达下跌抵消能源股涨幅 |
-| WTI原油 | 88.71 | -0.26% | +2.52% | 无明确消息 |
-| 黄金 | 3,880.00 | +0.01% | -3.01% | 无明确消息 |
-| 比特币 | 71,474.72 | +0.18% | -3.37% | 无明确消息 |
+| 标普500期货 | 7,634.50 | -0.16% | -0.08% | 无明确消息 |
+| 纳指100期货 | 28,494.25 | -0.27% | +0.07% | 无明确消息 |
+| 道指期货 | 52,464.00 | -0.11% | -0.22% | 无明确消息 |
+| WTI原油 | 88.45 | +0.40% | +2.22% | 特朗普称无需伊朗协议 |
+| 黄金 | 3,909.30 | -0.06% | -2.28% | 无明确消息 |
+| 比特币 | 70,346.35 | -0.73% | -4.89% | 无明确消息 |
 
 ### 标普500龙头 · 涨幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| AMD | 585.30 | +5.86% | 英伟达近期动荡带动芯片股上涨 |
-| 博通 AVGO | 364.36 | +5.54% | 受英伟达近期动荡带动上涨 |
+| AMD | 585.30 | +5.86% | 英伟达近期困境带动上涨 |
+| 博通 AVGO | 364.36 | +5.54% | 英伟达近期困境带动上涨 |
 | 埃克森美孚 XOM | 169.78 | +1.84% | 无明确消息 |
 | 谷歌 GOOGL | 298.70 | +1.79% | 无明确消息 |
-| 特斯拉 TSLA | 397.45 | +1.69% | 报道称特斯拉与SpaceX合并谈判推进 |
+| 特斯拉 TSLA | 397.45 | +1.69% | 彭博报道SpaceX与特斯拉商谈合并 |
 
 ### 标普500龙头 · 跌幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 英伟达 NVDA | 166.19 | -4.34% | 黄仁勋辞任CEO后股价下跌 |
+| 英伟达 NVDA | 166.19 | -4.34% | 黄仁勋婚外情丑闻后市值大跌 |
 | GE航空 GE | 330.86 | -3.47% | 无明确消息 |
 | 奈飞 NFLX | 62.69 | -2.87% | 无明确消息 |
 | 赛默飞 TMO | 699.44 | -2.55% | 无明确消息 |
 | 直觉外科 ISRG | 439.89 | -2.14% | 无明确消息 |
 
 ### 对预测市场的含义
-- 债市担忧美联储进一步加息推高收益率，与美联储加息路径相关的市场方向偏向上行 [[33]](https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories)
-- 特朗普称无需与伊朗达成协议并关闭谈判，与伊朗达成协议相关市场方向偏向更低 [[25]](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnhHOUZCeEwzbmN5alpPZm1fbjRvQ2ltdmYydUE0VE02ZnMtYzhOLUp3eWotVXQ5aTYwSFlpYXZyWmRsRjhBRi1iS08zMWJFYUNVQnZLNXY5TnRsN0p4cVF1eVppQ0hsa1I5Y0hLaWlOMmRzZWV0Q09hdlpOal9YSVJOdXNPZFVyYlZQemhFeVRGUUUwOE1CcEZIRHR1Ul9wckU5WVBVeTh0TTBKaGtDN091X0hxM1BYUjNz?oc=5)
-- 白宫据报讨论 Lutnick 的去留，政府人事相关市场的不确定性上升 [[30]](https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2JBc1RoY3pGRnZ0R1BzOW43SHY5eGxjZHpwMlZVZWNSRDMxaG51ZkVSdkVuN1I4bkdCTEZTV3ZETGRpVTBxaGhHSlprM25XNFd0b3N6eHJhc3RneHJrWGl2alVlTVh6R0xtbFJVLTRjaEE0djZxTE54Nkp4UHBYWVJKdGlhM2hmNFM2dWRNeWF0d2tRcnVYT0dtOXZDdGx4QXlsUHAzOHNKQUpaTFE?oc=5)
+- 特朗普称美国不需要与伊朗达成协议，油价随后上涨[[28]](https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html)，与美伊协议相关的合约短期方向偏向协议难以达成
+- Van Hollen 挑战 Schumer 参议院领导层的报道[[3]](https://news.google.com/rss/articles/CBMinAFBVV95cUxOeE1ydjlwSE1Mc2hyektqU214alFSdTQ0cEhhV1ZMaFhHNFFaUkJzZ0FCSDlxZXBNcUZOSU5OaXJBVFJDSzBTc1B4c2xtaWd6WWo4ODd3Y1BENUNPRUdkdVVZY1Y3eGRoRnR3U1dwQXpFQWVOT084YmJ6ME9SUllKLVFnTUlWZk0taTk1QUdQclNFZWVuTlVVck15MUM?oc=5)，与参议院领导层相关的合约需关注其支持票数，新闻中未提供相关数据
 
 ### 接下来关注
-- 2026-11-13 08:30 PPI 生产者物价：Core PPI m/m 预期 0.3%（前值 0.7%），PPI m/m 预期 0.4%（前值 1.3%）
-- 2026-11-12 盘后 AMAT 财报，EPS 预期 $4.06（财季 Oct/2026）
-- 2026-11-12 盘后 CSCO 财报，EPS 预期 $1.15（财季 Oct/2026）
+- 2026-11-13 08:30 公布 PPI 生产者物价：核心 PPI 环比预期 0.3%（前值 0.7%），PPI 环比预期 0.4%（前值 1.3%）
+- 2026-11-13 MUFG、SMFG、MFG 三家日本金融集团发布财报，EPS 预期分别为 0.45 美元、0.24 美元和 0.21 美元
 
-_生成：2026-11-12 16:55 ET · 模型 claude-haiku-5-5 · 用时 62s · 行情来自 Yahoo Finance_
+_生成：2026-11-12 21:37 ET · 模型 claude-haiku-5-5 · 用时 59s · 行情来自 Yahoo Finance_
