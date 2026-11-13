@@ -1,4 +1,4 @@
-name: news-digest
+name: 金融时报
 
 on:
   schedule:
