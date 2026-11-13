@@ -41,6 +41,17 @@ cd /Users/shawntong/pm_bot_us/news_digest
 
 本地拉取最新摘要：`git pull`
 
+### 准时触发（cron-job.org）
+
+GitHub 自带的定时触发经常被丢掉（实测一天只触发了几次），所以用免费的 cron-job.org 每小时调用一次 GitHub API 来启动任务：
+
+1. GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token：只选 `pm-news-digest` 这个仓库，权限 Actions 设为 Read and write
+2. cron-job.org 新建任务：
+   - URL：`https://api.github.com/repos/shawntong11/pm-news-digest/actions/workflows/digest.yml/dispatches`
+   - 时间：每小时第 5 分钟，时区 America/New_York
+   - 高级设置：方法 POST；请求头 `Authorization: Bearer <你的 token>`、`Accept: application/vnd.github+json`；请求体 `{"ref":"main"}`
+3. 返回 204 表示成功
+
 ## 本地每小时运行（launchd，已停用）
 
 ```bash
