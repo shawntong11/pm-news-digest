@@ -1,64 +1,64 @@
-# 美国要闻 11-12 21:00 ET
+# 金融时报 11-13 11:00 ET
 
 ### 本期要点
-- Tim Scott 传唤黄仁勋与 Howard Lutnick 就英伟达事件作证[[29]](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaVVlT3dQNFpTWkczTy1LZlpDYjM4QUF5ZGxYcktzTTJPcEdiVFgwdEptekJFYW11YUJjd2UwWHhOX09paTVsbnk3NFNNZEdQYjhlNDZ3eWJZSVRncnp4R1NQTVBzRmdkWW1MdGRlbHNYeUpHaXpyaWFqNnNnSE1BTXc4MnAzOWR6WHdaXzFFQ2Z1dWFQOHFKM25XQVByWVV1cUFkTFpBV1FsdTdIMXFLZUFIdF9YaTRFam1fWHhLZ0lFbEhfaFFjcjk3V252UnpOTm1EeG12aw?oc=5)；民主党人启动调查，审视英伟达对华 H200 芯片销售及特朗普的相关决定[[51]](https://thehill.com/policy/technology/6217470-democrats-investigate-trump-nvidia-chips-china/)[[54]](https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/)
-- 参议院部分民主党人考虑利用即将到来的政府拨款期限，迫使特朗普政府结束伊朗战争[[45]](https://thehill.com/homenews/senate/6217635-senate-democrats-threaten-shutdown-iran/)
-- Kalshi 终止 Donald Trump Jr. 的顾问职务，称其公司 1789 Capital 今年增持 Polymarket 后双方同意结束合作[[48]](https://thehill.com/policy/technology/6217564-trump-jr-kalshi-advisory-end/)
-- 美联储将不在 2027 年 10 月的会议上作出利率决定[[5]](https://news.google.com/rss/articles/CBMitgFBVV95cUxPWkZiVk1uU2k5a1RQRGUxdFBJMEcxSVhtWEJfR0s3Q3E3T185OXRrZHRZMDVsQlhTdVpIbVlfQnNPem4zbGlTMDR6elFDRlM3RzhETUhCVzlTTDJvWmtfQzctcUFhRXZsVmxpVjBQUXpXTkRUTThQNVJwQV9YX19qaTZGVGswRGF1N2d0dktsZW5DVHlFWVNENmtQaERZYm5ZTmREdm8tMzVjX3ZCQUdqbTFCbWktdw?oc=5)
+- 英伟达CEO黄仁勋辞职，此前其两段婚外情受到审视；英伟达股价随之下挫，已连续六周下跌，本周市值蒸发6570亿美元[[2]](https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html)[[6]](https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories)
+- 财政部长 Scott Bessent 指责商务部长 Lutnick 的商务部未能将英伟达客户 Megaspeed 列入贸易黑名单，并批评英伟达芯片流向中国的“泄露”；Lutnick 同意出席参议院银行委员会就对华芯片销售作证[[40]](https://thehill.com/homenews/administration/6218454-bessent-lutnick-megaspeed-dispute/)[[15]](https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html)[[26]](https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html)
+- 10月批发物价（PPI）环比上涨0.3%，低于预期的0.4%，同比6.5%为近四年新高；投资者对美联储12月加息的预期增强，10年期国债收益率升至5.15%[[28]](https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html)[[30]](https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html)
+- 微软 Outlook、Teams 与 365 服务中断持续近两天，已扩大为全球云服务危机，微软表示服务正在逐步恢复[[1]](https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html)[[11]](https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage)[[59]](https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/)
 
 ### 美国政治
-- Van Hollen 表示将挑战 Schumer 争取参议院多数党领袖职位[[3]](https://news.google.com/rss/articles/CBMinAFBVV95cUxOeE1ydjlwSE1Mc2hyektqU214alFSdTQ0cEhhV1ZMaFhHNFFaUkJzZ0FCSDlxZXBNcUZOSU5OaXJBVFJDSzBTc1B4c2xtaWd6WWo4ODd3Y1BENUNPRUdkdVVZY1Y3eGRoRnR3U1dwQXpFQWVOT084YmJ6ME9SUllKLVFnTUlWZk0taTk1QUdQclNFZWVuTlVVck15MUM?oc=5)
-- 现任共和党众议员 Lauren Boebert（科罗拉多第4选区）选情接近，她把可能的败选归咎于政策、腐败和「市场」[[7]](https://thehill.com/homenews/house/6217833-boebert-blames-policy-market-losses/)
-- 特朗普评价民主党人 Scott Colom 赢得密西西比州参议院选举，称「我给他很多肯定」[[16]](https://thehill.com/homenews/campaign/6217818-trump-praises-colom-mississippi-victory/)
-- 州参议员 Cindy Holscher 赢得堪萨斯州长选举，民主党守住该州长职位[[33]](https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson)
-- 共和党众议员 Chip Roy（德州）在共和党失去两院控制权后批评党内只关注「政治权力」而非民众[[53]](https://thehill.com/homenews/house/6217576-gop-lawmaker-says-party-is-focusing-on-political-power-rather-than-people/)
+- 《经济学人》/YouGov 民调显示，特朗普支持率处于第二任期新低，选举失利后几乎没有回升迹象[[25]](https://thehill.com/homenews/administration/6218757-trump-approval-iran-midterms-2028/)
+- 白宫幕僚长 Stephen Miller 备忘录要求白宫工作人员与游说人士会面须事先获得白宫法律顾问办公室批准[[9]](https://thehill.com/homenews/administration/6218907-trump-staffers-require-approval-meetings/)
+- 民主党参议员 Van Hollen（马里兰）宣布将挑战参议院民主党领袖 Chuck Schumer（纽约）的领导职位，并于周五在丹佛发表讲话[[20]](https://thehill.com/video-clips/6218733-watch-live-van-hollen-remarks-whats-next-conference-denver-schumer-challenge-midterms/)
+- 前众议员 Mary Peltola（阿拉斯加）在新计票后扩大对共和党参议员 Dan Sullivan（阿拉斯加）的领先，这是2026年最后一场尚未宣布结果的参议院选举[[35]](https://thehill.com/the-120/6218667-mary-peltola-alaska-senate-lead/)
+- 特朗普提名两名官员进入 CFTC、两名进入 SEC，其中包括民主党人 Kristin Johnson[[53]](https://thehill.com/homenews/administration/6218493-white-house-cftc-sec-nominations-senate/)
 
 ### 科技与 AI
-- 微软 Outlook 仍处于中断状态，网页与应用端都无法访问邮件[[37]](https://www.theverge.com/tech/1032226/microsoft-outlook-is-down)
-- 谷歌称其新模型 Gemini 4 Hydrogen 更擅长回答包含多个部分、难懂拼写错误或高度具体请求的复杂问题[[57]](https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen)
-- SpaceX 宣布将投资超过 740 亿美元，在德州和亚利桑那州建设两座数据中心[[36]](https://thehill.com/policy/technology/6217630-spacex-plans-data-centers-texas-arizona/)
-- Nvidia 支持的 neocloud 公司 Nscale 更新美国 IPO 文件，显示亏损扩大[[41]](https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html)
+- Cerebras 公布季度营收超预期，并宣布与微软达成新合作，此前其已与 Amazon 和 Oracle 合作[[7]](https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html)
+- OpenAI 推出 ChatGPT Wallet，允许 AI 代理代用户购物结账，首先面向美国 Pro 订阅用户有限推出，并与 American Express、Mastercard、Visa 合作[[21]](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)[[36]](https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html)
+- 据 Bloomberg 报道，Anthropic IPO 的部分来自中国的认购订单被拒绝[[32]](https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXR2WDdyNDdpUjZDdi16dlZpZ2MwSmZGZkFCbUtueHlhMlF1Y0RnZ2V4VGNfX2NucnhQbjVaSWlFa0hteUZ5TEQ1QmRRdmhMdHFhZ01IOHVvdUxhSUFjbTZUWlZmNHV2SWtCcmxHdktzd0s3SG52NVJFc3RlWGdiOWc4SXJ3c2o5VmI1Ry1WUXFpd2tfTURzTW13TW1OS2JEeXcybUJmVkJYOV9EM28wTDF3?oc=5)
+- Uber 确认黑客窃取数千名司机的驾照信息，该数据存储于 AI 云公司 Fireworks AI，并在安全事件中被盗[[52]](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/)
 
 ### 宏观与公司
-- 日本财务大臣 Satsuki Katayama 称近期日元走势「单边且快速」，并警告不要出现快速波动[[8]](https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67?mod=rss_markets_main)
-- Jim Cramer 在 Anthropic 具有历史意义的 IPO 前提出三个悬而未决的问题[[31]](https://news.google.com/rss/articles/CBMiigFBVV95cUxOQnlTTmVFZXFUUnAyZTUwM056dW9MeUdWRVdzQ2lQa2dsRnJEN19FRVp6eENzbV9JU1NBMHEyX3FwX3ZYbTljT3JBSXhRU1FNSWJhSUVMbUItTEpXeWhSZnNPQjdQYmoyaERsTFZycnJpaWkxUzliSEFRZFRTQnRBZFNiempKYXdsUXfSAY8BQVVfeXFMTTAxRG1oeTU5a2VlaWdvQXJST2wxZU9WM0hFemc5TzBqMEtXOS1DbFZUU3JEb25WcGVEakRCbjJkQWJUZTlmZ0xjVEZ6RkV0TF9BYXlZaUZUYTl3Q3ZjNlFnNlluNjF0eUxuckhlNG1BYnJKWUplOFZNQmg4TFMwTTVPX3lqSE5CRkNvWGx2NG8?oc=5)
-- 日经指数上涨 1.1%，由芯片股带动，但市场仍对美国与日本货币政策的走向存在不确定性[[23]](https://www.wsj.com/finance/stocks/nikkei-rises-1-1-led-by-chip-stocks-eb2ed881?mod=rss_markets_main)
-- 加拿大威胁起诉 Stellantis，原因是其出售汽车工厂，而特朗普的贸易战正使生产向南转移[[38]](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM3ppYVMtX0Y3YUxuMGZuSUk5UlBrWWNvNkFZVzVvejFndGVIREtVREJ6cEtiTDRsMTU4Mkk0ZWZSOEdIczdyRmxnbFg2VVZtcDh0Y2tBdWpkb0VLQXpSNGQyVVVVMHhlbmVsSHByYkpHUGF6OHhoRXRsb0wzeGFQWFNIZ2xVeDlETjlFRlJVQzFrd2dfLTJZOHZBU1VpN2JaaWMyOTlyeDM5WVU?oc=5)
+- 周五美股下跌，但主要指数本周仍有望录得周线上涨[[3]](https://news.google.com/rss/articles/CBMid0FVX3lxTE1DUGhtX3RkQk1tTVc3WFZQOGhSalVKd2RzNks0R1dHRlFMSUd1bUhOeVVmNTQxS09JQjhaaTBQVWVnY3RBblNRRlc3a21TVEJJUnZmVm9pYmJMSVNWazl5bU9lZkdyOVpSSXhoSUlfeEx1ZUdvakVR0gF8QVVfeXFMUEZVRDFwUjNBQ01QTjdQX0h5WXU5R3BqdDZwVFJiNU9obl9qYk1lWC1XTWUxbDhFaGR4V2x0cERQdDAyNFlJQk1fNXBqdFItb3FaTDdyV2R6WklkbExBZHNnQ3k1WFR4X0FaeGpRM09SZHprem0zajZXbEx6Vg?oc=5)
+- 黄仁勋离职后，市场关注英伟达的 AI 融资策略、信贷市场及其 neocloud 敞口[[34]](https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html)
 
 ### 宏观数据
 | 品种 | 最新 | 1小时 | 较前收 | 原因 |
 |---|---:|---:|---:|---|
-| 标普500期货 | 7,634.50 | -0.16% | -0.08% | 无明确消息 |
-| 纳指100期货 | 28,494.25 | -0.27% | +0.07% | 无明确消息 |
-| 道指期货 | 52,464.00 | -0.11% | -0.22% | 无明确消息 |
-| WTI原油 | 88.45 | +0.40% | +2.22% | 特朗普称无需伊朗协议 |
-| 黄金 | 3,909.30 | -0.06% | -2.28% | 无明确消息 |
-| 比特币 | 70,346.35 | -0.73% | -4.89% | 无明确消息 |
+| 标普500期货 | 7,552.50 | +0.07% | -0.82% | 新闻称批发通胀上升，英伟达下跌 |
+| 纳指100期货 | 27,865.75 | +0.14% | -1.83% | 英伟达持续下跌，芯片股抛售加速 |
+| 道指期货 | 52,316.00 | +0.05% | -0.14% | 无明确消息 |
+| WTI原油 | 88.62 | -0.45% | -0.14% | 无明确消息 |
+| 黄金 | 3,887.20 | +0.27% | +0.05% | 关注收益率与地缘局势，金价持平 |
+| 比特币 | 68,715.95 | -0.16% | -3.68% | 无明确消息 |
 
 ### 标普500龙头 · 涨幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| AMD | 585.30 | +5.86% | 英伟达近期困境带动上涨 |
-| 博通 AVGO | 364.36 | +5.54% | 英伟达近期困境带动上涨 |
-| 埃克森美孚 XOM | 169.78 | +1.84% | 无明确消息 |
-| 谷歌 GOOGL | 298.70 | +1.79% | 无明确消息 |
-| 特斯拉 TSLA | 397.45 | +1.69% | 彭博报道SpaceX与特斯拉商谈合并 |
+| 可口可乐 KO | 99.06 | +1.66% | 文章称其防御属性受青睐，英伟达下挫之际 |
+| 百事 PEP | 144.32 | +1.44% | 无明确消息 |
+| Visa V | 426.31 | +1.43% | 无明确消息 |
+| 万事达 MA | 661.84 | +1.42% | 无明确消息 |
+| Meta META | 631.68 | +1.29% | 无明确消息 |
 
 ### 标普500龙头 · 跌幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 英伟达 NVDA | 166.19 | -4.34% | 黄仁勋婚外情丑闻后市值大跌 |
-| GE航空 GE | 330.86 | -3.47% | 无明确消息 |
-| 奈飞 NFLX | 62.69 | -2.87% | 无明确消息 |
-| 赛默飞 TMO | 699.44 | -2.55% | 无明确消息 |
-| 直觉外科 ISRG | 439.89 | -2.14% | 无明确消息 |
+| AMD | 523.20 | -10.61% | 原文称芯片板块同步下跌 |
+| 博通 AVGO | 341.52 | -6.27% | 原文称芯片板块同步下跌 |
+| 思科 CSCO | 96.12 | -5.78% | 市场担忧收入指引环比下滑（CEO回应） |
+| 美光 MU | 757.22 | -5.16% | 无明确消息 |
+| 英伟达 NVDA | 159.83 | -3.83% | 黄仁勋辞任CEO后投资者消化该消息 |
 
 ### 对预测市场的含义
-- 特朗普称美国不需要与伊朗达成协议，油价随后上涨[[28]](https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html)，与美伊协议相关的合约短期方向偏向协议难以达成
-- Van Hollen 挑战 Schumer 参议院领导层的报道[[3]](https://news.google.com/rss/articles/CBMinAFBVV95cUxOeE1ydjlwSE1Mc2hyektqU214alFSdTQ0cEhhV1ZMaFhHNFFaUkJzZ0FCSDlxZXBNcUZOSU5OaXJBVFJDSzBTc1B4c2xtaWd6WWo4ODd3Y1BENUNPRUdkdVVZY1Y3eGRoRnR3U1dwQXpFQWVOT084YmJ6ME9SUllKLVFnTUlWZk0taTk1QUdQclNFZWVuTlVVck15MUM?oc=5)，与参议院领导层相关的合约需关注其支持票数，新闻中未提供相关数据
+- 12月美联储议息相关合约：新闻显示投资者对12月加息的预期走强，方向偏向加息[[30]](https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html)
+- 阿拉斯加参议院选举：Peltola 新计票后领先幅度扩大，结果尚未宣布，相关合约偏向 Peltola[[35]](https://thehill.com/the-120/6218667-mary-peltola-alaska-senate-lead/)
+- 英伟达与商务部相关人事：Lutnick 将就对华芯片销售作证，但新闻未说明其去留，暂无明显人事方向[[26]](https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html)[[40]](https://thehill.com/homenews/administration/6218454-bessent-lutnick-megaspeed-dispute/)
 
 ### 接下来关注
-- 2026-11-13 08:30 公布 PPI 生产者物价：核心 PPI 环比预期 0.3%（前值 0.7%），PPI 环比预期 0.4%（前值 1.3%）
-- 2026-11-13 MUFG、SMFG、MFG 三家日本金融集团发布财报，EPS 预期分别为 0.45 美元、0.24 美元和 0.21 美元
+- 2026-11-13 全天：MUFG（Mitsubishi UFJ Financial Group）财报
+- 2026-11-13 盘前：SMFG（Sumitomo Mitsui Financial Group）财报
+- 2026-11-13 盘前：MFG（Mizuho Financial Group）财报
 
-_生成：2026-11-12 21:37 ET · 模型 claude-haiku-5-5 · 用时 59s · 行情来自 Yahoo Finance_
+_生成：2026-11-13 11:43 ET · 模型 claude-haiku-5-5 · 用时 56s · 行情来自 Yahoo Finance_
