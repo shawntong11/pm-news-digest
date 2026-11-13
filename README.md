@@ -1,4 +1,4 @@
-# 金融时报
+# 每日金融简报
 
 每 2 小时抓一次美国政治、金融和科技新闻，加上行情和日程，交给 **Claude Haiku 5.5** 写中文摘要。按量付费，每天 9 版，大约每月 1 美元。
 
@@ -36,7 +36,7 @@ cd /Users/shawntong/pm_bot_us/news_digest
 - 每小时第 5 分钟唤醒一次，由 `digest.py --check` 按美东时间判断这次要不要生成；GitHub 的定时有时会晚几分钟到半小时，错过的版本下一次会补上
 - 生成前先用 `events/sync_events.py`（从 `market_calendar` 复制）同步事件日历到 `events/calendar.db`
 - 生成的摘要和去重记录（`data/`）会提交回仓库，在 GitHub 网页或手机 App 里打开 `data/latest.md` 就能看
-- 需要在仓库的 Settings → Secrets and variables → Actions 里添加 `ANTHROPIC_API_KEY`（可选 `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`）
+- 需要在仓库的 Settings → Secrets and variables → Actions 里添加 `ANTHROPIC_API_KEY`（Telegram 推送暂时关闭：代码支持，但工作流没有传入 Telegram 的密钥）
 - 手动生成一版：仓库 Actions 页面 → news-digest → Run workflow，勾选 force
 
 本地拉取最新摘要：`git pull`

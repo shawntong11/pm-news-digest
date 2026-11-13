@@ -596,7 +596,7 @@ def main():
     else:  # 没有新新闻就不调用模型
         out = {"points": ["本期没有新的重要新闻。"], "watch": events[:4]}
 
-    title = f"金融时报 {now_et:%m-%d %H:00} ET"
+    title = f"每日金融简报 {now_et:%m-%d %H:00} ET"
     footer = (f"生成：{datetime.now(ET):%Y-%m-%d %H:%M} ET · 模型 {MODEL if items else '无（无新增新闻）'}"
               f" · 用时 {time.time() - t0:.0f}s · 行情来自 Yahoo Finance")
     md = render_md(title, out, items, macro, gainers, losers, footer)

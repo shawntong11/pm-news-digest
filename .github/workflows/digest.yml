@@ -1,4 +1,4 @@
-name: 金融时报
+name: 每日金融简报
 
 on:
   schedule:
@@ -46,8 +46,6 @@ jobs:
         if: steps.check.outputs.run == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CALENDAR_DB: events/calendar.db
         run: python digest.py --force
 
