@@ -1,62 +1,60 @@
-# 每日金融简报 11-14 01:00 ET
+# 每日金融简报 11-14 12:00 ET
 
 ### 本期要点
-- 美国联邦航空管理局（FAA）周五下午发布的全国性地面停飞令约四小时后解除，Duffy称晚上8点15分（东部时间）已重新开放空域，但航班取消将延续至周末 [[4]](https://www.cnbc.com/2026/11/13/faa-ground-stop.html)[[12]](https://news.google.com/rss/articles/CBMidkFVX3lxTE81eUJ1SV9Pd0hzS1ZmVk1Ec1A1MndfTTZiaFE0VGh4Ym04VnJMcWVOSHpOVmJYOFowSGtCOVB6Z3pUZGZoQmlVTHlDSG5lMldwZTZMNWFuRk9KM3ZnWXRlRTBid1ZRMGczVGh0OWkxa21OZmpMcHc?oc=5)[[17]](https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories)[[23]](https://thehill.com/policy/transportation/6220313-faa-lifts-nationwide-ground-stop/)
-- 民主党人 Jonathan Kreiss-Tomkins 赢得阿拉斯加州州长选举，取代共和党人，成为20多年来首位赢得该职位的民主党人 [[3]](https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins)[[5]](https://www.politico.com/news/2026/11/14/jonathan-kreiss-tomkins-wins-alaska-governor-01166573)[[6]](https://thehill.com/homenews/campaign/6182120-democrat-kreiss-tomkins-wins-alaska/)[[7]](https://news.google.com/rss/articles/CBMitwFBVV95cUxQcnkyYjBoWS1aV2dpOEZsWm1Rak9SZkVUaEllQVMwai02UlpnYWZ4bzlfckdiaXFEYVhXUEEtSkNVdVhJaFU1T0dIWGhiSk5Kb2ViV2laSC1PbUdrazBiWW5tWmdUajJsSVM3a3FNb1FZa3h1LTdZankxRVpJZkh5eFVMYkpwNUZnZTBQQWZfMWpoclhBSGZScFF1THZRS0hPbVc3X0k2Zmh0dHU3UFR4Q0VaLUFiaW8?oc=5)
-- 特朗普计划在下周中国举行的 APEC 峰会上与俄罗斯总统普京和中国国家主席习近平会晤，这将是领导人之间首次三边会晤 [[27]](https://thehill.com/homenews/administration/6220278-trump-putin-xi-trilateral-meeting/)
-- 众议员 Lauren Boebert 在科罗拉多第4选区落选；民主党人 Mike Thompson 输给另一名民主党人，打乱了众议院税收委员会的人选 [[11]](https://news.google.com/rss/articles/CBMivAFBVV95cUxObnZLbl96QmVGQnZLN1RQQmRWTWdCT3lfMS1ZZlduQVhjQ0ZpQ1hlOTF2REFaMTZNWDZVeWhqbHdPeDdFNmFMWmNtVENhUzNvSThEQ1NlQWl2TnhQbV9yekxvWkRPTHdiX2RzYmdCVDM4VTYtcXdpWEJNRS12TlJDWVI1WEZLQzJVSDNNNFJIZVA3TFByY3lpYTdTTnNlYnVWbTFxNm5tV2t4elEzU3lLWXk1UlctM3RVRl9FNw?oc=5)[[22]](https://news.google.com/rss/articles/CBMixAFBVV95cUxOSkJQeG05MTFGX3JtenQ0ZEFFNnZ4dGZuLXpGU3lscG82NGdTWUpOc0ZlZlZFalk4QlRSRThyZnRDNXh1SF9PTjJ3Y2k1TjlGNXotV2pINGI5NFlBMXBRNml6Uk1FalpfMHJwMGNrZ2p0X1RuVXlUaFRIUUVRMEh1dEpoWVlGcFgwNHdLQ05NbUlDVUltaS14ZUQwYlZsXzN5bVdyZEk5Vkw5Wkh5eUpmTFBqd2szcFR1VnlwVmRpdHVnNTU4?oc=5)
+- Nvidia CEO黄仁勋已辞职，此前有其婚外情报道；两家合计持股约21.3亿美元的投资者呼吁董事会考虑其可能回归并启动正式领导层搜寻 [[6]](https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html)[[27]](https://thehill.com/policy/technology/6220693-elon-musk-predicts-nvidia-losses/)，Musk称Nvidia将因此失去“关键交易” [[27]](https://thehill.com/policy/technology/6220693-elon-musk-predicts-nvidia-losses/)，亚洲多国政府就芯片供应承诺表态 [[23]](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/)
+- FAA全国停飞事件有了新进展：交通部长Duffy称原因是例行设备升级，即在一处偏远FAA设施将老旧铜线更换为光纤 [[7]](https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/)[[9]](https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire)；Duffy还称停飞与L3Harris运营的旧通信系统更新有关 [[22]](https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html)；FAA局长Bedford称“没有任何与AI相关的证据” [[7]](https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/)；截至周六早间已有3000多个航班被取消 [[39]](https://thehill.com/policy/transportation/6220654-us-air-traffic-cancellations-delays/)
+- 阿拉斯加参议院选情：最新一轮计票后，民主党人 Mary Peltola 对共和党参议员 Dan Sullivan 的领先扩大至近4个百分点，超过1万票，计票仍在进行 [[55]](https://thehill.com/homenews/campaign/6220605-peltola-leads-alaska-senate/)[[51]](https://news.google.com/rss/articles/CBMijwFBVV95cUxPcGRpUnZKOEtydjhyR1RaNXRaVS1xdUk0MkFZTldVUktXM2xNa2JGS3Y4TG5LbmhkWHZ1VVpaaE43RnBaMElMczBHcGQ3LWpQRjFrTy03Y0FzNGx4RXlEOEtERy16RWJ2TkhDVVFYbVlWZmtvMWJ2dGxxbHQxVXhLdW1ZVERVV3VJbmVkLWpENA?oc=5)
+- 阿拉斯加选民再次否决废除排序选择投票（ranked choice voting）和前四初选制度的提案，这是第二次否决，2024年的废除努力也以微弱差距失败 [[53]](https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary)
 
 ### 美国政治
-- 联邦调查局（FBI）逮捕前中情局局长 John Brennan 之子，指控涉及儿童色情 [[1]](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdnNkOHVfMVF4NTYwLVhEa2ZuZGFCVEJKSnJaMTU2VjBSU21rdjFXajRScWFsMUF5SlJSSlRYaXFMc051QXlQeHBQYm5jMm9MY2thUnd3eTMzY0lrMURkbEVqbHpOT3lfaWplaW5ubGRfUXpEMTRiYnNvOW1oRkFwWHozYlRNRkpmU3ZIeElQQzE4cEZQdEQ0UzBMTE1lbkhPbi05c2VfY3NpV19WR1VoVG5OUldGYi1GQTdDcm16Tm1DQUp0VzYzZTlUR0lsWVhR?oc=5)
-- Duffy 与 Mullin 呼吁投资约500亿美元进行航空出行“大修”，并批评国会“把问题踢来踢去”，要求更新“极其老旧”的空管系统 [[14]](https://thehill.com/policy/transportation/6220399-duffy-billions-air-traffic-ground-stop/)
-- 国务卿 Rubio 在保守派法律会议上呼吁保守派强化其意识形态，并淡化共和党在中期选举中的失利 [[13]](https://news.google.com/rss/articles/CBMizwFBVV95cUxORjVpcmVhNFVLN0VRSUpINWtrS0F6SUN3XzVvODh2R2RNQ2EyUHI4dUZDclZNTzg3aUJGNy1NaHd0LXZoQ3J3Y3oyLWxJWExvbVBfMl8zM284M1FIWnlId1A1cUJFdUk0V3hhRmR6dlFGcDVkem8wcFd6UUZCUlJ0S3pYUHFBd3NLbjl6OHRpV0NSTXl5TmZNVW1UTk9KdHpybDZ3aFdnNlJBX25JQmFyMEQwWWtqN25Md0twOE01Z3BiR3A0eWx5SXdlalpZOWc?oc=5)
-- 据报道，民主党人正以与总统达成交易为宣传重点，推出“TrumpCare”和纪念牌匾等做法 [[33]](https://news.google.com/rss/articles/CBMilwFBVV95cUxQbDYtQ1RpY1NaZ2NLUW1mMndSZ0VONFRjb3ZGRTRRQk9zZnJvRnpqS3ZKT1FOa1JZczhaM2xLQlNqdE9iSzRRTk9RSy1tTU5jZEtpc1JGeGZKb2JxS2F6ZFFIV0FNOUdUNjI0U2RhQTBSRVNLTVp6TVIyZzFwYUs4V1VOUk8zNWJPcTlaeFF2VGg2MV92RWVR?oc=5)
+- 白宫幕僚长 Stephen Miller 面临其任内首个危机 [[11]](https://news.google.com/rss/articles/CBMiswFBVV95cUxQVUJGTmU0OUlnNHg1QVdVRUZsQVZkMWZ2MzhqRFBIMzFxOUNpN3AtUUl6a1lSZnNnZ3hpbUJUeFNqLS1mNlJtVHJtRk1UZFhNNmU1X0ZkS083UEF1S3F1TUJHS0tOaF9PalpmVEJMZjg2blpsRHVHeU05enVwakI2cFc0LXhmM3loeWotMkNyVGxsZEh5VVhxeDNZQzJtdnRlMGZaMGxiYXp3V0JnZWFwT2ZzYw?oc=5)
+- Nvidia丑闻冲击特朗普的政治弱点，此前民主党在选举中大获全胜 [[12]](https://news.google.com/rss/articles/CBMixgFBVV95cUxONV9KTEtTalpUbDZVME91ak1OQzR5SDZaTS1CLTA1Uk1iZ1VTRU9DMDM1RjdnUkZ0YkQxQ2V3QlVsSzY3SkRzRWVTa3JKUlgxMEI5M3N0Y1BPLXVMTjVjNFhBakJXZk9ibEV6Y3p2U3JHb3dpSzFsM1V3eXc0RFhsRnZaNk16YjVCa3lyeDh5MVlBZVU0Yks1VHpfMW4wUl9DdEI5THA5UndPczZtSUhoV1pYUW5nZ3ZLS2xDcVhBREFPTHhkRVE?oc=5)
+- 共和党内有人讨论让新星在2028年总统选举中缺席、转而瞄准2032年，理由是两年后的政治环境对党派过于不利 [[19]](https://thehill.com/homenews/campaign/6219720-gop-candidates-considering-2032/)
+- 前众议员 Marjorie Taylor Greene（共和党）指责交通部长 Duffy 与国土安全部长 Mullin 借全国停飞事件要求更多纳税人资金，称其为“变相要钱” [[49]](https://thehill.com/homenews/administration/6220625-greene-criticizes-duffy-mullin/)
 
 ### 科技与 AI
-- Politico 报道硅谷正在谋划 Jensen Huang 的东山再起 [[29]](https://news.google.com/rss/articles/CBMimAFBVV95cUxNN0xlalJocUFyeUtVSXlERWl1Q0FYajJUV0RLZXRzaTgzWlNVVlZISVJMUHVoX1RuNXhWX3ZsYkZDQmJKdWY3M1pGdU05ZzdHWlB6OEhvQjU3OEwtME4xYWdUeXZpY1pUOXB5d1VfR1VySzExWm00WFpuRFg3TU9LSUxIeG9SZ1JJVXBHbnU0UDNVQ2w3MnFaRA?oc=5)
-- 据美国官员，特朗普不计划在访华期间提出 Nvidia 或间谍问题，Huang 辞职前曾被报道涉及一名疑似中国间谍的人物 [[26]](https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html)
-- FAA 近期部署的 AI 空管工具开发商 Air Space Intelligence 否认与停飞有关，Duffy 证实了这一说法 [[10]](https://thehill.com/policy/transportation/6220416-faa-smart-ai-ground-stop-denial/)[[21]](https://news.google.com/rss/articles/CBMiygFBVV95cUxPS1JGMmk4ckVUM0Qza2Q5U18xRndmeEx3ZlFhWERQdVFrZVVDNFdnS2ZneWxRTVdEZDdpc2l4UVkxTm5naWM0a3I2eTZQdVN0QUtNLVoycUJIamRNQ0E4dU5mTmlwVXg3UnA5U3BpSlNSSWNNSzZteV82dU9Hb2RCZzZ6cmROekpkdGpSR2NoTGpZT0JkLW5OdHhuQmNHdFVZOEdjbUc3VzQwTU5fdEhHRFVTZWJXcEVMQTBOM080NExUZGR4c0pObHln?oc=5)
-- Tesla 表示已开始向个人用户销售 Cybercab [[28]](https://news.google.com/rss/articles/CBMirwFBVV95cUxQVW9TQXZVWjF2c2FxVllYb2MwdjhVZ1ExOTNTRGpJTThYNWt6QVM4VWE0MWRwQ0VxU2ctdnB3UGtjTlY2d1NzT3JCQWZUUXlrbXhldG9PVzhyVERZNmJuVjhLbnp6MlpxRVJwbFpWTE15aW5NUmcxY3lpXzY1azdSSHFqODVDSEt5R0hyNTR5aTJXcDFvQW9ZbGJlNEd1VDZGN1hRMGdTcHlyOEdSY0tr?oc=5)
+- 纽约州“社交媒体警示标签”法遭行业协会起诉，该协会代表包括 Google、YouTube、Facebook 和 Instagram 在内的30家会员 [[18]](https://thehill.com/policy/technology/6220727-netchoice-sues-new-york-social-media/)
+- TechCrunch整理的AI项目“墓地”清单提到，Apple 多次推迟的 Siri AI 与 OpenAI 的“super app”发布都不顺利 [[13]](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
 
 ### 宏观与公司
-- WSJ 报道称，能源成本飙升和供应链延误正推高生产者成本，食品价格可能再次上涨 [[32]](https://www.wsj.com/economy/consumers/the-next-wave-of-food-inflation-is-coming-b06f37db?mod=rss_markets_main)
-- Microsoft 宕机影响了法院和政府机构的运作 [[25]](https://news.google.com/rss/articles/CBMiekFVX3lxTE1yUnhQZ1hSOVFGajVoZXJDcE1TbWhCa2RJU0ExblA5WElCZVczWnh0VlpBdXljcnlDM2cxZWh1dW50ZXQ1M3pTWE4tamZGMWk2X2VXZmVETC1pd1M0WDBYQXo2Ri16QlVrVnFMdjBpamUxdVdaNWVLMjhn?oc=5)
-- SpaceX 可重复使用火箭系统遭遇挫折，尽管此次发射本身成功 [[18]](https://news.google.com/rss/articles/CBMikwFBVV95cUxOdC1nQTZfeS1mN3Bkd0g4MlpYMGdhNW0wTTdDWjQzbWJ4ODF3ZF9hMFJLV2JSUWNiZ3ZzN2Z4YVR3eTJnNGVUX1pYeG9sN3NqN2FRcDNTdWx5Wkt2SFZmQWR1ODdMTGw1ZTM3VDJWTU55MHpSUFJ6NU8zZ3BoTVRXaTl1d3NZRGhkYkp2a0N2WVluVTTSAZMBQVVfeXFMUDcySjViSFFIUW5hd1NFNGtnN1VlNHVfZFVENURud3ZBbEhLVTQ2cGpmVy1iNGRLd2Fyb1k5NWtGMjkyeFdGMXBFa2xYeDdIdjhyVFJpZzNJaVIxaEN0ejlqN2dvTXF3QUVPMnRxcmRuRmxzeWI3VGs0U1lvdllySXh3aTN0SHZCdHM2YVZmOURyTG5z?oc=5)[[30]](https://news.google.com/rss/articles/CBMitAFBVV95cUxPc0h5Z2ZOZ3hGRDU2d0RaMk5ocV84cmVmTXhBOWl2dFgzVWhQN3hTNTVuNGhfcFJJbDJhZnZ3aVJFT1I1SnFSdUZGUW9tNFZrZ1ZkQlpXVXlaNDBqQUh0eWxZVU1jM3hSZ01hNEYwV1R1a3p2N2NJOThfTk9TbUNmUmFkZ2RkeTJMRVB6ZVdqeEhVQ0o1ZVozRmRHYVMydlZCWjBKVS1vTDNpZEtIWHpoVGxlUWc?oc=5)
+- 意大利数据保护机构因访问 Android 用户照片对 Meta 罚款 €8.05亿（€805 million）[[26]](https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6U3dzRXhNdWFETHc0NlAwOXhkQ3Fzdmo1QVhMTThSeVNDM1BxR1dEejJmZzVpZjRRNHU5YnY2WTVkc1V0a2ZENTJTRTFUcWVqYmNoLTREX1E4QUE?oc=5)
+- Berkshire Hathaway 股价连续四个交易日创历史新高，第四季度涨幅达19% [[45]](https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html)
+- 华尔街投行正在为 Anthropic 的 IPO 进行路演推介 [[14]](https://news.google.com/rss/articles/CBMie0FVX3lxTE9pZEk3aEVERVZjMlBZYkI0WC11RjNlbVNaaUlya3A3dFFXWjNGbVlLQW1iZjU5R1E3WlY2blpERFl0MjNzSWdzQmpSc0JqWDhsOXJDYWhybjNiYWdjQ2RhQmF3VExyZGl5bVU1cHpMSGtSSThnRFpWdUJldw?oc=5)
 
 ### 宏观数据
 | 品种 | 最新 | 1小时 | 较前收 | 原因 |
 |---|---:|---:|---:|---|
-| 标普500期货 | 7,561.00 | -0.31% | -0.71% | Nvidia持续下跌拖累美股 |
-| 纳指100期货 | 27,927.25 | -0.40% | -1.61% | 科技股承压，因黄仁勋离职 |
-| 道指期货 | 52,347.00 | -0.16% | -0.08% | 无明确消息 |
-| WTI原油 | 88.92 | -0.01% | +0.20% | 无明确消息 |
-| 黄金 | 3,887.60 | +0.15% | +0.06% | 无明确消息 |
-| 比特币 | 67,214.20 | +0.08% | -5.79% | 报道称或为认购Anthropic IPO抛售 |
+| 标普500期货 | 7,583.00 | -0.02% | -0.42% | 无明确消息 |
+| 纳指100期货 | 28,034.75 | -0.01% | -1.23% | 无明确消息 |
+| 道指期货 | 52,418.00 | -0.02% | +0.05% | 无明确消息 |
+| WTI原油 | 88.56 | -0.42% | -0.20% | 无明确消息 |
+| 黄金 | 3,886.30 | +0.12% | +0.03% | 无明确消息 |
+| 比特币 | 65,783.04 | +0.73% | -3.61% | 无明确消息 |
 
 ### 标普500龙头 · 涨幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| Meta META | 641.69 | +2.90% | 新闻提及大型ETF近期增持 |
+| Meta META | 641.69 | +2.90% | 无明确消息 |
 | 百事 PEP | 145.44 | +2.24% | 无明确消息 |
-| 可口可乐 KO | 99.25 | +1.86% | 防御性股票，英伟达下跌时走高 |
+| 可口可乐 KO | 99.25 | +1.86% | 无明确消息 |
 | 雪佛龙 CVX | 219.89 | +1.64% | 无明确消息 |
 | ServiceNow NOW | 102.25 | +1.58% | 无明确消息 |
 
 ### 标普500龙头 · 跌幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| AMD | 534.06 | -8.75% | 科技股承压，因黄仁勋离职冲击 |
+| AMD | 534.06 | -8.75% | 原文称黄仁勋辞职后AMD等芯片股大跌 |
 | 思科 CSCO | 95.64 | -6.24% | 无明确消息 |
-| 博通 AVGO | 347.01 | -4.76% | 科技股承压，因黄仁勋离职冲击 |
+| 博通 AVGO | 347.01 | -4.76% | 原文称黄仁勋辞职后Broadcom等芯片股大跌 |
 | 美光 MU | 778.31 | -2.52% | 无明确消息 |
-| Palantir PLTR | 167.99 | -2.09% | ARK近期减持该股 |
+| Palantir PLTR | 167.99 | -2.09% | 无明确消息 |
 
 ### 对预测市场的含义
-- 若 APEC 期间的三方会晤如期推进，与中国和俄罗斯领导人互动相关的预测题可关注会面是否落实 [[27]](https://thehill.com/homenews/administration/6220278-trump-putin-xi-trilateral-meeting/)
-- 食品价格可能再度上涨，与食品通胀相关的预测题面临上行风险 [[32]](https://www.wsj.com/economy/consumers/the-next-wave-of-food-inflation-is-coming-b06f37db?mod=rss_markets_main)
-- 空管投资需由国会推动，短期内立法结果暂无明显影响 [[14]](https://thehill.com/policy/transportation/6220399-duffy-billions-air-traffic-ground-stop/)
+- 阿拉斯加参议院计票趋势若延续，有利于民主党人 Mary Peltola 获胜 [[55]](https://thehill.com/homenews/campaign/6220605-peltola-leads-alaska-senate/)
+- 白宫幕僚长人事动向目前暂无明显影响 [[11]](https://news.google.com/rss/articles/CBMiswFBVV95cUxQVUJGTmU0OUlnNHg1QVdVRUZsQVZkMWZ2MzhqRFBIMzFxOUNpN3AtUUl6a1lSZnNnZ3hpbUJUeFNqLS1mNlJtVHJtRk1UZFhNNmU1X0ZkS083UEF1S3F1TUJHS0tOaF9PalpmVEJMZjg2blpsRHVHeU05enVwakI2cFc0LXhmM3loeWotMkNyVGxsZEh5VVhxeDNZQzJtdnRlMGZaMGxiYXp3V0JnZWFwT2ZzYw?oc=5)
+- Nvidia 领导层去留仍不明朗，原文仅称投资者呼吁董事会考虑黄仁勋回归，相关预测题方向暂不明确 [[6]](https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html)
 
 ### 接下来关注
 - 暂无已知日程
 
-_生成：2026-11-14 01:11 ET · 模型 claude-haiku-5-5 · 用时 58s · 行情来自 Yahoo Finance_
+_生成：2026-11-14 12:58 ET · 模型 claude-haiku-5-5 · 用时 54s · 行情来自 Yahoo Finance_
