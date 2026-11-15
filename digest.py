@@ -117,6 +117,23 @@ def db():
     return con
 
 
+SOURCE_CN = {
+    "the new york times": "纽约时报", "new york times": "纽约时报", "nytimes.com": "纽约时报",
+    "the wall street journal": "华尔街日报", "wall street journal": "华尔街日报", "wsj": "华尔街日报",
+    "wsj markets": "华尔街日报", "reuters": "路透社", "bloomberg": "彭博社", "bloomberg.com": "彭博社",
+    "associated press": "美联社", "ap news": "美联社", "financial times": "金融时报",
+    "the washington post": "华盛顿邮报", "washington post": "华盛顿邮报", "the economist": "经济学人",
+    "bbc": "BBC", "bbc world": "BBC", "npr politics": "NPR", "npr world": "NPR", "cnbc economy": "CNBC",
+    "cnbc markets": "CNBC", "cnbc tech": "CNBC", "techcrunch ai": "TechCrunch", "yahoo finance": "雅虎财经",
+}
+
+
+def source_name(name):
+    """统一来源名：常见大报用中文名，其余保留英文。"""
+    name = (name or "").strip()
+    return SOURCE_CN.get(name.lower(), name)
+
+
 def norm_title(t):
     t = re.sub(r"\s+-\s+[^-]{2,40}$", "", t)  # 去掉 Google News 标题末尾的 " - 来源"
     return re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
@@ -161,6 +178,7 @@ def fetch_news(con, hours=LOOKBACK_HOURS):
                 summary = ""  # Google News 的简介只是重复标题
             by_cat.setdefault(cat, []).append({
                 "cat": cat, "src": src, "title": title, "summary": summary,
+                "source": source_name((e.get("source") or {}).get("title") if src.startswith("Google") else src),
                 "link": e.get("link", ""), "pub": pub, "key": k,
             })
     newest = lambda x: x["pub"] or datetime.min.replace(tzinfo=timezone.utc)
@@ -189,6 +207,7 @@ def search_news(query, n=5, days=1):
     for e in f.entries[:n]:
         tp = e.get("published_parsed")
         out.append({"title": clean(e.get("title"), 160), "summary": "", "link": e.get("link", ""),
+                    "source": source_name((e.get("source") or {}).get("title")),
                     "when": f"{datetime(*tp[:6], tzinfo=timezone.utc).astimezone(ET):%m-%d %H:%M}" if tp else ""})
     return out
 
@@ -276,7 +295,7 @@ def fetch_stock_news(movers):
                 url = (c.get("canonicalUrl") or c.get("clickThroughUrl") or {}).get("url", "")
                 r["news"].append({"title": clean(c.get("title"), 160),
                                   "summary": clean(c.get("summary") or c.get("description"), 160),
-                                  "link": url})
+                                  "link": url, "source": source_name((c.get("provider") or {}).get("displayName"))})
                 if len(r["news"]) >= 3:
                     break
         except Exception as e:
@@ -518,10 +537,18 @@ SECTIONS = [("politics", "美国政治"), ("world", "国际政治"), ("tech", "�
 def render_md(title, out, items, macro, crypto, gainers, losers, footer):
     def text(s):
         def rep(m):
-            n = int(m.group(1))
-            return f"[[{n}]]({items[n - 1]['link']})" if 1 <= n <= len(items) and items[n - 1]["link"] else ""
+            links, names = [], set()
+            for n in map(int, re.findall(r"\d+", m.group(0))):
+                if not (1 <= n <= len(items) and items[n - 1].get("link")):
+                    continue
+                name = items[n - 1].get("source") or items[n - 1].get("src") or "原文"
+                if name not in names:
+                    names.add(name)
+                    links.append(f"[{name}]({items[n - 1]['link']})")
+            return f"（{'、'.join(links)}）" if links else ""
         s = re.sub(r"\[[^\]\d][^\]]{0,20}\]", "", s.replace("**", ""))
-        return re.sub(r"\[(\d{1,3})\]", rep, s)
+        s = re.sub(r"\s*(?:\[\d{1,3}\]\s*)+", rep, s)
+        return s.strip()
 
     chg = fmt_pct
 
@@ -564,8 +591,8 @@ def notify(title, body):
 def to_telegram_html(md):
     """把 Markdown 摘要转成 Telegram 能显示的 HTML（Telegram 不支持标题和表格）。"""
     esc = lambda t: html.escape(t, quote=False)
-    link = lambda t: re.sub(r"\[\[(\d+)\]\]\(([^)]*)\)",
-                            lambda m: f'<a href="{html.escape(m[2])}">[{m[1]}]</a>', t)
+    link = lambda t: re.sub(r"\[([^\]]+)\]\(([^)]*)\)",
+                            lambda m: f'<a href="{html.escape(m[2])}">{m[1]}</a>', t)
     out, header = [], True
     for line in md.splitlines():
         line = line.rstrip()
