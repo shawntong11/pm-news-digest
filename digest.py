@@ -1,4 +1,4 @@
-"""美国政治 + 金融市场 + 科技/AI 每小时新闻摘要（本地 Ollama / Qwen，不调用收费模型）
+"""每日金融简报：美国政治、国际政治、科技与 AI、加密货币、金融市场新闻摘要（默认 Claude Haiku 5.5）
 
 用法：
     python digest.py            # 生成一版摘要
@@ -70,12 +70,25 @@ FEEDS = [
     ("科技", "TechCrunch", "https://techcrunch.com/feed/"),
     ("科技", "The Verge", "https://www.theverge.com/rss/index.xml"),
     ("科技", "Google News 科技", "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en"),
+    ("国际", "BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("国际", "NPR World", "https://feeds.npr.org/1004/rss.xml"),
+    ("国际", "Google News 国际", "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en"),
+    ("加密", "CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
+    ("加密", "Cointelegraph", "https://cointelegraph.com/rss"),
+    ("加密", "Decrypt", "https://decrypt.co/feed"),
 ]
 
-# 宏观数据表
+# 宏观数据表：(代码, 名称, 用来找涨跌原因的 Google News 搜索词)
 MACRO = [
-    ("ES=F", "标普500期货"), ("NQ=F", "纳指100期货"), ("YM=F", "道指期货"),
-    ("CL=F", "WTI原油"), ("GC=F", "黄金"), ("BTC-USD", "比特币"),
+    ("ES=F", "标普500期货", "stock market today S&P 500"), ("NQ=F", "纳指100期货", "Nasdaq stocks today"),
+    ("YM=F", "道指期货", "Dow Jones today"), ("CL=F", "WTI原油", "oil prices"), ("GC=F", "黄金", "gold prices today"),
+]
+
+# 加密货币实时价格
+CRYPTO = [
+    ("BTC-USD", "BTC", "bitcoin price crypto market today"), ("ETH-USD", "ETH", "ether price ethereum"),
+    ("XRP-USD", "XRP", "XRP price"), ("SOL-USD", "SOL", "solana price"),
+    ("BNB-USD", "BNB", "BNB price"), ("HYPE32196-USD", "HYPE", "Hyperliquid HYPE price"),
 ]
 
 # 标普500 龙头股（按市值挑选）
@@ -163,10 +176,27 @@ def pct(a, b):
     return (a / b - 1) * 100 if a is not None and b else None
 
 
+def search_news(query, n=5, days=1):
+    """用 Google News 搜索最近的相关报道，用来解释行情涨跌（这类标题通常直接写原因）。"""
+    url = ("https://news.google.com/rss/search?q=" + requests.utils.quote(f"{query} when:{days}d")
+           + "&hl=en-US&gl=US&ceid=US:en")
+    try:
+        f = feedparser.parse(url, agent=UA)
+    except Exception as e:
+        print(f"[warn] 搜索 {query}: {e}", file=sys.stderr)
+        return []
+    out = []
+    for e in f.entries[:n]:
+        tp = e.get("published_parsed")
+        out.append({"title": clean(e.get("title"), 160), "summary": "", "link": e.get("link", ""),
+                    "when": f"{datetime(*tp[:6], tzinfo=timezone.utc).astimezone(ET):%m-%d %H:%M}" if tp else ""})
+    return out
+
+
 def fetch_macro():
     import yfinance as yf
     rows = []
-    for sym, name in MACRO:
+    for sym, name, query in MACRO:
         try:
             t = yf.Ticker(sym)
             h = t.history(period="5d", interval="60m")["Close"].dropna()
@@ -179,10 +209,31 @@ def fetch_macro():
                 "sym": sym, "name": name, "last": last,
                 "h1": pct(last, float(h.iloc[-2])) if len(h) > 1 else None,
                 "d1": pct(last, float(prior.iloc[-1])) if len(prior) else None,
-                "reason": "",
+                "reason": "", "news": search_news(query),
             })
         except Exception as e:
             print(f"[warn] 行情 {sym}: {e}", file=sys.stderr)
+    return rows
+
+
+def fetch_crypto():
+    """加密货币 24 小时交易，所以涨跌用“1 小时”和“24 小时”。"""
+    import yfinance as yf
+    rows = []
+    for sym, name, query in CRYPTO:
+        try:
+            h = yf.Ticker(sym).history(period="3d", interval="60m")["Close"].dropna()
+            if h.empty:
+                continue
+            last = float(h.iloc[-1])
+            rows.append({
+                "sym": sym, "name": name, "last": last,
+                "h1": pct(last, float(h.iloc[-2])) if len(h) > 1 else None,
+                "d1": pct(last, float(h.iloc[-25])) if len(h) > 24 else None,
+                "reason": "", "news": search_news(query),
+            })
+        except Exception as e:
+            print(f"[warn] 加密 {sym}: {e}", file=sys.stderr)
     return rows
 
 
@@ -230,6 +281,8 @@ def fetch_stock_news(movers):
                     break
         except Exception as e:
             print(f"[warn] 个股新闻 {r['sym']}: {e}", file=sys.stderr)
+        # Yahoo 个股新闻常常不是讲当天涨跌的，再补几条“为什么涨/跌”的搜索结果
+        r["news"] += search_news(f"{r['sym'].replace('-', '.')} stock", n=3, days=2)
 
 
 # ---------- 日历 ----------
@@ -265,27 +318,37 @@ def upcoming_events(now_et, hours=24):
 
 # ---------- 模型 ----------
 
-SYSTEM = """你是一名服务于预测市场交易员的美国政治、金融与科技新闻编辑。只能依据用户提供的材料写作，不得编造材料之外的事实、数字或引语。用简体中文输出，专有名词（人名、公司、法案）可保留英文。
+SYSTEM = """你是一名服务于预测市场交易员的新闻编辑，负责美国政治、国际政治、金融、科技与加密货币。只能依据用户提供的材料写作，不得编造材料之外的事实、数字或引语。用简体中文输出，专有名词（人名、公司、法案）可保留英文。
 写人物时只用材料原文里出现的称呼，例如材料写 "Sen. Chris Van Hollen (D-Md.)" 就写“民主党参议员 Van Hollen（马里兰）”；材料没有写州名就不要写州名。凭记忆补充州名、职位是严重错误。
 因果关系只能照搬材料原文；材料没有说明原因时，只描述发生了什么。"""
 
-PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [n]）、宏观行情、标普500龙头股涨跌幅榜（附个股新闻）和未来 24 小时日程。
+PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [n]）、宏观行情和加密货币行情（各附相关报道）、标普500龙头股涨跌幅榜（附个股报道）和未来 24 小时日程。
 
-请输出一个 JSON 对象，字段如下（所有文字用简体中文）：
-- points：本期要点，3 到 5 条最重要的新进展，按影响从大到小排序，政治、市场、科技都要考虑；被多个来源同时报道的事件通常最重要
-- politics：要点之外的美国政治新闻 2 到 5 条（选举、国会、白宫、法院、人事）
-- tech：要点之外的科技与 AI 新闻 2 到 5 条，只限 AI 公司与模型、芯片与半导体、大型科技公司经营、科技监管与政策；游戏、影视、消费电子评测、App 更新一律不要；没有就留空数组
-- markets：要点之外的宏观、公司、行业新闻 2 到 4 条（美联储、经济数据、财报、裁员、监管）
-- pm：对预测市场的含义 1 到 3 条（选举、立法、美联储利率、经济数据、关税、政府人事、科技公司事件），说明方向；没有把握就写“暂无明显影响”
+请输出一个 JSON 对象，字段如下（所有文字用简体中文）。每个分类内部按重要性从高到低排序，被多个来源同时报道的事件通常最重要：
+- politics：美国政治 2 到 6 条（选举、国会、白宫、法院、人事、联邦机构）
+- world：国际政治 2 到 5 条（战争与冲突、外交、贸易谈判与关税、各国大选与政局、央行之外的国际组织），与美国相关或影响市场的优先；没有就留空数组
+- tech：科技与 AI 2 到 5 条，只限 AI 公司与模型、芯片与半导体、大型科技公司经营、科技监管与政策；游戏、影视、消费电子评测、App 更新一律不要；没有就留空数组
+- crypto：加密货币 2 到 5 条（价格大幅波动、ETF 资金流、监管与立法、交易所和项目、机构动向）；没有就留空数组
+- markets：宏观与公司 2 到 4 条（美联储、经济数据、财报、裁员、并购、监管）
+- pm：对预测市场的含义 1 到 3 条（选举、立法、美联储利率、经济数据、关税、政府人事、科技公司事件、加密货币价格区间），说明方向；没有把握就写“暂无明显影响”
 - watch：根据日程列出最重要的 2 到 4 项；日程为空就写“暂无已知日程”
-- macro_reasons：给宏观行情表里的每个品种写一句涨跌原因（15 字以内），name 用表里的名称
-- movers：给涨跌幅榜上的每只股票写一句涨跌原因（20 字以内），ticker 用表里的代码，依据该股票下面列出的个股新闻
-- macro_reasons 和 movers 的原因必须是新闻原文明确写出的原因（例如原文写 "oil fell after Trump called renewed strikes unlikely"）。“避险需求”“资金轮动”“板块反弹”“市场情绪”这类泛泛的推测一律不许写；找不到明确原因就填“无明确消息”。
+- macro_reasons：给宏观行情表里的每个品种写涨跌原因，name 用表里的名称
+- crypto_reasons：给加密货币行情表里的每个币写涨跌原因，name 用表里的名称（如 BTC）
+- movers：给涨跌幅榜上的每只股票写涨跌原因，ticker 用表里的代码
+
+涨跌原因的写法（macro_reasons、crypto_reasons、movers）：
+- 一定要写出原因：依据该品种下面列出的“相关报道”，以及“新闻”部分里直接相关的报道，概括报道中说的驱动因素，30 字以内，例如“特朗普称不太可能重启空袭，油价回落”“AI 芯片股遭抛售，英伟达 CEO 辞职拖累”“BTC 跌破 6.5 万美元引发多头爆仓”。
+- 宏观品种（股指期货、原油、黄金）的原因通常就是当天大盘或商品的主线新闻，可以用“新闻”部分里的宏观新闻；BTC 之外的币如果报道说是跟随 BTC 或整个加密市场下跌，就写“随 BTC/加密市场整体下跌”加上整体原因。
+- 原因必须来自报道原文，不许编造；“避险需求”“资金轮动”“市场情绪”这类空话只有在报道原文这么说时才可以写。
+- 原因要能解释涨跌的方向：只是同一家公司的其他新闻（例如被罚款，股价却上涨），不能当作原因。个股涨跌幅是上一个交易日的，周末发布的报道一般不是原因。
+- 所有报道都没有提到驱动因素时，只写“无明确消息”这五个字，不要再附加“相关报道称……”之类的说明。
+- 原因结尾也标注依据的编号，如“……油价回落 [31]”。
+- 涨跌幅很小（1 小时和较前收都在 ±0.3% 以内）可以写“窄幅波动”。
 
 写作规则：
-- points、politics、tech、markets、pm 每条一句话，结尾标注来源编号，如 [3][7]；只能用“新闻”部分的数字编号，个股新闻没有编号，不要标注。
+- politics、world、tech、crypto、markets、pm 每条一句话，结尾标注来源编号，如 [3][7]；“新闻”“相关报道”“个股报道”的编号都可以用，不要编造编号，也不要写“相关报道称”这种字眼。
 - pm 只写由新闻直接推出的影响，不要猜测远期选举赔率；美联储方向要以新闻原文为准，不要自己说“加息”或“降息”。
-- 同一事件只写一次：写进 points 的事件，不要在其他分类里重复。
+- 同一事件只写一次，放进最合适的一个分类，不要在其他分类里重复。
 - 不要添加材料里没有的背景信息（如议员所属州、职位、党派）。
 - 忽略生活方式、名人八卦、个人理财建议、体育、地方社会新闻等与政治、市场、科技无关的内容。
 - “上一版要点”里已经报道过的事件，除非有新进展，否则不要再写。
@@ -293,8 +356,11 @@ PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [
 ## 上一版要点
 {prev}
 
-## 宏观行情
+## 宏观行情（附相关报道）
 {macro}
+
+## 加密货币行情（1 小时、24 小时涨跌，附相关报道）
+{crypto}
 
 ## 标普500龙头股涨跌幅榜（较前一交易日）
 {movers}
@@ -307,18 +373,22 @@ PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [
 """
 
 LIST = {"type": "array", "items": {"type": "string"}}
+SECTION_KEYS = ["politics", "world", "tech", "crypto", "markets", "pm", "watch"]
+
+
+def reasons_schema(key):
+    return {"type": "array", "items": {"type": "object", "properties": {
+        key: {"type": "string"}, "reason": {"type": "string"}},
+        "required": [key, "reason"], "additionalProperties": False}}
+
+
 SCHEMA = {
     "type": "object",
-    "properties": {
-        "points": LIST, "politics": LIST, "tech": LIST, "markets": LIST, "pm": LIST, "watch": LIST,
-        "macro_reasons": {"type": "array", "items": {"type": "object", "properties": {
-            "name": {"type": "string"}, "reason": {"type": "string"}},
-            "required": ["name", "reason"], "additionalProperties": False}},
-        "movers": {"type": "array", "items": {"type": "object", "properties": {
-            "ticker": {"type": "string"}, "reason": {"type": "string"}},
-            "required": ["ticker", "reason"], "additionalProperties": False}},
-    },
-    "required": ["points", "politics", "tech", "markets", "pm", "watch", "macro_reasons", "movers"],
+    "properties": {**{k: LIST for k in SECTION_KEYS},
+                   "macro_reasons": reasons_schema("name"),
+                   "crypto_reasons": reasons_schema("name"),
+                   "movers": reasons_schema("ticker")},
+    "required": SECTION_KEYS + ["macro_reasons", "crypto_reasons", "movers"],
     "additionalProperties": False,
 }
 
@@ -327,26 +397,51 @@ def fmt_pct(v):
     return "—" if v is None else f"{v:+.2f}%"
 
 
-def build_prompt(items, macro, gainers, losers, events, prev, now_et):
+def fmt_price(v):
+    return f"{v:,.4f}" if v < 10 else f"{v:,.2f}"
+
+
+def build_prompt(items, macro, crypto, gainers, losers, events, prev, now_et):
+    """返回 (提示词, refs)。refs 是所有带编号的报道：先是新闻，再是行情和个股的相关报道。"""
+    refs = list(items)
+    seen = {norm_title(it["title"]): i for i, it in enumerate(refs, 1)}
+
+    def news_lines(r, label="相关报道"):
+        lines = []
+        for n in r["news"]:
+            k = norm_title(n["title"])
+            if k not in seen:
+                refs.append(n)
+                seen[k] = len(refs)
+            lines.append(f"    · [{seen[k]}] {label}{'（' + n['when'] + '）' if n.get('when') else ''}：{n['title']}"
+                         + (f" —— {n['summary']}" if n.get("summary") else ""))
+        return lines
+
     news = "\n".join(
         f"[{i}] ({it['cat']}·{it['src']}"
         + (f"·{it['pub'].astimezone(ET):%H:%M}" if it["pub"] else "")
         + f") {it['title']}" + (f" —— {it['summary']}" if it["summary"] else "")
         for i, it in enumerate(items, 1)
     )
-    macro_txt = "\n".join(f"- {r['name']}：{r['last']:,.2f}，1小时 {fmt_pct(r['h1'])}，较前收 {fmt_pct(r['d1'])}"
-                          for r in macro) or "（行情获取失败）"
+    macro_txt = []
+    for r in macro:
+        macro_txt.append(f"- {r['name']}：{r['last']:,.2f}，1小时 {fmt_pct(r['h1'])}，较前收 {fmt_pct(r['d1'])}")
+        macro_txt += news_lines(r)
+    crypto_txt = []
+    for r in crypto:
+        crypto_txt.append(f"- {r['name']}：${fmt_price(r['last'])}，1小时 {fmt_pct(r['h1'])}，24小时 {fmt_pct(r['d1'])}")
+        crypto_txt += news_lines(r)
     mv = []
     for label, lst in (("涨幅榜", gainers), ("跌幅榜", losers)):
         mv.append(f"{label}：")
         for r in lst:
             mv.append(f"- {r['sym']} {r['name']} {fmt_pct(r['chg'])}")
-            for n in r["news"]:
-                mv.append(f"    · 个股新闻：{n['title']}" + (f" —— {n['summary']}" if n["summary"] else ""))
+            mv += news_lines(r, "个股报道")
     return PROMPT.format(
-        now=f"{now_et:%Y-%m-%d %H:%M}", prev=prev or "（无）", macro=macro_txt,
+        now=f"{now_et:%Y-%m-%d %H:%M}", prev=prev or "（无）",
+        macro="\n".join(macro_txt) or "（行情获取失败）", crypto="\n".join(crypto_txt) or "（行情获取失败）",
         movers="\n".join(mv), events="\n".join(events) or "（无）", news=news or "（本期无新增新闻）",
-    )
+    ), refs
 
 
 STATE_RE = re.compile(r"[一-龥]{1,6}州(?=(?:民主党|共和党)?(?:联邦)?(?:参议员|众议员))")
@@ -399,15 +494,16 @@ def call_claude(prompt):
 def clean_output(out):
     def fix(s):  # 小模型常凭记忆给议员配错州名（如“佛罗里达州参议员 Van Hollen”），直接删掉
         return STATE_RE.sub("", s.strip()) if isinstance(s, str) else s
-    for k in ("points", "politics", "tech", "markets", "pm", "watch"):
+    for k in SECTION_KEYS:
         out[k] = [fix(s) for s in out.get(k, []) if isinstance(s, str) and s.strip()]
     return out
 
 
-def apply_reasons(out, macro, movers):
-    reasons = {x.get("name", "").strip(): x.get("reason", "") for x in out.get("macro_reasons", [])}
-    for r in macro:
-        r["reason"] = reasons.get(r["name"]) or "无明确消息"
+def apply_reasons(out, macro, crypto, movers):
+    for rows, key, field in ((macro, "macro_reasons", "name"), (crypto, "crypto_reasons", "name")):
+        reasons = {x.get(field, "").strip().upper(): x.get("reason", "") for x in out.get(key, [])}
+        for r in rows:
+            r["reason"] = reasons.get(r["name"].upper()) or "无明确消息"
     reasons = {x.get("ticker", "").strip().upper(): x.get("reason", "") for x in out.get("movers", [])}
     for r in movers:
         r["reason"] = reasons.get(r["sym"]) or "无明确消息"
@@ -415,11 +511,11 @@ def apply_reasons(out, macro, movers):
 
 # ---------- 排版 ----------
 
-SECTIONS = [("points", "本期要点"), ("politics", "美国政治"), ("tech", "科技与 AI"),
+SECTIONS = [("politics", "美国政治"), ("world", "国际政治"), ("tech", "科技与 AI"), ("crypto", "加密货币"),
             ("markets", "宏观与公司"), ("pm", "对预测市场的含义"), ("watch", "接下来关注")]
 
 
-def render_md(title, out, items, macro, gainers, losers, footer):
+def render_md(title, out, items, macro, crypto, gainers, losers, footer):
     def text(s):
         def rep(m):
             n = int(m.group(1))
@@ -429,21 +525,28 @@ def render_md(title, out, items, macro, gainers, losers, footer):
 
     chg = fmt_pct
 
-    parts = [f"# {title}"]
-    for key, name in SECTIONS[:4]:
+    def section(key, name):
         if out.get(key):
             parts.append(f"### {name}\n" + "\n".join(f"- {text(s)}" for s in out[key]))
-    rows = "\n".join(f"| {r['name']} | {r['last']:,.2f} | {chg(r['h1'])} | {chg(r['d1'])} | {r['reason'] or '—'} |"
+
+    parts = [f"# {title}"]
+    for key, name in SECTIONS[:4]:
+        section(key, name)
+    if crypto:
+        rows = "\n".join(f"| {r['name']} | ${fmt_price(r['last'])} | {chg(r['h1'])} | {chg(r['d1'])} | {text(r['reason']) or '—'} |"
+                         for r in crypto)
+        parts.append("### 加密货币实时价格\n| 币种 | 价格 | 1小时 | 24小时 | 原因 |\n|---|---:|---:|---:|---|\n" + rows)
+    section(*SECTIONS[4])
+    rows = "\n".join(f"| {r['name']} | {r['last']:,.2f} | {chg(r['h1'])} | {chg(r['d1'])} | {text(r['reason']) or '—'} |"
                      for r in macro)
     parts.append("### 宏观数据\n| 品种 | 最新 | 1小时 | 较前收 | 原因 |\n|---|---:|---:|---:|---|\n" + rows)
     for label, lst in (("涨幅榜", gainers), ("跌幅榜", losers)):
         if lst:
-            rows = "\n".join(f"| {r['name']}{'' if r['name'] == r['sym'] else ' ' + r['sym']} | {r['last']:,.2f} | {chg(r['chg'])} | {r['reason'] or '—'} |"
+            rows = "\n".join(f"| {r['name']}{'' if r['name'] == r['sym'] else ' ' + r['sym']} | {r['last']:,.2f} | {chg(r['chg'])} | {text(r['reason']) or '—'} |"
                              for r in lst)
             parts.append(f"### 标普500龙头 · {label}\n| 股票 | 价格 | 涨跌 | 原因 |\n|---|---:|---:|---|\n" + rows)
-    for key, name in SECTIONS[4:]:
-        if out.get(key):
-            parts.append(f"### {name}\n" + "\n".join(f"- {text(s)}" for s in out[key]))
+    for key, name in SECTIONS[5:]:
+        section(key, name)
     parts.append(f"_{footer}_")
     return "\n\n".join(parts) + "\n"
 
@@ -572,14 +675,16 @@ def main():
     lookback = min(max(since, LOOKBACK_HOURS), 12)
     items = fetch_news(con, lookback)
     macro = fetch_macro()
+    crypto = fetch_crypto()
     gainers, losers = fetch_movers()
     fetch_stock_news(gainers + losers)
     events = upcoming_events(now_et)
     prev_row = con.execute("SELECT v FROM meta WHERE k='prev_points'").fetchone()
     prev = prev_row[0] if prev_row else ""
-    print(f"新增新闻 {len(items)} 条，宏观 {len(macro)} 项，涨/跌榜 {len(gainers)}/{len(losers)}，日程 {len(events)} 项")
+    print(f"新增新闻 {len(items)} 条，宏观 {len(macro)} 项，加密 {len(crypto)} 项，"
+          f"涨/跌榜 {len(gainers)}/{len(losers)}，日程 {len(events)} 项")
 
-    prompt = build_prompt(items, macro, gainers, losers, events, prev, now_et)
+    prompt, refs = build_prompt(items, macro, crypto, gainers, losers, events, prev, now_et)
     if args.dry_run:
         print(prompt)
         return
@@ -592,14 +697,14 @@ def main():
                 unload_model()  # 不管成功还是出错，都把本地模型从内存里卸载
         else:
             out = call_claude(prompt)
-        apply_reasons(out, macro, gainers + losers)
+        apply_reasons(out, macro, crypto, gainers + losers)
     else:  # 没有新新闻就不调用模型
-        out = {"points": ["本期没有新的重要新闻。"], "watch": events[:4]}
+        out = {"politics": ["本期没有新的重要新闻。"], "watch": events[:4]}
 
     title = f"每日金融简报 {now_et:%m-%d %H:00} ET"
     footer = (f"生成：{datetime.now(ET):%Y-%m-%d %H:%M} ET · 模型 {MODEL if items else '无（无新增新闻）'}"
               f" · 用时 {time.time() - t0:.0f}s · 行情来自 Yahoo Finance")
-    md = render_md(title, out, items, macro, gainers, losers, footer)
+    md = render_md(title, out, refs, macro, crypto, gainers, losers, footer)
 
     out_dir = DIGESTS / f"{now_et:%Y-%m-%d}"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -610,8 +715,10 @@ def main():
     now_ts = time.time()
     con.executemany("INSERT OR IGNORE INTO seen VALUES (?,?,?)",
                     [(it["key"], it["title"], now_ts) for it in items])
-    if items and out.get("points"):
-        plain = "\n".join("- " + re.sub(r"\[\d+\]|\*\*", "", s) for s in out["points"])
+    # 记下这一版写过的事件（每个分类前 3 条），下一版避免重复
+    reported = [s for k in SECTION_KEYS[:5] for s in out.get(k, [])[:3]]
+    if items and reported:
+        plain = "\n".join("- " + re.sub(r"\[\d+\]|\*\*", "", s) for s in reported)
         con.execute("INSERT OR REPLACE INTO meta VALUES ('prev_points', ?)", (plain,))
     con.execute("DELETE FROM seen WHERE ts < ?", (now_ts - 7 * 86400,))
     if slot:
@@ -621,7 +728,7 @@ def main():
 
     print(f"已写入 {DATA / 'latest.md'}（{time.time() - t0:.0f}s）")
     if not args.no_notify:
-        notify(title, (out.get("points") or ["已更新"])[0])
+        notify(title, next((out[k][0] for k in SECTION_KEYS if out.get(k)), "已更新"))
         repo = os.environ.get("GITHUB_REPOSITORY")  # 在 GitHub Actions 里运行时才有
         rel = f"data/digests/{now_et:%Y-%m-%d}/{now_et:%H}00.md"
         send_telegram(md, f"https://github.com/{repo}/blob/main/{rel}" if repo else None)

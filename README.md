@@ -1,18 +1,20 @@
 # 每日金融简报
 
-每 2 小时抓一次美国政治、金融和科技新闻，加上行情和日程，交给 **Claude Haiku 5.5** 写中文摘要。按量付费，每天 9 版，大约每月 1 美元。
+每 2 小时抓一次美国政治、国际政治、科技、加密货币和金融新闻，加上行情和日程，交给 **Claude Haiku 5.5** 写中文摘要。按量付费，每天 9 版，大约每月 2 美元。
 
 ## 每版内容
 
-- 本期要点、美国政治、科技与 AI、宏观与公司、对预测市场的含义、接下来关注
+- 美国政治、国际政治、科技与 AI、加密货币、宏观与公司、对预测市场的含义、接下来关注
 - 每条带来源编号，点击可以打开原文
-- 宏观数据表：标普500期货、纳指100期货、道指期货、WTI 原油、黄金、比特币，显示 1 小时和较前收涨跌，并附一句涨跌原因（原因必须来自新闻，找不到就写“无明确消息”）
+- 加密货币实时价格：BTC、ETH、XRP、SOL、BNB、HYPE，显示 1 小时和 24 小时涨跌，附涨跌原因
+- 宏观数据表：标普500期货、纳指100期货、道指期货、WTI 原油、黄金，显示 1 小时和较前收涨跌，附涨跌原因
+- 涨跌原因依据每个品种在 Google News 上的最新相关报道，并标注来源；报道里确实没有提到原因时才写“无明确消息”
 - 标普500 龙头股（市值前 50）涨幅榜、跌幅榜各 5 只，附涨跌原因（依据 Yahoo Finance 个股新闻）
 - 日程从 `../market_calendar/calendar.db` 读取（只读），包括 CPI、FOMC、官员讲话、大公司财报
 
 ## 数据来源
 
-Politico、The Hill、NPR Politics、CNBC（含科技）、WSJ Markets、MarketWatch、美联储新闻稿、TechCrunch、The Verge、Google News（美国、商业、科技）的 RSS；行情和个股新闻来自 Yahoo Finance。
+Politico、The Hill、NPR（政治、国际）、BBC World、CNBC（含科技）、WSJ Markets、MarketWatch、美联储新闻稿、TechCrunch、The Verge、CoinDesk、Cointelegraph、Decrypt、Google News（美国、国际、商业、科技）的 RSS；行情（含加密货币）和个股新闻来自 Yahoo Finance；涨跌原因另用 Google News 搜索。
 
 去重：已经处理过的新闻记在 `data/seen.sqlite`，下一版不会再出现。上一版的要点也会交给模型，避免重复报道。本期没有新新闻时，不调用模型，也不收费。
 
