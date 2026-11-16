@@ -126,7 +126,7 @@ SOURCE_CN = {
     "associated press": "美联社", "ap news": "美联社", "financial times": "金融时报",
     "the washington post": "华盛顿邮报", "washington post": "华盛顿邮报", "the economist": "经济学人",
     "south china morning post": "南华早报", "scmp": "南华早报", "yahoo": "雅虎财经",
-    "bbc": "BBC", "bbc world": "BBC", "npr politics": "NPR", "npr world": "NPR", "cnbc economy": "CNBC",
+    "bbc": "BBC", "bbc world": "BBC", "bbc 中国": "BBC", "npr politics": "NPR", "npr world": "NPR", "cnbc economy": "CNBC",
     "cnbc markets": "CNBC", "cnbc tech": "CNBC", "techcrunch ai": "TechCrunch", "yahoo finance": "雅虎财经",
 }
 
