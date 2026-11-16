@@ -125,6 +125,7 @@ SOURCE_CN = {
     "wsj markets": "华尔街日报", "reuters": "路透社", "bloomberg": "彭博社", "bloomberg.com": "彭博社",
     "associated press": "美联社", "ap news": "美联社", "financial times": "金融时报",
     "the washington post": "华盛顿邮报", "washington post": "华盛顿邮报", "the economist": "经济学人",
+    "south china morning post": "南华早报", "scmp": "南华早报", "yahoo": "雅虎财经",
     "bbc": "BBC", "bbc world": "BBC", "npr politics": "NPR", "npr world": "NPR", "cnbc economy": "CNBC",
     "cnbc markets": "CNBC", "cnbc tech": "CNBC", "techcrunch ai": "TechCrunch", "yahoo finance": "雅虎财经",
 }
@@ -132,7 +133,7 @@ SOURCE_CN = {
 
 def source_name(name):
     """统一来源名：常见大报用中文名，其余保留英文。"""
-    name = (name or "").strip()
+    name = re.split(r"\s+[|–—:]\s+", (name or "").strip())[0][:30]  # 去掉“The Strategist | ASPI's ...”这种长尾巴
     return SOURCE_CN.get(name.lower(), name)
 
 
