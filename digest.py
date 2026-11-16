@@ -73,6 +73,8 @@ FEEDS = [
     ("国际", "BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
     ("国际", "NPR World", "https://feeds.npr.org/1004/rss.xml"),
     ("国际", "Google News 国际", "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en"),
+    ("中国", "BBC 中国", "https://feeds.bbci.co.uk/news/world/asia/china/rss.xml"),
+    ("中国", "Google News 中国", "https://news.google.com/rss/search?q=China+OR+Beijing+OR+%22Xi+Jinping%22+when:1d&hl=en-US&gl=US&ceid=US:en"),
     ("加密", "CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
     ("加密", "Cointelegraph", "https://cointelegraph.com/rss"),
     ("加密", "Decrypt", "https://decrypt.co/feed"),
@@ -345,7 +347,8 @@ PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [
 
 请输出一个 JSON 对象，字段如下（所有文字用简体中文）。每个分类内部按重要性从高到低排序，被多个来源同时报道的事件通常最重要：
 - politics：美国政治 2 到 6 条（选举、国会、白宫、法院、人事、联邦机构）
-- world：国际政治 2 到 5 条（战争与冲突、外交、贸易谈判与关税、各国大选与政局、央行之外的国际组织），与美国相关或影响市场的优先；没有就留空数组
+- world：国际新闻 2 到 5 条（战争与冲突、外交、贸易谈判与关税、各国大选与政局、国际组织），与美国相关或影响市场的优先；中国的新闻放进 china，不要放这里；没有就留空数组
+- china：中国新闻 2 到 5 条（中美关系、关税与出口管制、经济数据、政策与监管、台海与南海、香港、中国科技和大公司），影响市场或美国政策的优先；没有就留空数组
 - tech：科技与 AI 2 到 5 条，只限 AI 公司与模型、芯片与半导体、大型科技公司经营、科技监管与政策；游戏、影视、消费电子评测、App 更新一律不要；没有就留空数组
 - crypto：加密货币 2 到 5 条（价格大幅波动、ETF 资金流、监管与立法、交易所和项目、机构动向）；没有就留空数组
 - markets：宏观与公司 2 到 4 条（美联储、经济数据、财报、裁员、并购、监管）
@@ -365,7 +368,7 @@ PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [
 - 涨跌幅很小（1 小时和较前收都在 ±0.3% 以内）可以写“窄幅波动”。
 
 写作规则：
-- politics、world、tech、crypto、markets、pm 每条一句话，结尾标注来源编号，如 [3][7]；“新闻”“相关报道”“个股报道”的编号都可以用，不要编造编号，也不要写“相关报道称”这种字眼。
+- politics、world、china、tech、crypto、markets、pm 每条一句话，结尾标注来源编号，如 [3][7]；“新闻”“相关报道”“个股报道”的编号都可以用，不要编造编号，也不要写“相关报道称”这种字眼。
 - pm 只写由新闻直接推出的影响，不要猜测远期选举赔率；美联储方向要以新闻原文为准，不要自己说“加息”或“降息”。
 - 同一事件只写一次，放进最合适的一个分类，不要在其他分类里重复。
 - 不要添加材料里没有的背景信息（如议员所属州、职位、党派）。
@@ -392,7 +395,7 @@ PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [
 """
 
 LIST = {"type": "array", "items": {"type": "string"}}
-SECTION_KEYS = ["politics", "world", "tech", "crypto", "markets", "pm", "watch"]
+SECTION_KEYS = ["politics", "world", "china", "tech", "crypto", "markets", "pm", "watch"]
 
 
 def reasons_schema(key):
@@ -530,7 +533,7 @@ def apply_reasons(out, macro, crypto, movers):
 
 # ---------- 排版 ----------
 
-SECTIONS = [("politics", "美国政治"), ("world", "国际政治"), ("tech", "科技与 AI"), ("crypto", "加密货币"),
+SECTIONS = [("politics", "美国政治"), ("world", "国际新闻"), ("china", "中国新闻"), ("tech", "科技与 AI"), ("crypto", "加密货币"),
             ("markets", "宏观与公司"), ("pm", "对预测市场的含义"), ("watch", "接下来关注")]
 
 
@@ -557,13 +560,13 @@ def render_md(title, out, items, macro, crypto, gainers, losers, footer):
             parts.append(f"### {name}\n" + "\n".join(f"- {text(s)}" for s in out[key]))
 
     parts = [f"# {title}"]
-    for key, name in SECTIONS[:4]:
+    for key, name in SECTIONS[:5]:
         section(key, name)
     if crypto:
         rows = "\n".join(f"| {r['name']} | ${fmt_price(r['last'])} | {chg(r['h1'])} | {chg(r['d1'])} | {text(r['reason']) or '—'} |"
                          for r in crypto)
         parts.append("### 加密货币实时价格\n| 币种 | 价格 | 1小时 | 24小时 | 原因 |\n|---|---:|---:|---:|---|\n" + rows)
-    section(*SECTIONS[4])
+    section(*SECTIONS[5])
     rows = "\n".join(f"| {r['name']} | {r['last']:,.2f} | {chg(r['h1'])} | {chg(r['d1'])} | {text(r['reason']) or '—'} |"
                      for r in macro)
     parts.append("### 宏观数据\n| 品种 | 最新 | 1小时 | 较前收 | 原因 |\n|---|---:|---:|---:|---|\n" + rows)
@@ -572,7 +575,7 @@ def render_md(title, out, items, macro, crypto, gainers, losers, footer):
             rows = "\n".join(f"| {r['name']}{'' if r['name'] == r['sym'] else ' ' + r['sym']} | {r['last']:,.2f} | {chg(r['chg'])} | {text(r['reason']) or '—'} |"
                              for r in lst)
             parts.append(f"### 标普500龙头 · {label}\n| 股票 | 价格 | 涨跌 | 原因 |\n|---|---:|---:|---|\n" + rows)
-    for key, name in SECTIONS[5:]:
+    for key, name in SECTIONS[6:]:
         section(key, name)
     parts.append(f"_{footer}_")
     return "\n\n".join(parts) + "\n"
@@ -743,7 +746,7 @@ def main():
     con.executemany("INSERT OR IGNORE INTO seen VALUES (?,?,?)",
                     [(it["key"], it["title"], now_ts) for it in items])
     # 记下这一版写过的事件（每个分类前 3 条），下一版避免重复
-    reported = [s for k in SECTION_KEYS[:5] for s in out.get(k, [])[:3]]
+    reported = [s for k in SECTION_KEYS[:6] for s in out.get(k, [])[:3]]
     if items and reported:
         plain = "\n".join("- " + re.sub(r"\[\d+\]|\*\*", "", s) for s in reported)
         con.execute("INSERT OR REPLACE INTO meta VALUES ('prev_points', ?)", (plain,))

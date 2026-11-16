@@ -7,7 +7,8 @@ exec 9>/tmp/pm-news-digest.lock
 flock -n 9 || exit 0   # 上一次还没跑完就跳过
 
 PY=venv/bin/python
-[ "$($PY digest.py --check 2>/dev/null)" = "run=true" ] || exit 0
+# 加 --force 可以不管时段立刻生成一版：server/run.sh --force
+[ "${1:-}" = "--force" ] || [ "$($PY digest.py --check 2>/dev/null)" = "run=true" ] || exit 0
 
 echo "==== $(TZ=America/New_York date '+%F %H:%M') ET"
 git pull -q --rebase origin main || echo "[warn] git pull 失败"

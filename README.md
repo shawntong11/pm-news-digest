@@ -1,10 +1,10 @@
 # 每日金融简报
 
-每 2 小时抓一次美国政治、国际政治、科技、加密货币和金融新闻，加上行情和日程，交给 **Claude Haiku 5.5** 写中文摘要。按量付费，每天 9 版，大约每月 2 美元。
+每 2 小时抓一次美国政治、国际、中国、科技、加密货币和金融新闻，加上行情和日程，交给 **Claude Haiku 5.5** 写中文摘要。按量付费，每天 9 版，大约每月 2 美元。
 
 ## 每版内容
 
-- 美国政治、国际政治、科技与 AI、加密货币、宏观与公司、对预测市场的含义、接下来关注
+- 美国政治、国际新闻、中国新闻、科技与 AI、加密货币、宏观与公司、对预测市场的含义、接下来关注
 - 每条结尾标注信息来源（如 CNBC、纽约时报），点击可以打开原文
 - 加密货币实时价格：BTC、ETH、XRP、SOL、BNB、HYPE，显示 1 小时和 24 小时涨跌，附涨跌原因
 - 宏观数据表：标普500期货、纳指100期货、道指期货、WTI 原油、黄金，显示 1 小时和较前收涨跌，附涨跌原因
@@ -14,7 +14,7 @@
 
 ## 数据来源
 
-Politico、The Hill、NPR（政治、国际）、BBC World、CNBC（含科技）、WSJ Markets、MarketWatch、美联储新闻稿、TechCrunch、The Verge、CoinDesk、Cointelegraph、Decrypt、Google News（美国、国际、商业、科技）的 RSS；行情（含加密货币）和个股新闻来自 Yahoo Finance；涨跌原因另用 Google News 搜索。
+Politico、The Hill、NPR（政治、国际）、BBC（国际、中国）、CNBC（含科技）、WSJ Markets、MarketWatch、美联储新闻稿、TechCrunch、The Verge、CoinDesk、Cointelegraph、Decrypt、Google News（美国、国际、中国、商业、科技）的 RSS；行情（含加密货币）和个股新闻来自 Yahoo Finance；涨跌原因另用 Google News 搜索。
 
 去重：已经处理过的新闻记在 `data/seen.sqlite`，下一版不会再出现。上一版的要点也会交给模型，避免重复报道。本期没有新新闻时，不调用模型，也不收费。
 
