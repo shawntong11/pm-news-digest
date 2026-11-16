@@ -31,28 +31,20 @@ cd /Users/shawntong/pm_bot_us/news_digest
 - `data/digests/YYYY-MM-DD/HH00.md`：历史版本
 - 每版生成后会弹出 macOS 通知
 
-## 云端定时运行（GitHub Actions，默认）
+## 云服务器定时运行（默认）
 
-`.github/workflows/digest.yml` 在 GitHub 的服务器上运行，电脑关机、休眠都不影响：
+在 DigitalOcean 服务器 `162.243.30.99` 上运行，代码在 `/root/pm-news-digest`：
 
-- 每小时第 5 分钟唤醒一次，由 `digest.py --check` 按美东时间判断这次要不要生成；GitHub 的定时有时会晚几分钟到半小时，错过的版本下一次会补上
-- 生成前先用 `events/sync_events.py`（从 `market_calendar` 复制）同步事件日历到 `events/calendar.db`
-- 生成的摘要和去重记录（`data/`）会提交回仓库，在 GitHub 网页或手机 App 里打开 `data/latest.md` 就能看
-- 需要在仓库的 Settings → Secrets and variables → Actions 里添加 `ANTHROPIC_API_KEY`（Telegram 推送暂时关闭：代码支持，但工作流没有传入 Telegram 的密钥）
-- 手动生成一版：仓库 Actions 页面 → news-digest → Run workflow，勾选 force
+- cron 每 15 分钟调用 `server/run.sh`，由 `digest.py --check` 按美东时间判断这次要不要生成；每一版（8、10 … 22、0 点）只生成一次
+- 生成前先同步事件日历到 `events/calendar.db`，生成后把 `data/` 提交并推送回 GitHub，在 GitHub 网页或手机 App 里打开 `data/latest.md` 就能看
+- 推送用服务器上的专用部署密钥 `/root/.ssh/pm_digest_deploy`，只对这个仓库有写权限
+- API 密钥在服务器的 `/root/pm-news-digest/.env`
+- 日志：`ssh root@162.243.30.99 tail -50 /root/pm-news-digest/data/server.log`
+- 停用：`ssh root@162.243.30.99 crontab -e`，删掉 pm-news-digest 那一行
+
+GitHub Actions 的工作流只保留手动运行：仓库 Actions 页面 → 每日金融简报 → Run workflow，勾选 force。
 
 本地拉取最新摘要：`git pull`
-
-### 准时触发（cron-job.org）
-
-GitHub 自带的定时触发经常被丢掉（实测一天只触发了几次），所以用免费的 cron-job.org 每小时调用一次 GitHub API 来启动任务：
-
-1. GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token：只选 `pm-news-digest` 这个仓库，权限 Actions 设为 Read and write
-2. cron-job.org 新建任务：
-   - URL：`https://api.github.com/repos/shawntong11/pm-news-digest/actions/workflows/digest.yml/dispatches`
-   - 时间：每小时第 5 分钟，时区 America/New_York
-   - 高级设置：方法 POST；请求头 `Authorization: Bearer <你的 token>`、`Accept: application/vnd.github+json`；请求体 `{"ref":"main"}`
-3. 返回 204 表示成功
 
 ## 本地每小时运行（launchd，已停用）
 
