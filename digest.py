@@ -84,6 +84,9 @@ FEEDS = [
 MACRO = [
     ("ES=F", "标普500期货", "stock market today S&P 500"), ("NQ=F", "纳指100期货", "Nasdaq stocks today"),
     ("YM=F", "道指期货", "Dow Jones today"), ("CL=F", "WTI原油", "oil prices"), ("GC=F", "黄金", "gold prices today"),
+    ("EURUSD=X", "欧元/美元", "EUR/USD euro"), ("GBPUSD=X", "英镑/美元", "pound sterling GBP/USD"),
+    ("JPY=X", "美元/日元", "yen dollar USD/JPY"), ("CAD=X", "美元/加币", "Canadian dollar loonie USD/CAD"),
+    ("AUDUSD=X", "澳元/美元", "Australian dollar AUD/USD"),
 ]
 
 # 加密货币实时价格
@@ -361,7 +364,7 @@ PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [
 
 涨跌原因的写法（macro_reasons、crypto_reasons、movers）：
 - 一定要写出原因：依据该品种下面列出的“相关报道”，以及“新闻”部分里直接相关的报道，概括报道中说的驱动因素，30 字以内，例如“特朗普称不太可能重启空袭，油价回落”“AI 芯片股遭抛售，英伟达 CEO 辞职拖累”“BTC 跌破 6.5 万美元引发多头爆仓”。
-- 宏观品种（股指期货、原油、黄金）的原因通常就是当天大盘或商品的主线新闻，可以用“新闻”部分里的宏观新闻；BTC 之外的币如果报道说是跟随 BTC 或整个加密市场下跌，就写“随 BTC/加密市场整体下跌”加上整体原因。
+- 宏观品种（股指期货、原油、黄金）的原因通常就是当天大盘或商品的主线新闻，可以用“新闻”部分里的宏观新闻；汇率要写清是哪一边的因素（美元整体强弱、美联储预期、对方央行如欧央行/英央行/日本央行/加拿大央行/澳洲联储、该国经济数据、油价对加币、中国需求对澳元、日本政府干预等），以报道为准；BTC 之外的币如果报道说是跟随 BTC 或整个加密市场下跌，就写“随 BTC/加密市场整体下跌”加上整体原因。
 - 原因必须来自报道原文，不许编造；“避险需求”“资金轮动”“市场情绪”这类空话只有在报道原文这么说时才可以写。
 - 原因要能解释涨跌的方向：只是同一家公司的其他新闻（例如被罚款，股价却上涨），不能当作原因。个股涨跌幅是上一个交易日的，周末发布的报道一般不是原因。
 - 所有报道都没有提到驱动因素时，只写“无明确消息”这五个字，不要再附加“相关报道称……”之类的说明。
@@ -448,7 +451,7 @@ def build_prompt(items, macro, crypto, gainers, losers, events, prev, now_et):
     )
     macro_txt = []
     for r in macro:
-        macro_txt.append(f"- {r['name']}：{r['last']:,.2f}，1小时 {fmt_pct(r['h1'])}，较前收 {fmt_pct(r['d1'])}")
+        macro_txt.append(f"- {r['name']}：{fmt_price(r['last'])}，1小时 {fmt_pct(r['h1'])}，较前收 {fmt_pct(r['d1'])}")
         macro_txt += news_lines(r)
     crypto_txt = []
     for r in crypto:
@@ -568,7 +571,7 @@ def render_md(title, out, items, macro, crypto, gainers, losers, footer):
                          for r in crypto)
         parts.append("### 加密货币实时价格\n| 币种 | 价格 | 1小时 | 24小时 | 原因 |\n|---|---:|---:|---:|---|\n" + rows)
     section(*SECTIONS[5])
-    rows = "\n".join(f"| {r['name']} | {r['last']:,.2f} | {chg(r['h1'])} | {chg(r['d1'])} | {text(r['reason']) or '—'} |"
+    rows = "\n".join(f"| {r['name']} | {fmt_price(r['last'])} | {chg(r['h1'])} | {chg(r['d1'])} | {text(r['reason']) or '—'} |"
                      for r in macro)
     parts.append("### 宏观数据\n| 品种 | 最新 | 1小时 | 较前收 | 原因 |\n|---|---:|---:|---:|---|\n" + rows)
     for label, lst in (("涨幅榜", gainers), ("跌幅榜", losers)):
