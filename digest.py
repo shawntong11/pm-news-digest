@@ -83,8 +83,8 @@ FEEDS = [
 # 宏观数据表：(代码, 名称, 用来找涨跌原因的 Google News 搜索词)
 MACRO = [
     ("ES=F", "标普500期货", "stock market today S&P 500"), ("NQ=F", "纳指100期货", "Nasdaq stocks today"),
-    ("YM=F", "道指期货", "Dow Jones today"), ("CL=F", "WTI原油", "oil prices"), ("GC=F", "黄金", "gold prices today"),
-    ("EURUSD=X", "欧元/美元", "EUR/USD euro"), ("GBPUSD=X", "英镑/美元", "pound sterling GBP/USD"),
+    ("YM=F", "道指期货", "Dow Jones today"), ("CL=F", "WTI原油", "crude oil prices"), ("GC=F", "黄金", "gold prices today"),
+    ("EURUSD=X", "欧元/美元", "euro dollar"), ("GBPUSD=X", "英镑/美元", "pound sterling GBP/USD"),
     ("JPY=X", "美元/日元", "yen dollar USD/JPY"), ("CAD=X", "美元/加币", "Canadian dollar loonie USD/CAD"),
     ("AUDUSD=X", "澳元/美元", "Australian dollar AUD/USD"),
 ]
@@ -204,10 +204,16 @@ def search_news(query, n=5, days=1):
     """用 Google News 搜索最近的相关报道，用来解释行情涨跌（这类标题通常直接写原因）。"""
     url = ("https://news.google.com/rss/search?q=" + requests.utils.quote(f"{query} when:{days}d")
            + "&hl=en-US&gl=US&ceid=US:en")
-    try:
-        f = feedparser.parse(url, agent=UA)
-    except Exception as e:
-        print(f"[warn] 搜索 {query}: {e}", file=sys.stderr)
+    f = None
+    for attempt in range(3):  # Google News 偶尔返回空结果，重试两次
+        try:
+            f = feedparser.parse(url, agent=UA)
+            if f.entries:
+                break
+        except Exception as e:
+            print(f"[warn] 搜索 {query}: {e}", file=sys.stderr)
+        time.sleep(2)
+    if not f or not f.entries:
         return []
     out = []
     for e in f.entries[:n]:
