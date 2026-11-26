@@ -1,86 +1,84 @@
-# 每日金融简报 11-26 12:00 ET
+# 每日金融简报 11-26 14:00 ET
 
 ### 美国政治
-- 特朗普要求调查选举前发布的三季度GDP数据，并称其存在“有目的”的错误（[The Hill](https://thehill.com/homenews/administration/6244608-trump-revised-gdp-data-probe/)）
-- 特朗普在社交平台上以“lowlife”攻击《纽约时报》记者 David Sanger，此前该报分析其在推动市场与经济议题上的成效参差（[The Hill](https://thehill.com/homenews/media/6244597-donald-trump-new-york-times-criticism-thanksgiving/)）
+- 法院支持纽约市租金冻结，被视为 Mamdani 可负担性议程的胜利（[Gothamist](https://news.google.com/rss/articles/CBMirgFBVV95cUxOSk1tcnphSHJoRUhqSGdRdkR4bEl1c2MwTktmMkJ3dlFMWVpXRzh5d3BCdFkxd2RsbnpQaXpJLVVXWWJNV1N1VXdqWm9ZSEZKTzlnYjNoTjNlN05Nc0NpblV3RjE3blVnYlZFS010SUdrNXhQLTUySU1YMWluNUF3M0tVeWxCSGdKTXlHbWFGSndIM2RGTzlwZW5nU0VkVkFScUV1TjZTZk93c016WXc?oc=5)）
+- Nate Silver 称期中选举动荡后特朗普“绝对”有可能被罢免（[The Hill](https://thehill.com/homenews/administration/6244759-nate-silver-donald-trump-impeachment-post-midterms/)）
+- 共和党在期中选举中遭受重创，特朗普开始最后两年任期（[The Hill](https://thehill.com/homenews/analysis/6242015-iran-war-impact-election/)）
+- IRS 对高收入者的审计大幅下降，IRS 称部分原因是转向更复杂、潜在回报更高的案件（[The Hill](https://thehill.com/business/6244500-irs-audits-high-earners/)）
+- EPA 称在爱荷华州陆军爆炸后空气监测未检出空气中铅（[The Hill](https://thehill.com/policy/energy-environment/6244772-lead-azide-airborne-epa-lee-zeldin/)）
 
 ### 国际新闻
-- 特朗普与北约秘书长 Rutte 共同敦促俄罗斯不要扩大对乌克兰的战争，双方和谈进展甚微，冲突即将进入第五年（[The Hill](https://thehill.com/policy/international/6244695-donald-trump-mark-rutte-meeting-russia-ukraine-war/)）
-- 特朗普称其在中国会谈期间要求普京停止俄罗斯在欧洲的一切军事侵略（[UNITED24 Media](https://news.google.com/rss/articles/CBMiywFBVV95cUxPbkdmYnJlb0ZsYmpOQ19PU0V3b0dhVGZHcnVYbHJJUFJDYTN2dzV4Y2luOEtoNEdjUEdSaVpveml5Q0xuTm9telJkN2R3UUoyRVU4QzZfQUZiRVlFTURNUUZIUDRSNHh1THA2SkI5c2IySTJEd2tLVE1vTVpjYm1OaDdwWXpfdTlIOTVXaThteU9iQ0tmaF9PYldpLU5zaGl3UEhtaWJoZHVER0VHZGVWZm50VVRnZ1FTMUpBS2E2V2VwY09sY2dBY3F1OA?oc=5)、[Anadolu Ajansı](https://news.google.com/rss/articles/CBMiwwFBVV95cUxONHRSckFad2xlMk5relh1TnBleUxKWmFWTEJfVmRXemxFWWlJQTB2ck0tcVgzbzVOVHV4YVpOZHZrbW1iUE4tMWd1Mml5ak1rT016SVgyMDRyRmFKZUNmOXVPejBvbk0wY1Q4RXZlVW1LSG5MRlB1Q2NqcHh5TWJrRjVpZ2NPNmFTV0FCdjVBZ0xreVdlQk5FM25DNlIwanA1UE04OFVfcXBrQmxqVmhzNmFQSW5xNW0xSWhFZ3dvRUhLTU0?oc=5)）
-- 意大利称两名公民在伊朗对科威特的袭击中丧生，二人为德国公司 Rheinmetall 的技术人员（[BBC](https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss)、[CNN](https://news.google.com/rss/articles/CBMijAFBVV95cUxQNUdlenhjamNKTzFaUG9EMVdzb0wwbmlNd1dYLU15Q2xDWDVuYVN6cWtrZlUyRTMxeGdKbVMzaXh0SXNRS1RGUUd1bnhIS3dtYXpLTi1BQkJjSm5SaUhWcENBTlRyZ2dlNEFnbUFOWkdxYlBYUC1sN2NUR0pDc2hDNjR3SF91ODVpOHRCUw?oc=5)）
-- 曼谷一座炼油厂爆炸，9人受伤，其中3人伤势严重（[BBC](https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss)）
-- 以色列在加沙打死10人，哈马斯正在权衡应对（[路透社](https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzFiM29KUVhvZHZUYTV1SWtlLXNYbXg3ZzRodFVmanZkNzJsczZ4UldfRkNkSW1fVDhMaTFYOW9ETUxXaXFKcktCTThoYnBYS21mVjQxYkNWM19MR1h0WHNSdjlGenRTNkExU2RKU0ZKNUhCRWR0OVU2VmFqTUJHeE5QMVNybDE4Qk1WTmp5VGgyWDV0NjhaM3h4Ulp1bWZDUThnSlI0TFMwMnQzNk5KQnZXVTRCUUxvc2FLbmlDYVREeHpwOUpV?oc=5)）
+- 伊朗否认对科威特袭击负责，意大利外交部称两名遇难者为德国公司 Rheinmetall 的技术人员（[BBC](https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss)）
+- 特朗普政府对14个国家实施新关税，包括中国和日本（[Denver Gazette](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbXViTVlRQWNTUTBUeFRRWVdQZjFiOGZhbnZDR0JfRXNzOTZjQ3FjNVNZdGh1bG85cUdnLXFtd29Mek96ZWNLbWRhcm9SX1U4NGVPX2VURlo1TFp3VzJnT3BlRnF2aFNqOG9VeHR5MGJZOWYyUENYZTFRMWNiRXNROFZSOFlXLUtWRnI2UktUTklUU1ptbHNiNmVrLTZaZjZqWmJlOFlES09ndWM?oc=5)）
 
 ### 中国新闻
-- 特朗普新一轮关税针对中国、欧盟等，中国与巴西等国谴责其“不会让任何人受益”的关税威胁（[The Hill](https://thehill.com/policy/international/6244629-trump-global-tariffs-china-japan-eu-fallout/)、[Time Magazine](https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0o3Tl9wSlp6TkNJeGc2VW5oT1hPeHR2dGZpcnIzSkF2N3R2REt1WTZxZXNoeGVOZjZUZWo5dVNzQ0RFUVVLOXM3cmVRX0tIY3ZfU09KSXBhY3NqNzlHaHJzUUk5MmdsbEE4cW5SN3k3Nk0yRUt1bUJLV1UwXzhodkNYTXFUZDZmc0x4bg?oc=5)）
-- 中日就船只事件相互指责（[Taipei Times](https://news.google.com/rss/articles/CBMieEFVX3lxTFBxdzBPeGpMbUZuLXJtZlNZNGYwTms2RWRJZTA2c3FyeGE2Mlo2UXVJTjNmZm9RRU45U3FUNTd1cjhYLWZ4eTR5dGc5WE8zcWNZb3B4NndiOWw1SnA0NGY0blV1NmM5bTJMalBQWDZhZVdvVWlNb3lKSA?oc=5)）
-- 台湾地方选举聚焦内部议题，中国密切关注（[Daily Gate City](https://news.google.com/rss/articles/CBMi9wFBVV95cUxON2I1MFc2TFRsX2o1Nkd1cFVrdW83S2RBNThHbUZTWl9yR19aTENzai0xRl9vSXBVY0t2SE1MNThGNUZhVlVRZ1NDN3d1TVpDSTBQazFXTGhKTGdCLTFOUFhTaHpxVTdpenEzaWE3ZGN6WnNIN0lLWXBIUVYwTF8yZnBpN1RTTi1kLTdYcjVoNmlKcy0ydGctTjBWREFiTmFhSDE5Y3ZzY09BMi1WekNaWDNqTDhjTlFhVzdmNUpacTBkcV8wSWdoRl9CbExiOVdzQ3dFejQ4aGRXSEVjUkhjck5TRF82RjA4cGNRZ1lFajktTmNCZWtJ?oc=5)）
-- 拜耳将投资至多5亿欧元扩建北京生产基地（[The Pharma Letter](https://news.google.com/rss/articles/CBMirwFBVV95cUxOemRJTWRoU0ZJdm5TbHBKc0FSY3ZMQlRBZ196VmF3dXVvQUxvNENwY2lXS29ueTA0NmE5MlA3RkdXOHBvZzE0TkowLTZNRjZPYzJ0NjRPUEZ0ZDhlQVRWdEZnRy1YUkFFc1VJM0JDOFZFSGJON1BBTzlJZC1QcVFYcTVOejJmSGhwZGlXWXBxVmpTeXZKWnJ2UkNmay1WTXJKNDVFVlpDY3JMMHEtdGVz?oc=5)、[FirstWord Pharma](https://news.google.com/rss/articles/CBMiU0FVX3lxTE13azZjcHdkYmJQaXBuWnIyTVF2dTNBRE1SbG9tMHJaaTdZdm9jY1BYaGpiZlIyRk90TUtLM0ZlZmQxRXhfRldOUUtjNjdleVFtYWsw?oc=5)）
+- 中国拒绝美方提出的额外20%关税提议，并反对拟议关税（[Caixin Global](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGdaRXBTOFB0S2FoZ0VVRkM0RzJyTjY1bnR1US1fZGF3ZE1lMnVBMmdhU0s2eXE3dGt5U3U3QkNxank2ZmJyNHdYSGFuQ01hNUs1bWpiMkpZU0YzUmtXT2xFNlhuVTNMbjFVY09Hb0k2VFpqTXNhM2puYlRYYmhkREQ2NDdIVFlXRUhUd2lqYTJqWWxSNGFmNHlHS1dtZTNRbXZ2VWVEU0Q?oc=5)、[China Daily Global Edition](https://news.google.com/rss/articles/CBMiggFBVV95cUxQVU1rTi1CMkNLRk1wWWR1QU5SM29kU2FrNE1zN2xEQjRxcGp3d3hpalhUOG14N3RDV200MnlUcmI3dDJVTl9lTDVOZHFsT0t5c0hLbzktaU9sblE4dE83TTdVNHhCU2R5MVZrRVFJc1h5bVpTczROT1dNalBfVjdDcGln?oc=5)）
+- DBS 称美国更高关税对中国增长风险有限（[FXStreet](https://news.google.com/rss/articles/CBMinAFBVV95cUxONEpJTVVJaE9ZSUNVMzlSNnNRTE9QdEtTWlhvYUlXeWtpYVI0YkhhSndUU3RvX216OUlUWHBnS3Y4TUl0UjAtMmNYMjVMTHJrSEVBbjZkTGtqVUxqbjhJZEh1MC1zRUNhZ2xkeDR1SmYyMXFuLURFdGhOTWI0VWdaaEN6WXJIRG9yc3E3alVIZnRDSG1ZQlJyS2tLemc?oc=5)）
+- 分析称中国正在为“后特朗普时代”确保既得利益（[雅虎财经](https://news.google.com/rss/articles/CBMimgFBVV95cUxQMFlieEZoRE5XbHZYbEZBcnRyYXI3RXBjY1B3ZllEeGRac1ZlZzI2N2YtVlk2NmtIb0l6ZHlleERLYnhHOXQ1bU9NNGNydWVpT3VRUkFzeUhKSE04NVRnWkVGZjNtYWxxYlAtU1c4YkZBaUo3d3dtYUQ2OVNpMUx0eGJ5d1pfU0tGQndtb2pzZFhFd1ZCbFdoMU1R?oc=5)）
+- 报道称中国无人机正在重塑亚洲各国军队（[彭博社](https://news.google.com/rss/articles/CBMiogFBVV95cUxNcG9NUjFZNFZyYjBxQzRIZFNwcktpbGFmdUFHcUZsZm5IdWtfbDVXNFJ0ZUNycmlKbzdLWkM0dTBMMUxaNlR0cGFSakVZdndsNk0wQVVHZk9iS0RCSmxFaGdpTDcweHA1VVZkTlVEM2FxZEdZVG5STjU0M1hFTGdXdTY5OHNWOEZVZjRWY1VWNE5QdXZpU3Bvbmtjb256aGxxVlE?oc=5)）
 
 ### 科技与 AI
-- 苹果将一款中国开发的 AI 聊天机器人从 App Store 下架，原因是有报道称其向未成年人发送露骨信息（[Fox Business](https://news.google.com/rss/articles/CBMixwFBVV95cUxNWFNhOV9aU2ZfZUF1alBpT2pEZVN4UlBxcHRITG9NY2YzeGhxWmNORF9jdnBDcUNxUjhWNnFnMzRtempOUVo0dDZLNTgwU3VidDgySUJITFdrNUJWSjB5ZFJvTW54SHphSVBYa1pKbDZtOEtkMEpNbUZkMGRzWEMzLUFfdFZnVlZHZFpqWWJKRm0yR0NFcnNHWFlwRkZiODdwWDFfN1B4V05VQWpvcUt5U0ZHWlo0NmFXcUhxNGZSblg4OF9RamtZ0gHMAUFVX3lxTE80eEFNTjNFZm9VSFBqdnU5d0ZsakItdGttVmplYW9xRElHMDJ0a3B1RTdLanNQNWlzNm5kdHliWFE5NkpTcGlfYllSbFJLTFhjd3pRZ0NKOVBjdTZkUlo2TVBLdnBJNk5HTEdwRkRaZTBYUmM1c2xmZ3JYOEI2eEYtWWdRZ2JMTG9iampEdjNmcTNuaEkyeUdWd1FabmlERGs4MWwyTm5rMkpHeW9pOWowV1ludFY0MEJTNHBHLW9mN2pQMVNRaVd3c0s5NQ?oc=5)）
-- OpenAI 修复 ChatGPT 计费错误，订阅用户的使用额度将更快耗尽，但可获得一次性免费重置（[Decrypt](https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse)）
-- FCC 批准 SpaceX 发射太空数据中心星座，但该公司目前尚无可用卫星，部署期限长达数年（[24/7 Wall St.](https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/)）
+- 特朗普将于下周访问亚利桑那，考察台积电扩建芯片工厂的大型计划（[PBS](https://news.google.com/rss/articles/CBMiywFBVV95cUxOaEhPWWxhb0Z0QUxzOVF2WTZSMUFJQ2pGRlRGMmY1ZDVNenEtX21Tc3I1XzRVYUxENnNfLTVMd29scFFqc2NDNUpnb1BIU2xaWmlHYXQySkxUODBncUg1MkpnalhGNURHa1hFcGZIZGtQLWMwQmgyenkwN0dSS05vUUd2WWdOc1pIR2F5Wm8zZVROTnNzdTZZSnNLZFExYUhTcHFmUTd6YWxld3p3UUEwLW9qdldQYTFfVjNBY2xEVXhtbEc5ZzFDSUNxc9IB0AFBVV95cUxQVTJacjNhWFRHc1prbUJvSGF4T0N2TGlmM09NanZrX01GVXctekZWZVhQZUdmQlFEbEN5N3JtdFdfUEtoTVp5cXZSTXpQRkZkdFNxWWxMbmNlbFhINk5RdDNEM2ZoeUxpVHNodWpOaGpkU19yM1NsS1NfRHloQzR2Q2hTVlVqRFprZnlRcUhfdnhIcGZ0cl9zNFJzaHdab1BjMW5xb2J2NjVXZHdxNGhmUXgycGFhdGVIOWxMVVpDTlhLX1c4cjlvcHBuUFB4anRh?oc=5)）
+- 特朗普促使黄仁勋重返英伟达 CEO 职位，投资者此前尚未充分评估其价值（[华尔街日报](https://www.wsj.com/opinion/does-nvidia-really-need-its-brilliant-nutjob-33b21d47?mod=rss_markets_main)）
+- Google 宣布自明年起，部分 Android 应用开发者须公开电话号码和地址（[The Verge](https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu)）
 
 ### 加密货币
-- 现货比特币 ETF 有望创下单月最大资金流出纪录（[CoinDesk](https://news.google.com/rss/articles/CBMirgFBVV95cUxOWFBld3hBWS0tVGRiRjJxdS1tRkVPbTV1c0Rzb2VfUGpXRVVpZlFMdUxEYXhQTUotQnVMbzc5X3dHVUVnZ2N6UmR2RGhHWWRJRG84WkFtaUktZDNRNzJCaDhLZ1dOU1U4S29yS2NIUHgwcVdjYklMMF9rMThsSVFPYTJnVG1kdjBTMVY5X0VkZi1FOU1vQUY1dTQ1cVY2SUkwZFdianZrLTJOekVSQUE?oc=5)）
-- 休眠比特币供应上升，报道称这一行为曾出现在过去熊市的筑底阶段（[CoinDesk](https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases)）
-- Franklin 加密指数 ETF 将于12月1日左右纳入 HYPE 代币，Hyperliquid 也在为 ETF 纳入做准备（[Crypto Briefing](https://news.google.com/rss/articles/CBMijAFBVV95cUxNSXdSU0ozSThrQzR4S0VtdjBXeERfblRoRjhBUDVFQnVjTDliZDFSMjBTTmZIcVFUbGtPcm5nQktDNl91M0xsOXpmWjVHMkozYkJlTXRRdGRoMjQwaXZGRWNHYmNMcy1qQ09YamJMcm5oSFFsZS1QNWZ4Zm9fclZXdEMwOUo4ZnFOUE5GQQ?oc=5)、[Traders Union](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUnZGX0xzR3pJVkNKQm5LVGk1OGFyT1AwQlkxRHNvTGZESG5SUGZ2bllubDlPYXpuWFdOM01FVzV1SGVFQVZGUEREWjREbk1JQTc4Q0FGTTdkRWhxdzJEeE8zS1oxMlZSQXF2czBFSGxoY2w1ajlxODh5Q0g4VHdxQlVyWFIwcVFkX1BKcUdkclZDZGdsUjdZNEZVOU1aODBTSlllZklSRzY?oc=5)）
-- 西班牙反洗钱部门 Sepblac 的权限与加密账户冻结机制引发关注，欧盟券商能否使用吉尔吉斯斯坦交易所或将投票决定（[Cointelegraph](https://cointelegraph.com/news/how-eu-brokers-could-lose-access-to-kyrgyz-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)）
+- BTC 守住 6 万美元上方，但死亡交叉笼罩感恩节反弹（[Decrypt](https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery)）
+- 西班牙拟授权金融情报机构冻结加密账户，企业不合规将面临罚款（[Cointelegraph](https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)）
+- 开发者发现一笔小额支付可暴露比特币钱包背后的 IP 地址（[CoinDesk](https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds)）
+- 一名以太坊 ICO 鲸鱼在十年后开始抛售（[BeInCrypto](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZkd1eEJ2UElNTHJTdTE3dndvRWNrZmg0cTFDb3ZKMmNFNFZfaDU4c2NzTmVzdVU1YnJlN2hhSTNxQ0pPVE5DVjhSYzRHZU5fUVVKWW9UVnJZZmQ5UEFHZEFlTDdMUTVh?oc=5)）
 
 ### 加密货币实时价格
 | 币种 | 价格 | 1小时 | 24小时 | 原因 |
 |---|---:|---:|---:|---|
-| BTC | $60,469.99 | +0.03% | +1.60% | 现货比特币ETF有望创单月最大资金流出纪录（[CoinDesk](https://news.google.com/rss/articles/CBMirgFBVV95cUxOWFBld3hBWS0tVGRiRjJxdS1tRkVPbTV1c0Rzb2VfUGpXRVVpZlFMdUxEYXhQTUotQnVMbzc5X3dHVUVnZ2N6UmR2RGhHWWRJRG84WkFtaUktZDNRNzJCaDhLZ1dOU1U4S29yS2NIUHgwcVdjYklMMF9rMThsSVFPYTJnVG1kdjBTMVY5X0VkZi1FOU1vQUY1dTQ1cVY2SUkwZFdianZrLTJOekVSQUE?oc=5)） |
-| ETH | $1,690.67 | +0.03% | +0.79% | ETF资金净流出超12亿美元，ETH仍在1700美元下方（[FXStreet](https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOVZKSlRfVXRPWDJtT1VlWWtKbVJTcWh1Ul9FWjkycl81VEtYZDV1d01hdE9PYktFVnQxbjdWOHlPbnhJd01qdXU4VzBuM015Vno2bFBqVWVGaDZQdE9PcG5GM3N0OUhLYk9hQjRhTkhvWGJhNXF3SFpVUEFDUXBQYUN6QnpwRGhxMktMVHA0OWpFYlVKRXlDekc1eXhQdS00bXNKZ1hnZG9XMU5lWG5FNDNVZFYtakJESDZ3N1lfcThzbFd1YlpwZEoxQnpIRmNUU0E?oc=5)） |
-| XRP | $0.9500 | +0.05% | +2.85% | 无明确消息 |
-| SOL | $70.94 | +0.03% | +2.28% | 无明确消息 |
-| BNB | $551.23 | +0.05% | +0.66% | 无明确消息 |
-| HYPE | $60.51 | +0.08% | +1.26% | Franklin加密指数ETF拟于12月1日左右纳入HYPE（[Crypto Briefing](https://news.google.com/rss/articles/CBMijAFBVV95cUxNSXdSU0ozSThrQzR4S0VtdjBXeERfblRoRjhBUDVFQnVjTDliZDFSMjBTTmZIcVFUbGtPcm5nQktDNl91M0xsOXpmWjVHMkozYkJlTXRRdGRoMjQwaXZGRWNHYmNMcy1qQ09YamJMcm5oSFFsZS1QNWZ4Zm9fclZXdEMwOUo4ZnFOUE5GQQ?oc=5)） |
+| BTC | $60,407.66 | +0.01% | +1.00% | 守住 6 万美元上方，但死亡交叉笼罩感恩节反弹（[Decrypt](https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery)） |
+| ETH | $1,697.99 | -0.01% | +0.92% | ETF 资金流出超 12 亿美元，ETH 持续低于 1,700 美元（[FXStreet](https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOVZKSlRfVXRPWDJtT1VlWWtKbVJTcWh1Ul9FWjkycl81VEtYZDV1d01hdE9PYktFVnQxbjdWOHlPbnhJd01qdXU4VzBuM015Vno2bFBqVWVGaDZQdE9PcG5GM3N0OUhLYk9hQjRhTkhvWGJhNXF3SFpVUEFDUXBQYUN6QnpwRGhxMktMVHA0OWpFYlVKRXlDekc1eXhQdS00bXNKZ1hnZG9XMU5lWG5FNDNVZFYtakJESDZ3N1lfcThzbFd1YlpwZEoxQnpIRmNUU0E?oc=5)） |
+| XRP | $0.9523 | -0.04% | +1.51% | ETF 资金回流，交易所流出增加（[Cryptonews.net](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5odHpQYU9xdU9wQXRrWmZFYmpUX0x1aGFFUFB5Wnk1QndQSHJ3UWw0ZUZSbWRrcFFTSzdyTDFkWEx4Q2ZMT25QcnNVRVFKSWxsQU1PRHhmNl84Q0U?oc=5)） |
+| SOL | $71.22 | +0.00% | +1.38% | 无明确消息 |
+| BNB | $552.71 | -0.01% | +0.20% | 窄幅波动 |
+| HYPE | $61.53 | -0.05% | +0.85% | Franklin 加密指数 ETF 将纳入 HYPE，市场备战 ETF 纳入（[Cryptonews.net](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GdFM5d2RtYzQ2V3UwRmFpTkRqSEpLTzRxMHNrVXpxcVNycDhrUkZ3cmlOeUlQU3d1VUpKbFBMNTNNNXIteGc0Q1paMVRnaTFDUjR0dm9idWhfUQ?oc=5)、[Traders Union](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUnZGX0xzR3pJVkNKQm5LVGk1OGFyT1AwQlkxRHNvTGZESG5SUGZ2bllubDlPYXpuWFdOM01FVzV1SGVFQVZGUEREWjREbk1JQTc4Q0FGTTdkRWhxdzJEeE8zS1oxMlZSQXF2czBFSGxoY2w1ajlxODh5Q0g4VHdxQlVyWFIwcVFkX1BKcUdkclZDZGdsUjdZNEZVOU1aODBTSlllZklSRzY?oc=5)） |
 
 ### 宏观与公司
-- 沃尔玛过去一个月上涨10%，同期纳指100下跌11%，资金从科技股转向消费股（[TIKR](https://www.tikr.com/blog/walmart-soars-10-in-a-month-as-tech-sinks-michael-burry-calls-it-one-of-the-markets-generals?ref=yahoofinance&tlnk=yf-261126-h2xh8829)）
-- 道指重新站上50,000点，标普500与纳指表现疲弱（[CryptoRank](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXVJdG9wWmZUQVBxc0VKZU9sTDg0UDhiWW81RXVka2NlRGYzbnJmOW5iVFhGYWJqOW1GbHRvVnpqMHFpRDVMSFpIakYwM0lfTklNYjl6V0Z6OWkwYThUYU9tWkw4RmtTRy1ZMkpVcEkwQ1hyeDV2dDhZQmoyT1BkMmc1dW9aOWtmTjhERE5NWW50ZU53V1pEcElYZW5RaFBiekpPSm15c3dONkdCSENiMjRWdl9FVHE1?oc=5)）
-- BIS 行长 Pablo Hernández de Cos 被报道将出任欧洲央行行长，欧元对美元小幅走高（[华尔街日报](https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-risk-off-sentiment-might-weigh-13bdefa1?mod=rss_markets_main)、[CNBC](https://news.google.com/rss/articles/CBMifkFVX3lxTE0wbFZhU2RTR2lzYXhWdFpyZmFnSmJ4TW1DYXJiVmJaaE9NVGROMEhEajM2TzNlTjRrbTZFSlpxQ0gxa2FXbk9CV3ZMTTl0SVdOZHNDa3hPMEp2SkRYTzZobGxmOG0wX0tVa3drckwwV29xUUs1bWRIVlhFVXVlQdIBgwFBVV95cUxNYzRrZDU0VWpsdFBpTEt6b1dnd2paU1pSOG5hdTljQi1yZkZBdU5SVTgzeGQxNVFPS3pLUWw0SXUzVEJVSFBzZVZnc09mcEhYbVQ5ZWMzX3NwajRnMERfSTBGR2pkX2s5MzNHdGZXd3VZbTI0MlNieUMwZmd6OEdRSURlTQ?oc=5)）
+- 据路透社报道，Altria 正探索以现金竞购 Imperial 的可能，并或涉及拆分（[路透社](https://news.google.com/rss/articles/CBMiywFBVV95cUxNYjc1S044enVDVHpleXVSM2YwME5kOGM4azBiSF9QNVc1Q2MyYmNRVFNJZ1p1dFVSOXdKTGxqYi1pU1dhdzcycGQ0dm5pN1NaRmZUendRME9GRVFfNHluZ0pUZkpsc0xLX1pNb1ZFdEk0TU8yTjZxbklUbC04ZkNJbWt6V21qUEowclUwME5KY1ZfUlVXaUlPQm9faDZPVzB4clJfZkFLekxaQVNWaldMT0ZwSFl3LVYwblRiaXYzNEt3dzBMck1WUkp1QQ?oc=5)）
+- 经济学家 Robin Brooks 警告，若美联储在 FOMC 静默期前未释放鸽派信号，12 月股市可能出现“meltdown”（[Cointelegraph](https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)）
 
 ### 宏观数据
 | 品种 | 最新 | 1小时 | 较前收 | 原因 |
 |---|---:|---:|---:|---|
-| 标普500期货 | 7,247.75 | +0.12% | +0.42% | AI交易反弹带动美股期指走高（[彭博社](https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5)） |
-| 纳指100期货 | 26,389.75 | +0.24% | +0.43% | AI交易反弹带动纳指期货上涨（[彭博社](https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5)） |
-| 道指期货 | 50,415.00 | +0.03% | +0.71% | 道指反弹并重上50,000点（[CryptoRank](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXVJdG9wWmZUQVBxc0VKZU9sTDg0UDhiWW81RXVka2NlRGYzbnJmOW5iVFhGYWJqOW1GbHRvVnpqMHFpRDVMSFpIakYwM0lfTklNYjl6V0Z6OWkwYThUYU9tWkw4RmtTRy1ZMkpVcEkwQ1hyeDV2dDhZQmoyT1BkMmc1dW9aOWtmTjhERE5NWW50ZU53V1pEcElYZW5RaFBiekpPSm15c3dONkdCSENiMjRWdl9FVHE1?oc=5)、[Barron's](https://news.google.com/rss/articles/CBMid0FVX3lxTE03UmtKSWxxaXFlWk9sdlFzUTZCazZiUzZtNGd5U2lFVXF4T2FpdXdIVlBMVmZFTGNaM3B3OTVMOVhubF80a1Zfd1pzSl9Ic1djOG1PTzRrZEdOaGRJaFZzMUUzbnVmYkpvMTVmT2l0MjBpMGhVQ2Vn?oc=5)） |
-| WTI原油 | 84.42 | +0.13% | +2.89% | 船只遭水雷袭击引发供应担忧，油价上涨（[路透社](https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHpfX3p2RFoxU2l0SGZVbVdSejdGYkc0NFpERWlxVEtab0pQbGd1NUtqQ3c0cXprdWItUF9fRmVVVElET3BNbklnbElwaC1UZ0xoNnd4dE9Wb2dFVDFGN2JyQ3YyUVhfTWxsNGFWNFNURG5kX1pMdVBtb2QyLXFMaXZPM0ZPdGdud1hWdHFuTEpNQXBtdUh6RmpWcW1jelhTU0JHdmp3dWphb0hB?oc=5)） |
+| 标普500期货 | 7,247.75 | +0.12% | +0.42% | AI 交易反弹带动期货走高（[彭博社](https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5)） |
+| 纳指100期货 | 26,389.75 | +0.24% | +0.43% | AI 交易反弹，纳指期货上涨（[彭博社](https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5)） |
+| 道指期货 | 50,415.00 | +0.03% | +0.71% | 道指反弹延续至全球，期货上行（[Barron's](https://news.google.com/rss/articles/CBMid0FVX3lxTE03UmtKSWxxaXFlWk9sdlFzUTZCazZiUzZtNGd5U2lFVXF4T2FpdXdIVlBMVmZFTGNaM3B3OTVMOVhubF80a1Zfd1pzSl9Ic1djOG1PTzRrZEdOaGRJaFZzMUUzbnVmYkpvMTVmT2l0MjBpMGhVQ2Vn?oc=5)） |
+| WTI原油 | 84.42 | +0.13% | +2.89% | 船只遭水雷袭击重燃供应担忧，油价上涨（[路透社](https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHpfX3p2RFoxU2l0SGZVbVdSejdGYkc0NFpERWlxVEtab0pQbGd1NUtqQ3c0cXprdWItUF9fRmVVVElET3BNbklnbElwaC1UZ0xoNnd4dE9Wb2dFVDFGN2JyQ3YyUVhfTWxsNGFWNFNURG5kX1pMdVBtb2QyLXFMaXZPM0ZPdGdud1hWdHFuTEpNQXBtdUh6RmpWcW1jelhTU0JHdmp3dWphb0hB?oc=5)） |
 | 黄金 | 3,620.40 | +0.51% | +1.64% | 无明确消息 |
-| 欧元/美元 | 1.0973 | -0.02% | +0.10% | 美元在感恩节前后小幅回落，欧元微涨（[Investing.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxPWm5XUmtiSDdkSl9BeVNwclBFTHk4WkRtVDFpN3k4VXNUYVZCSnprME13VENtS0FxVHYySU1TMkFQRXV2RkZMZXlza0x4YzkxdGVfY3AzbXliVl9jaHlRbWh2UHVUSDFPcVZLTm5yaUZoLWlJSkF4eXRHUjBYUmdidXlCYk9LSWxJaFlHNFF1RXN1QXdHTW5SeWU5YVE4NnZFVy1MZUVn?oc=5)） |
-| 英镑/美元 | 1.3105 | -0.03% | -0.05% | 窄幅波动 |
-| 美元/日元 | 159.30 | +0.01% | +0.02% | 窄幅波动 |
-| 美元/加币 | 1.4244 | +0.01% | -0.20% | 加拿大央行鹰派立场及利差收窄支撑加元（[VT Markets](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVmZndkRxaTM0MUtTeTFETF9hR2xCRVQxUm9PWWxQd21WYUl3RWZtUHI3aHpNTVdiWnNhMGRUUlhDcVp0OV9QN2FReWVjM1BfaDhmT0szanJ3U0s0RHhCTjlDT1lrY0ZpWnM4WHdmSlUwUHlPRjNGcnprNHFBY1N1X3h1TUR1d2NxTGI1RjhHU3NOXzdSNXN4QkduNnFZMmltWC1HRDhldUJrYmxZdWs1dzdVRWFwbEJ2MHlERjJrREU?oc=5)） |
-| 澳元/美元 | 0.6632 | +0.01% | -0.03% | 窄幅波动 |
+| 欧元/美元 | 1.0973 | +0.00% | +0.10% | 窄幅波动 |
+| 英镑/美元 | 1.3108 | -0.01% | -0.03% | 窄幅波动 |
+| 美元/日元 | 159.27 | +0.00% | +0.01% | 窄幅波动 |
+| 美元/加币 | 1.4245 | +0.02% | -0.20% | 窄幅波动 |
+| 澳元/美元 | 0.6633 | +0.00% | -0.01% | 窄幅波动 |
 
 ### 标普500龙头 · 涨幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| Meta META | 609.89 | +3.40% | 报道称CoreWeave可凭Meta背书以约7%借款（[24/7 Wall St.](https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/)） |
+| Meta META | 609.89 | +3.40% | 无明确消息 |
 | IBM | 243.47 | +3.33% | 无明确消息 |
-| 迪士尼 DIS | 125.60 | +2.52% | 股价突破125美元，创2022年以来新高，圣诞行情预期（[TradingView](https://news.google.com/rss/articles/CBMigAJBVV95cUxQejhseVRieXB1N3dMQU1NTmdQR0l4ZTRkd1ZsMEhKSUQ3ZFJtQkFoRmhrMms3WnRRZ3U3RFdkLTNBTXZmM3YyTFgtR2czTi1mdmlaUlVqZkQwcWR2XzdkSlpORkZqRVdFUGd0VThnSk1uVHdSME5ESVJOT25PSnlIeDBvblc5d2FUYzFfVWFLenBraHpvZFQ1WkF3ekxWVDBMOW1WdnFVaTE5Ql9fejdzNVI1YjNfZHE1QlN0MUo0dDRLUnJ3NEJBaEVxOUZONHlVMTlsNVY0VU5RZ1U1am1aNl95ODFrS2JpTlpSSHE2OW1SUDhFLWtDSjZQclVTbGUw?oc=5)） |
-| 雅培 ABT | 108.00 | +2.48% | 防御性买盘与近期评级上调推动上涨（[Moomoo](https://news.google.com/rss/articles/CBMiswFBVV95cUxNSDEwNVZmNEZfVWdLalRNeUVxQ2VBcHd5NFg2djN6T24zNU9MNTU4RDhUV1Y0ZjRDNmtKUFF2cUk5Q29aeGRoMF9HeVc0X1UxOENxOWJoMkxqWlREVFYyMzRxSkk5WV9xRS1VdXJzZGw5blZjM1pNeEwtR1NGbU1XbWx6OVVwTHZJQVFWYXhTcnExNkFSRDR5bldCRGdpd2wxejRpRDBZS2xBNnpxQ1Bpc0NKVQ?oc=5)） |
+| 迪士尼 DIS | 125.60 | +2.52% | 无明确消息 |
+| 雅培 ABT | 108.00 | +2.48% | 防御性买盘与近期评级上调推动股价上涨（[Moomoo](https://news.google.com/rss/articles/CBMiswFBVV95cUxNSDEwNVZmNEZfVWdLalRNeUVxQ2VBcHd5NFg2djN6T24zNU9MNTU4RDhUV1Y0ZjRDNmtKUFF2cUk5Q29aeGRoMF9HeVc0X1UxOENxOWJoMkxqWlREVFYyMzRxSkk5WV9xRS1VdXJzZGw5blZjM1pNeEwtR1NGbU1XbWx6OVVwTHZJQVFWYXhTcnExNkFSRDR5bldCRGdpd2wxejRpRDBZS2xBNnpxQ1Bpc0NKVQ?oc=5)） |
 | 家得宝 HD | 361.26 | +2.14% | 资金从科技股转向消费股，家得宝受益（[TIKR](https://www.tikr.com/blog/walmart-soars-10-in-a-month-as-tech-sinks-michael-burry-calls-it-one-of-the-markets-generals?ref=yahoofinance&tlnk=yf-261126-h2xh8829)） |
 
 ### 标普500龙头 · 跌幅榜
 | 股票 | 价格 | 涨跌 | 原因 |
 |---|---:|---:|---|
-| 甲骨文 ORCL | 103.88 | -5.13% | 银行拟折价抛售其数据中心贷款，股价跌破100美元（[24/7 Wall St.](https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/)） |
-| 美光 MU | 601.25 | -4.53% | 一个月跌超三分之一，面临两家中国竞争对手威胁（[24/7 Wall St.](https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/)、[Barron's](https://news.google.com/rss/articles/CBMif0FVX3lxTE9RUHp3cllYMzVhMFpCNmc2X3dYamxOendnZzdubUw5VjRHOThFaHF3VWk4bnNtQmR6dG9Qa3U0OFZnRGhyWXZibjNkRGtpQUY4OGxrSlNpcFRBOFhzYnhOU1pvbWVMeGtvMktzY0hRcU9ZcXc2OWtSSDNCWDhnRWc?oc=5)） |
-| 英伟达 NVDA | 149.30 | -3.91% | 无明确消息 |
+| 甲骨文 ORCL | 103.88 | -5.13% | 信用违约掉期创纪录，市场质疑积压订单如何融资（[GuruFocus.com](https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html)） |
+| 美光 MU | 601.25 | -4.53% | TrendForce 下调 2027 年存储预测，中国云厂商削减订单（[GuruFocus.com](https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-4-53-172600974.html)） |
+| 英伟达 NVDA | 149.30 | -3.91% | 黄仁勋调查与 CEO 去留风波受关注（[Yahoo Finance Video](https://finance.yahoo.com/video/jensen-huang-absolutely-could-fired-130000374.html)） |
 | 亚马逊 AMZN | 244.43 | -3.12% | 无明确消息 |
 | Intuit INTU | 271.72 | -2.76% | 无明确消息 |
 
 ### 对预测市场的含义
-- 关税：特朗普新一轮关税遭中国、欧盟等批评（[The Hill](https://thehill.com/policy/international/6244629-trump-global-tariffs-china-japan-eu-fallout/)、[Time Magazine](https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0o3Tl9wSlp6TkNJeGc2VW5oT1hPeHR2dGZpcnIzSkF2N3R2REt1WTZxZXNoeGVOZjZUZWo5dVNzQ0RFUVVLOXM3cmVRX0tIY3ZfU09KSXBhY3NqNzlHaHJzUUk5MmdsbEE4cW5SN3k3Nk0yRUt1bUJLV1UwXzhodkNYTXFUZDZmc0x4bg?oc=5)），关税升级风险上升，相关贸易战类合约的不确定性增加
-- 美联储：美国银行预测美联储或连续三次加息（[Pound Sterling Live](https://news.google.com/rss/articles/CBMitgFBVV95cUxNcTVsVUk2VUdmNjd0YWJRWEVpZjkxajJrcVF5R04yVzBKbTFfWUMxTWdtcXRFaWNfUFlwNDlSZVo0R1k5ZmZLN3ZYSnJHUjRVcFJ3QUMxZmc4Vm82dU9GN0Q5N0JKSElCcThsODlhUUhLZThzcVdKUklPMmJMWGMyTEh0RllraHZrTG5BdXJMYVgzOG5XSTRxWlZTSzFSQy14c1pHWVpfN3dWQ1c4WXliNndRak4wZw?oc=5)），利率路径类合约偏向更高利率
-- 加密：BTC 报约6万美元，现货比特币 ETF 有望创纪录月度流出（[CoinDesk](https://news.google.com/rss/articles/CBMirgFBVV95cUxOWFBld3hBWS0tVGRiRjJxdS1tRkVPbTV1c0Rzb2VfUGpXRVVpZlFMdUxEYXhQTUotQnVMbzc5X3dHVUVnZ2N6UmR2RGhHWWRJRG84WkFtaUktZDNRNzJCaDhLZ1dOU1U4S29yS2NIUHgwcVdjYklMMF9rMThsSVFPYTJnVG1kdjBTMVY5X0VkZi1FOU1vQUY1dTQ1cVY2SUkwZFdianZrLTJOekVSQUE?oc=5)），6万美元下方的价格区间合约风险偏高
+- 美联储 12 月政策前景偏鹰，若未释放鸽派信号，股市承压风险上升（[Cointelegraph](https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)）
+- 关税相关合约：特朗普政府对14国新关税，中国拒绝额外20%关税，贸易摩擦有升级迹象（[Denver Gazette](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbXViTVlRQWNTUTBUeFRRWVdQZjFiOGZhbnZDR0JfRXNzOTZjQ3FjNVNZdGh1bG85cUdnLXFtd29Mek96ZWNLbWRhcm9SX1U4NGVPX2VURlo1TFp3VzJnT3BlRnF2aFNqOG9VeHR5MGJZOWYyUENYZTFRMWNiRXNROFZSOFlXLUtWRnI2UktUTklUU1ptbHNiNmVrLTZaZjZqWmJlOFlES09ndWM?oc=5)、[Caixin Global](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGdaRXBTOFB0S2FoZ0VVRkM0RzJyTjY1bnR1US1fZGF3ZE1lMnVBMmdhU0s2eXE3dGt5U3U3QkNxank2ZmJyNHdYSGFuQ01hNUs1bWpiMkpZU0YzUmtXT2xFNlhuVTNMbjFVY09Hb0k2VFpqTXNhM2puYlRYYmhkREQ2NDdIVFlXRUhUd2lqYTJqWWxSNGFmNHlHS1dtZTNRbXZ2VWVEU0Q?oc=5)）
 
 ### 接下来关注
 - 暂无已知日程
 
-_生成：2026-11-26 12:01 ET · 模型 claude-haiku-5-5 · 用时 73s · 行情来自 Yahoo Finance_
+_生成：2026-11-26 14:01 ET · 模型 claude-haiku-5-5 · 用时 76s · 行情来自 Yahoo Finance_
