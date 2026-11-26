@@ -96,18 +96,18 @@ CRYPTO = [
     ("BNB-USD", "BNB", "BNB price"), ("HYPE32196-USD", "HYPE", "Hyperliquid HYPE price"),
 ]
 
-# 标普500 龙头股（按市值挑选）
+# 纳指100 龙头股（按市值挑选前 50）
 LEADERS = {
-    "AAPL": "苹果", "MSFT": "微软", "NVDA": "英伟达", "GOOGL": "谷歌", "AMZN": "亚马逊",
-    "META": "Meta", "AVGO": "博通", "TSLA": "特斯拉", "BRK-B": "伯克希尔", "JPM": "摩根大通",
-    "LLY": "礼来", "V": "Visa", "WMT": "沃尔玛", "ORCL": "甲骨文", "MA": "万事达",
-    "XOM": "埃克森美孚", "NFLX": "奈飞", "COST": "好市多", "JNJ": "强生", "PG": "宝洁",
-    "HD": "家得宝", "ABBV": "艾伯维", "BAC": "美国银行", "UNH": "联合健康", "KO": "可口可乐",
-    "PLTR": "Palantir", "AMD": "AMD", "CVX": "雪佛龙", "GE": "GE航空", "CSCO": "思科",
-    "WFC": "富国银行", "IBM": "IBM", "MS": "摩根士丹利", "PM": "菲利普莫里斯", "CRM": "Salesforce",
-    "GS": "高盛", "ABT": "雅培", "MU": "美光", "LIN": "林德", "MCD": "麦当劳",
-    "AXP": "美国运通", "T": "AT&T", "MRK": "默沙东", "DIS": "迪士尼", "PEP": "百事",
-    "INTU": "Intuit", "NOW": "ServiceNow", "TMO": "赛默飞", "ISRG": "直觉外科", "CAT": "卡特彼勒",
+    "NVDA": "英伟达", "AAPL": "苹果", "MSFT": "微软", "GOOGL": "谷歌", "AMZN": "亚马逊",
+    "META": "Meta", "AVGO": "博通", "TSLA": "特斯拉", "NFLX": "奈飞", "COST": "好市多",
+    "PLTR": "Palantir", "AMD": "AMD", "ASML": "阿斯麦", "CSCO": "思科", "MU": "美光",
+    "TMUS": "T-Mobile", "AZN": "阿斯利康", "LIN": "林德", "PEP": "百事", "INTU": "Intuit",
+    "ISRG": "直觉外科", "SHOP": "Shopify", "BKNG": "Booking", "LRCX": "泛林", "AMAT": "应用材料",
+    "QCOM": "高通", "TXN": "德州仪器", "AMGN": "安进", "APP": "AppLovin", "KLAC": "科磊",
+    "ADBE": "Adobe", "GILD": "吉利德", "INTC": "英特尔", "PANW": "Palo Alto", "HON": "霍尼韦尔",
+    "CRWD": "CrowdStrike", "ADI": "亚德诺", "MELI": "美客多", "CMCSA": "康卡斯特", "ADP": "ADP",
+    "VRTX": "福泰制药", "CEG": "Constellation", "SBUX": "星巴克", "DASH": "DoorDash", "MRVL": "迈威尔",
+    "CDNS": "楷登", "SNPS": "新思科技", "PDD": "拼多多", "ORLY": "O'Reilly", "MSTR": "Strategy",
 }
 TOP_N = 5  # 涨幅榜、跌幅榜各几只
 
@@ -269,7 +269,7 @@ def fetch_crypto():
 
 
 def fetch_movers():
-    """标普500 龙头股今日（或最近一个交易日）涨跌幅榜。"""
+    """纳指100 龙头股今日（或最近一个交易日）涨跌幅榜。"""
     import yfinance as yf
     try:
         d = yf.download(list(LEADERS), period="5d", interval="1d", progress=False,
@@ -353,7 +353,7 @@ SYSTEM = """你是一名服务于预测市场交易员的新闻编辑，负责�
 写人物时只用材料原文里出现的称呼，例如材料写 "Sen. Chris Van Hollen (D-Md.)" 就写“民主党参议员 Van Hollen（马里兰）”；材料没有写州名就不要写州名。凭记忆补充州名、职位是严重错误。
 因果关系只能照搬材料原文；材料没有说明原因时，只描述发生了什么。"""
 
-PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [n]）、宏观行情和加密货币行情（各附相关报道）、标普500龙头股涨跌幅榜（附个股报道）和未来 24 小时日程。
+PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [n]）、宏观行情和加密货币行情（各附相关报道）、纳指100龙头股涨跌幅榜（附个股报道）和未来 24 小时日程。
 
 请输出一个 JSON 对象，字段如下（所有文字用简体中文）。每个分类内部按重要性从高到低排序，被多个来源同时报道的事件通常最重要：
 - politics：美国政治 2 到 6 条（选举、国会、白宫、法院、人事、联邦机构）
@@ -394,7 +394,7 @@ PROMPT = """现在是美东时间 {now}。下面是新出现的新闻（编号 [
 ## 加密货币行情（1 小时、24 小时涨跌，附相关报道）
 {crypto}
 
-## 标普500龙头股涨跌幅榜（较前一交易日）
+## 纳指100龙头股涨跌幅榜（较前一交易日）
 {movers}
 
 ## 未来 24 小时日程
@@ -584,7 +584,7 @@ def render_md(title, out, items, macro, crypto, gainers, losers, footer):
         if lst:
             rows = "\n".join(f"| {r['name']}{'' if r['name'] == r['sym'] else ' ' + r['sym']} | {r['last']:,.2f} | {chg(r['chg'])} | {text(r['reason']) or '—'} |"
                              for r in lst)
-            parts.append(f"### 标普500龙头 · {label}\n| 股票 | 价格 | 涨跌 | 原因 |\n|---|---:|---:|---|\n" + rows)
+            parts.append(f"### 纳指100龙头 · {label}\n| 股票 | 价格 | 涨跌 | 原因 |\n|---|---:|---:|---|\n" + rows)
     for key, name in SECTIONS[6:]:
         section(key, name)
     parts.append(f"_{footer}_")
